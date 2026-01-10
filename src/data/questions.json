@@ -6814,5 +6814,485 @@
     "explanation": "代謝機能が落ちる状況下では、通常量でも中毒域に達するリスクがあり、注意が必要です。",
     "evidence": "テオフィリンの副作用管理",
     "reference": "SafetyPlus"
+  },
+  {
+    "id": 646,
+    "category": "①呼吸器手技",
+    "subCategory": "吸引",
+    "question": "気管カニューレ吸引中、患者の心拍数が「40回/分」まで急落した場合、まず疑うべき機序はどれか。",
+    "options": [
+      "空腹",
+      "迷走神経反射による分枝刺激",
+      "不眠",
+      "食欲不振"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "吸引による局所刺激が副交感神経（迷走神経）を強く刺激し、急激な徐脈を招くことがあります。直ちに中止が必要です。",
+    "evidence": "吸引の合併症と安全管理",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 647,
+    "category": "①呼吸器手技",
+    "subCategory": "酸素療法",
+    "question": "「簡易酸素マスク」の適正な流量範囲（L/分）は一般的にどれか。",
+    "options": [
+      "1〜2L/分",
+      "5〜8L/分 (低すぎると呼気の二酸化炭素を再呼吸するリスクがある)",
+      "15〜20L/分",
+      "なし"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "5L/分以下ではマスク内に呼気が溜まりやすく、不適切な二酸化炭素貯留を招くため推奨されません。",
+    "evidence": "酸素供給デバイスの適正使用",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 648,
+    "category": "①呼吸器手技",
+    "subCategory": "人工呼吸器",
+    "question": "人工呼吸器の「無呼吸バックアップ換気」機能とは何か。",
+    "options": [
+      "電源を切る機能",
+      "患者の自発表吸が一定時間途絶えた際、自動的に強制換気を開始する安全装置",
+      "アラームを大きくする",
+      "特にない"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "呼吸停止による致死的な事態を防ぐための、最も重要な安全機能の一つです。",
+    "evidence": "人工呼吸器の安全回路",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 649,
+    "category": "①呼吸器手技",
+    "subCategory": "救急対応",
+    "question": "AEDを使用する際、胸に「貼り薬（ニトロパッチ等）」がある場合の対応はどれか。",
+    "options": [
+      "そのまま貼る",
+      "パッチを剥がし、薬剤を拭き取ってからパッドを貼る",
+      "パッチの上に重ねる",
+      "AEDを諦める"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "パッチを介して通電すると熱傷の原因となり、かつ電流が心臓に十分に届かなくなります。",
+    "evidence": "AED使用時の注意点",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 650,
+    "category": "①呼吸器手技",
+    "subCategory": "モニタリング",
+    "question": "「ショック指数（Shock Index）」を計算する式はどれか。",
+    "options": [
+      "血圧 ＋ 脈拍",
+      "心拍数 ÷ 収縮期血圧",
+      "体温 × 呼吸数",
+      "体重 ÷ 腹囲"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "通常1.0を超えるとショックの可能性、1.5以上で非常に危険な状態と判断される指標です。",
+    "evidence": "救急アセスメント指標",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 651,
+    "category": "①呼吸器手技",
+    "subCategory": "口腔ケア",
+    "question": "意識障害がある患者の口腔ケア中、水の誤嚥を防ぐために「吸引器」はどう使うべきか。",
+    "options": [
+      "最後だけ使う",
+      "ケアを行っている間、常に口腔内の水分を吸引し続けながら進める",
+      "特に必要ない",
+      "鼻から使う"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "唾液や洗浄液が気管に流れ込まないよう、常時、排液を行うことが鉄則です。",
+    "evidence": "周術期口腔ケアガイドライン",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 652,
+    "category": "①呼吸器手技",
+    "subCategory": "ドレーン管理",
+    "question": "胸腔ドレーン抜去のタイミングとして、一般的なレントゲン所見の目安はどれか。",
+    "options": [
+      "肺が10%程度広がった時",
+      "肺が十分に再膨張し、リーク（空気漏れ）が消失してから",
+      "ずっと抜かない",
+      "気分次第"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "機能的に回復し、再度虚脱するリスクがなくなったことを確認して抜去します。",
+    "evidence": "ドレーン抜去の基準",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 653,
+    "category": "①呼吸器手技",
+    "subCategory": "その他",
+    "question": "「パルスオキシメータ」で測定する「PI（灌流指標）」とは何を表すか。",
+    "options": [
+      "酸素の量",
+      "測定部位の血流の強さ（末梢循環の状態）",
+      "心拍数",
+      "体温"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "PIが低い場合は血流が弱く、SpO2の値が不正確（またはエラー）になりやすいことを示します。",
+    "evidence": "モニタリングの精度管理",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 654,
+    "category": "①呼吸器手技",
+    "subCategory": "吸引",
+    "question": "気管カニューレのカフ圧力を測定する際に使用する専用の器具はどれか。",
+    "options": [
+      "血圧計",
+      "カフ圧計 (カフマノメータ)",
+      "定規",
+      "温度計"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "目視や感触ではなく、数値で（20-30cmH2O）管理することが安全管理上、推奨されます。",
+    "evidence": "カフ圧管理の標準化",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 655,
+    "category": "①呼吸器手技",
+    "subCategory": "酸素療法",
+    "question": "高流量鼻カニューレ（HFNC：ネーザルハイフロー）の最大流量設定の目安はどれか。",
+    "options": [
+      "5L/分",
+      "60L/分程度まで",
+      "1L/分以下",
+      "無限"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "高い流量により、解剖死腔の洗浄や、経度のPEEP効果を期待できるデバイスです。",
+    "evidence": "ネーザルハイフローの適応と実際",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 656,
+    "category": "②疾患観察",
+    "subCategory": "心不全",
+    "question": "右心不全の主な身体症状として、適切なのはどれか。",
+    "options": [
+      "肺水腫・呼吸困難",
+      "下腿浮腫（むくみ）・頸静脈怒張・肝腫大",
+      "高血圧のみ",
+      "鼻血"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "全身からの血液が心臓に戻りにくくなるため、体全体に水分が溜まる徴候が現れます。",
+    "evidence": "右心不全の症候学",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 657,
+    "category": "②疾患観察",
+    "subCategory": "フィジカルアセスメント",
+    "question": "呼吸介助手技の「スクイージング」のタイミングとして正しいのはどれか。",
+    "options": [
+      "吸う時（吸気時）",
+      "吐く時（呼気時）に合わせて、胸郭を圧迫する",
+      "ずっと",
+      "患者が寝ている時だけ"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "呼気流速を高めることで、末梢の痰を中枢へ移動させるための基本的な手技です。",
+    "evidence": "呼吸理学療法の実際",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 658,
+    "category": "②疾患観察",
+    "subCategory": "COPD",
+    "question": "COPD患者への「長期酸素療法（HOT）」を導入する最大のベネフィット（メリット）はどれか。",
+    "options": [
+      "痩せるから",
+      "生命予後（寿命）の改善とQOLの向上",
+      "お金がもらえる",
+      "肌が綺麗になる"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "低酸素状態を放置するよりも、適切に酸素を補う方が長生きできることが臨床的に証明されています。",
+    "evidence": "HOTの適応と効果",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 659,
+    "category": "②疾患観察",
+    "subCategory": "肺炎",
+    "question": "肺炎の炎症の強さを評価するために、最も反映されやすい血液検査データは何（CRP以外）か。",
+    "options": [
+      "赤血球数",
+      "白血球数 (WBC) およびその分画",
+      "血糖値",
+      "コレステロール"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "細菌感染時には白血球が急増し、重症度や治療効果の判定に非常に有効です。",
+    "evidence": "臨床検査の基礎",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 660,
+    "category": "②疾患観察",
+    "subCategory": "気胸",
+    "question": "「外傷性気胸」のうち、胸壁の傷から空気が自由に出入りする状態を何と呼ぶか。",
+    "options": [
+      "通常の気胸",
+      "開放性気胸",
+      "閉鎖性気胸",
+      "気管支喘息"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "外気が直接胸の中に入るため、速やかに密封処置を行いつつ、ドレナージが必要です。",
+    "evidence": "救急・外傷看護",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 661,
+    "category": "②疾患観察",
+    "subCategory": "疾患管理",
+    "question": "「無気肺」が術後に好発する主な原因（患者因子）は何か。",
+    "options": [
+      "若さ",
+      "喫煙歴、肥満、術前の呼吸機能低下など",
+      "運動好き",
+      "読書"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "肺が汚れやすく、膨らみにくい背景がある患者では、術後合併症のリスクが格段に上がります。",
+    "evidence": "術前アセスメントと術後合併症",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 662,
+    "category": "②疾患観察",
+    "subCategory": "フィジカルアセスメント",
+    "question": "瞳孔の大きさを観察する際、一般的な成人の正常範囲（直径mm）はどのくらいか。",
+    "options": [
+      "1mm以下",
+      "2.5〜4.5mm程度",
+      "10mm以上",
+      "左右バラバラ"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "これより大きい場合は散瞳、小さい場合は縮瞳と評価し、脳や神経の異常を疑います。",
+    "evidence": "瞳孔観察の基礎",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 663,
+    "category": "②疾患観察",
+    "subCategory": "その他",
+    "question": "「心タンポナーデ」によって心拍出量が低下した際、血圧の変化はどうなるか。",
+    "options": [
+      "収縮期血圧の低下（ショック）と、脈圧の不釣り合いな減少",
+      "血圧が300を超える",
+      "変化なし",
+      "血圧計の故障"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "心臓が外からの圧迫で膨らめなくなるため、血液を送り出す力が劇的に弱まります。",
+    "evidence": "循環器急変のアセスメント",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 664,
+    "category": "②疾患観察",
+    "subCategory": "フィジカルアセスメント",
+    "question": "腹部聴診で、腸が動いていない時に聞こえる「金属的な高い音（カランカラン）」を何と呼ぶか。",
+    "options": [
+      "正常腸雑音",
+      "金属音 (メタリックサウンド)",
+      "心雑音",
+      "無音"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "腸閉塞（イレウス）の初期や進行時に、ガスと液体が入り混じって出る異常な音です。",
+    "evidence": "腹部アセスメント",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 665,
+    "category": "②疾患観察",
+    "subCategory": "疾患管理",
+    "question": "せん妄予防のために、日中に「カーテンを開けて日光を入れる」主な目的はどれか。",
+    "options": [
+      "電気代の節約",
+      "概日リズム（睡眠・覚醒のリズム）を整え、見当識を維持するため",
+      "掃除をしやすくするため",
+      "患者を眩しくさせるため"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "昼夜のメリハリをつけることが、脳の混乱を防ぐ最も基本的な非薬物療法です。",
+    "evidence": "せん妄・不眠の環境調整",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 666,
+    "category": "③薬剤知識",
+    "subCategory": "吸入薬",
+    "question": "吸入薬のデバイス「スイングヘラー（パルミコート等）」を操作する際、吸入前にすべき独特の動作はどれか。",
+    "options": [
+      "蓋を噛む",
+      "デバイスを「カチッ」と音がするまで振る（スイングする）",
+      "お湯に入れる",
+      "逆さまにする"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "粉末を正確な量に量り取るための動作であり、これが不十分だと薬剤が吸い込めません。",
+    "evidence": "スイングヘラーの操作法",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 667,
+    "category": "③薬剤知識",
+    "subCategory": "抗菌薬",
+    "question": "「テトラサイクリン系抗菌薬」を小児に使用した際、骨以外に現れやすい特徴的な副作用はどれか。",
+    "options": [
+      "永久歯の変化（歯の着色）",
+      "耳が大きくなる",
+      "視力向上",
+      "鼻が伸びる"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "成長期の歯に薬剤が沈着し、黄褐色に変色させてしまうため、原則として小児には使用しません。",
+    "evidence": "小児薬物療法の禁忌",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 668,
+    "category": "③薬剤知識",
+    "subCategory": "抗凝固薬",
+    "question": "ワーファリン投与中の患者が「ビタミンK」を多量摂取すると、血液の状態はどう変わるか。",
+    "options": [
+      "サラサラになりすぎる",
+      "血液が固まりやすくなる (薬の効果が打ち消される)",
+      "変化なし",
+      "青あざが消える"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "薬の作用点をビタミンKが直接上書きしてしまうため、厳密な摂取制限（納豆禁止等）が求められます。",
+    "evidence": "薬剤管理の安全",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 669,
+    "category": "③薬剤知識",
+    "subCategory": "ステロイド薬",
+    "question": "ステロイド治療中の患者の「皮膚」に見られる特徴的な変化はどれか。",
+    "options": [
+      "皮膚が厚くなる",
+      "皮膚の萎縮（薄くなる）・紫斑（青あざ）・傷が治りにくい",
+      "皮膚が美しくなる",
+      "特に変わらない"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "コラーゲン合成が阻害されるため、非常に壊れやすく傷つきやすい「ペーパー・スキン」の状態になります。",
+    "evidence": "ステロイド局所副作用の看護",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 670,
+    "category": "③薬剤知識",
+    "subCategory": "鎮静薬",
+    "question": "鎮静・鎮痛薬の「過量投与」によって起こる身体症状の組み合わせはどれか。",
+    "options": [
+      "高血圧・頻脈・不眠",
+      "呼吸数減少・血圧低下・意識レベルの低下",
+      "正常な覚醒",
+      "多尿"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "中枢神経が極度に抑制された状態であり、救急対応・機転が必要です。",
+    "evidence": "鎮静管理の安全基準",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 671,
+    "category": "③薬剤知識",
+    "subCategory": "インスリン",
+    "question": "インスリン注射で使用する「針」の長さとして、現在最も一般的で痛みの少ないサイズはどれか。",
+    "options": [
+      "1cm以上",
+      "4mm〜6mm程度",
+      "10秒",
+      "不明"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "非常に細く短い針を使用することで、脂肪層（皮下）にのみ正確に届き、痛みも最小限です。",
+    "evidence": "自己注射指導の最新トレンド",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 672,
+    "category": "③薬剤知識",
+    "subCategory": "吸入薬",
+    "question": "「定量噴霧式吸入器（MDI：メプチン、アドエア等）」を正しく吸うための「吸気速度」はどうあるべきか。",
+    "options": [
+      "思いっきり早く",
+      "ゆっくり、深く（時間をかけて）吸い込む",
+      "鼻から吸う",
+      "吸わない"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "MDIは薬剤が高速で噴射されるため、ゆっくり吸わないと喉に当たってしまい、肺まで届きません。",
+    "evidence": "吸入器デバイス別の指導ポイント",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 673,
+    "category": "③薬剤知識",
+    "subCategory": "抗菌薬",
+    "question": "抗菌薬の副作用「肝障害」のアセスメントで、皮膚や眼球に見られる変化は何か。",
+    "options": [
+      "赤くなる",
+      "黄疸（黄色くなる）",
+      "白くなる",
+      "特に変わらない"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "ビリルビンが全身に回るため、黄色く変色し、しばしば強い痒みを伴います。",
+    "evidence": "薬物性肝障害のアセスメント",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 674,
+    "category": "③薬剤知識",
+    "subCategory": "去痰薬",
+    "question": "「ビソルボン（ブロムヘキシン）」などの役割を説明する際、適切な言葉はどれか。",
+    "options": [
+      "痰を止める",
+      "痰を薄めて、外に出しやすくするお手伝いをする薬",
+      "痰を固める",
+      "お腹の薬"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "患者さんには具体的に「出しやすくなること」を伝えると、効果を実感しやすくなります。",
+    "evidence": "服薬説明のスキル",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 675,
+    "category": "③薬剤知識",
+    "subCategory": "テオフィリン",
+    "question": "テオフィリン製剤の「血中濃度」を至適範囲に保つために必要な、定期的な処置はどれか。",
+    "options": [
+      "レントゲン",
+      "採血によるTDM (薬物血中濃度モニタリング)",
+      "尿検査",
+      "握力測定"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "有効域と中毒域が近いため、血液データを元に投与量を微調整するのが標準的な治療法です。",
+    "evidence": "TDMの看護管理",
+    "reference": "SafetyPlus"
   }
 ]
