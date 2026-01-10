@@ -26,30 +26,32 @@ export default function Home() {
   };
 
   const handleStartGame = (config: QuizConfig) => {
-    let selectedQuestions: Question[] = [];
+    let filteredQuestions: Question[] = [];
 
     if (config.mode === 'incorrect') {
       const incorrectIds = getIncorrectQuestionsIds();
-      const incorrectQuestions = questionsData.filter(q => incorrectIds.includes(q.id)) as Question[];
-      selectedQuestions = incorrectQuestions;
+      filteredQuestions = (questionsData as Question[]).filter(q => incorrectIds.includes(q.id));
     } else {
-      // Normal mode
+      // Normal mode - First filter by category
       if (config.category && config.category !== 'すべて') {
-        selectedQuestions = (questionsData as Question[]).filter(q => q.category === config.category);
+        filteredQuestions = (questionsData as Question[]).filter(q => q.category === config.category);
+
+        // Then filter by sub-categories if any are selected
+        if (config.subCategories && config.subCategories.length > 0) {
+          filteredQuestions = filteredQuestions.filter(q => config.subCategories.includes(q.subCategory));
+        }
       } else {
-        selectedQuestions = [...questionsData] as Question[];
+        filteredQuestions = [...questionsData] as Question[];
       }
     }
 
     // Shuffle
-    selectedQuestions = selectedQuestions.sort(() => Math.random() - 0.5);
+    const shuffled = filteredQuestions.sort(() => Math.random() - 0.5);
 
     // Slice to count
-    if (selectedQuestions.length > config.questionCount) {
-      selectedQuestions = selectedQuestions.slice(0, config.questionCount);
-    }
+    const selected = shuffled.slice(0, config.questionCount);
 
-    setGameQuestions(selectedQuestions);
+    setGameQuestions(selected);
     setView('game');
   };
 

@@ -4,8 +4,9 @@ import React, { useState } from 'react';
 import { getIncorrectQuestionsIds } from '../utils/storage';
 import { BookOpen, AlertCircle, PlayCircle, History, CheckCircle, ListFilter } from 'lucide-react';
 
+import questionsData from '../data/questions.json';
+
 type QuizMode = 'all' | 'incorrect';
-// カテゴリの型定義。実際のカテゴリ名に合わせています。
 const CATEGORIES = [
     "すべて",
     "①呼吸器手技",
@@ -16,7 +17,8 @@ const CATEGORIES = [
 export type QuizConfig = {
     questionCount: number;
     mode: QuizMode;
-    category: string; // 'すべて' or specific category
+    category: string;
+    subCategories: string[]; // 複数選択に対応
 };
 
 interface QuizSettingsProps {
@@ -28,112 +30,155 @@ const QuizSettings: React.FC<QuizSettingsProps> = ({ onStart, totalQuestionsAvai
     const [questionCount, setQuestionCount] = useState<number>(5);
     const [mode, setMode] = useState<QuizMode>('all');
     const [selectedCategory, setSelectedCategory] = useState<string>("すべて");
+    const [selectedSubCategories, setSelectedSubCategories] = useState<string[]>([]);
+    const [showSubMenu, setShowSubMenu] = useState(false);
+
+    // カテゴリに応じたサブカテゴリの抽出
+    const availableSubCategories = React.useMemo(() => {
+        if (selectedCategory === "すべて") return [];
+        const subs = (questionsData as any[])
+            .filter(q => q.category === selectedCategory)
+            .map(q => q.subCategory);
+        return Array.from(new Set(subs)).filter(Boolean) as string[];
+    }, [selectedCategory]);
 
     const incorrectIds = getIncorrectQuestionsIds();
     const hasIncorrectQuestions = incorrectIds.length > 0;
 
     const handleStart = () => {
-        onStart({ questionCount, mode, category: selectedCategory });
+        onStart({
+            questionCount,
+            mode,
+            category: selectedCategory,
+            subCategories: selectedSubCategories
+        });
+    };
+
+    const toggleSubCategory = (sub: string) => {
+        setSelectedSubCategories(prev =>
+            prev.includes(sub) ? prev.filter(s => s !== sub) : [...prev, sub]
+        );
+    };
+
+    const handleCategoryChange = (cat: string) => {
+        setSelectedCategory(cat);
+        setSelectedSubCategories([]); // カテゴリ変更時にリセット
+        if (cat !== "すべて") setShowSubMenu(true);
+        else setShowSubMenu(false);
     };
 
     return (
-        <div className="w-full max-w-2xl mx-auto space-y-8 animate-fade-in pb-20">
+        <div className="w-full max-w-2xl mx-auto space-y-6 animate-fade-in pb-20 px-4">
             {/* Mode Selection */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div
                     onClick={() => setMode('all')}
-                    className={`cursor-pointer group relative p-6 rounded-2xl border-2 transition-all duration-200 ${mode === 'all'
-                        ? 'border-primary bg-primary/5 shadow-md scale-[1.02]'
-                        : 'border-border bg-card hover:border-primary/50 hover:bg-accent/50'
+                    className={`cursor-pointer group relative p-5 rounded-2xl border-2 transition-all ${mode === 'all'
+                        ? 'border-primary bg-primary/5 shadow-md'
+                        : 'border-border bg-card hover:border-primary/50'
                         }`}
                 >
-                    <div className="flex items-center space-x-4 mb-3">
+                    <div className="flex items-center space-x-3 mb-2">
                         <div
-                            className={`p-3 rounded-xl transition-colors ${mode === 'all' ? '' : 'bg-accent text-muted-foreground group-hover:bg-primary/20 group-hover:text-primary'}`}
+                            className={`p-2 rounded-lg ${mode === 'all' ? '' : 'bg-accent text-muted-foreground'}`}
                             style={mode === 'all' ? { backgroundColor: 'var(--primary)', color: 'var(--primary-foreground)' } : {}}
                         >
-                            <BookOpen size={24} />
+                            <BookOpen size={20} />
                         </div>
-                        <h3 className="text-lg font-bold">通常モード</h3>
+                        <h3 className="font-bold">通常モード</h3>
                     </div>
-                    <p className="text-sm text-muted-foreground">カテゴリを選択してランダムに出題します。</p>
-                    {mode === 'all' && (
-                        <div className="absolute top-4 right-4 text-primary">
-                            <CheckCircle size={20} />
-                        </div>
-                    )}
+                    <p className="text-xs text-muted-foreground">学習したい領域を選んでスタート</p>
                 </div>
 
                 <div
                     onClick={() => hasIncorrectQuestions && setMode('incorrect')}
-                    className={`cursor-pointer group relative p-6 rounded-2xl border-2 transition-all duration-200 ${mode === 'incorrect'
-                        ? 'border-warning bg-warning/5 shadow-md scale-[1.02]'
+                    className={`cursor-pointer group relative p-5 rounded-2xl border-2 transition-all ${mode === 'incorrect'
+                        ? 'border-warning bg-warning/5 shadow-md'
                         : hasIncorrectQuestions
-                            ? 'border-border bg-card hover:border-warning/50 hover:bg-accent/50'
-                            : 'border-border bg-secondary/10 opacity-60 cursor-not-allowed'
+                            ? 'border-border bg-card'
+                            : 'opacity-50 cursor-not-allowed bg-secondary/10'
                         }`}
                 >
-                    <div className="flex items-center space-x-4 mb-3">
-                        <div className={`p-3 rounded-xl transition-colors ${mode === 'incorrect' ? 'bg-warning text-white' : 'bg-accent text-muted-foreground group-hover:bg-warning/20 group-hover:text-warning'}`}>
-                            <History size={24} />
+                    <div className="flex items-center space-x-3 mb-2">
+                        <div className={`p-2 rounded-lg ${mode === 'incorrect' ? 'bg-warning text-white' : 'bg-accent text-muted-foreground'}`}>
+                            <History size={20} />
                         </div>
-                        <h3 className="text-lg font-bold">復習モード</h3>
+                        <h3 className="font-bold">復習モード</h3>
                     </div>
-                    <p className="text-sm text-muted-foreground">過去に間違えた問題（{incorrectIds.length}問）のみ出題します。</p>
-                    {mode === 'incorrect' && (
-                        <div className="absolute top-4 right-4 text-warning">
-                            <CheckCircle size={20} />
-                        </div>
-                    )}
-                    {!hasIncorrectQuestions && (
-                        <div className="absolute inset-0 flex items-center justify-center bg-background/50 backdrop-blur-[1px] rounded-2xl">
-                            <span className="text-xs font-medium bg-secondary text-secondary-foreground px-3 py-1.5 rounded-full">対象問題なし</span>
-                        </div>
-                    )}
+                    <p className="text-xs text-muted-foreground">間違えた問題（{incorrectIds.length}問）に再挑戦</p>
                 </div>
             </div>
 
-            {/* Category Selection (Only for Normal Mode) */}
+            {/* Category Selection */}
             {mode === 'all' && (
-                <div className="glass-panel p-6 md:p-8 rounded-3xl space-y-4">
+                <div className="glass-panel p-6 rounded-3xl space-y-4">
                     <h3 className="text-lg font-bold flex items-center gap-2">
                         <ListFilter className="text-primary" size={24} />
-                        <span>カテゴリを選択</span>
+                        <span>学習領域を選択</span>
                     </h3>
 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <div className="grid grid-cols-2 gap-3">
                         {CATEGORIES.map((cat) => (
                             <button
                                 key={cat}
-                                onClick={() => setSelectedCategory(cat)}
-                                className={`p-4 rounded-xl text-left font-medium transition-all duration-200 border ${selectedCategory === cat
-                                    ? 'border-primary/50 shadow-sm'
-                                    : 'border-transparent bg-accent hover:bg-accent/80 text-foreground'
+                                onClick={() => handleCategoryChange(cat)}
+                                className={`p-4 rounded-xl text-center font-bold border transition-all ${selectedCategory === cat
+                                    ? 'shadow-sm'
+                                    : 'border-transparent bg-accent'
                                     }`}
                                 style={selectedCategory === cat ? { backgroundColor: 'var(--primary)', color: 'var(--primary-foreground)' } : {}}
                             >
-                                {cat}
+                                {cat.replace("①", "").replace("②", "").replace("③", "")}
                             </button>
                         ))}
                     </div>
+
+                    {/* Sub-category selection (Sub-Menu) */}
+                    {selectedCategory !== "すべて" && availableSubCategories.length > 0 && (
+                        <div className="mt-6 pt-6 border-t border-border animate-slide-up">
+                            <h4 className="text-sm font-bold text-muted-foreground mb-3 flex items-center gap-2">
+                                <CheckCircle size={16} />
+                                <span>詳細に絞り込む（オプション）</span>
+                            </h4>
+                            <div className="flex flex-wrap gap-2">
+                                {availableSubCategories.map(sub => (
+                                    <label
+                                        key={sub}
+                                        className={`flex items-center gap-2 px-4 py-2 rounded-full border text-sm font-medium cursor-pointer transition-all ${selectedSubCategories.includes(sub)
+                                            ? 'border-primary bg-primary/10 text-primary ring-1 ring-primary'
+                                            : 'border-border bg-background text-muted-foreground hover:border-primary/50'
+                                            }`}
+                                    >
+                                        <input
+                                            type="checkbox"
+                                            className="hidden"
+                                            checked={selectedSubCategories.includes(sub)}
+                                            onChange={() => toggleSubCategory(sub)}
+                                        />
+                                        {sub}
+                                    </label>
+                                ))}
+                            </div>
+                            <p className="text-[10px] text-muted-foreground mt-3">※何もチェックしない場合は、選択した領域の全ての問題から出題されます。</p>
+                        </div>
+                    )}
                 </div>
             )}
 
-            {/* Question Count Selection */}
-            <div className="glass-panel p-6 md:p-8 rounded-3xl space-y-4">
+            {/* Question Count */}
+            <div className="glass-panel p-6 rounded-3xl space-y-4">
                 <h3 className="text-lg font-bold flex items-center gap-2">
                     <AlertCircle className="text-primary" size={24} />
-                    <span>出題数を選択</span>
+                    <span>出題数</span>
                 </h3>
-
-                <div className="grid grid-cols-3 gap-3 md:gap-4">
+                <div className="grid grid-cols-3 gap-3">
                     {[5, 10, 30].map((count) => (
                         <button
                             key={count}
                             onClick={() => setQuestionCount(count)}
-                            className={`p-4 rounded-xl font-bold text-lg transition-all duration-200 ${questionCount === count
-                                ? 'shadow-md transform scale-105'
-                                : 'bg-accent hover:bg-accent/80 text-foreground'
+                            className={`p-3 rounded-xl font-bold transition-all ${questionCount === count
+                                ? 'shadow-md scale-105'
+                                : 'bg-accent'
                                 }`}
                             style={questionCount === count ? { backgroundColor: 'var(--primary)', color: 'var(--primary-foreground)' } : {}}
                         >
@@ -143,14 +188,13 @@ const QuizSettings: React.FC<QuizSettingsProps> = ({ onStart, totalQuestionsAvai
                 </div>
             </div>
 
-            {/* Start Button */}
-            <div className="text-center pt-2">
+            <div className="text-center pt-4">
                 <button
                     onClick={handleStart}
-                    className="btn-primary text-xl px-12 py-4 rounded-full shadow-xl hover:shadow-2xl flex items-center gap-3 mx-auto group"
+                    className="btn-primary w-full max-w-sm py-4 rounded-full shadow-lg flex items-center justify-center gap-3 mx-auto"
                 >
-                    <span>テストを開始する</span>
-                    <PlayCircle size={24} className="group-hover:translate-x-1 transition-transform" />
+                    <span className="text-xl">スタート</span>
+                    <PlayCircle size={28} />
                 </button>
             </div>
         </div>

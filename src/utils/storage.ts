@@ -3,6 +3,7 @@
 export type Question = {
     id: number;
     category: string;
+    subCategory: string; // サブカテゴリを追加
     question: string;
     options: string[];
     correctAnswerIndex: number;
