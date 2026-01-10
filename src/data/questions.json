@@ -1,1602 +1,2402 @@
 [
-    {
-        "id": 1,
-        "category": "①呼吸器手技",
-        "subCategory": "酸素療法",
-        "question": "鼻カニューレの適正流量範囲はどれか。",
-        "options": [
-            "1-6L/分",
-            "7-10L/分",
-            "11-15L/分",
-            "制限なし"
-        ],
-        "correctAnswerIndex": 0,
-        "explanation": "6L/分を超えると鼻粘膜の乾燥や不快感が強くなります。",
-        "evidence": "Nursing Skills 呼吸管理",
-        "reference": "Nursing Skills"
-    },
-    {
-        "id": 2,
-        "category": "①呼吸器手技",
-        "subCategory": "吸引",
-        "question": "気管吸引の1回の吸引時間として適切なのはどれか。",
-        "options": [
-            "5秒以内",
-            "10-15秒以内",
-            "20-30秒以内",
-            "制限なし"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "低酸素血症や徐脈を防ぐため10-15秒以内とします。",
-        "evidence": "看護roo! 吸引技術",
-        "reference": "看護roo!"
-    },
-    {
-        "id": 3,
-        "category": "①呼吸器手技",
-        "subCategory": "吸入療法",
-        "question": "ネブライザー吸入時の呼吸法として適切なのはどれか。",
-        "options": [
-            "浅く速い",
-            "ゆっくりと深い",
-            "息を止める",
-            "口すぼめ"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "薬剤を末梢まで届けるため、ゆっくりとした深呼吸が重要です。",
-        "evidence": "Nursing Skills 呼吸器治療",
-        "reference": "Nursing Skills"
-    },
-    {
-        "id": 4,
-        "category": "①呼吸器手技",
-        "subCategory": "人工呼吸器",
-        "question": "人工呼吸器のカフ圧として適正な範囲はどれか。",
-        "options": [
-            "10-15cmH2O",
-            "20-30cmH2O",
-            "35-45cmH2O",
-            "50cmH2O以上"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "20-30cmH2Oが標準。低すぎると誤嚥を招きます。",
-        "evidence": "SafetyPlus 呼吸管理",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 5,
-        "category": "①呼吸器手技",
-        "subCategory": "呼吸理学療法",
-        "question": "体位ドレナージの注意点として誤っているのはどれか。",
-        "options": [
-            "食直後は避ける",
-            "酸素投与中は不可",
-            "頭低位は血圧に注意",
-            "前後で呼吸音確認"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "酸素投与中でも実施可能ですが、モニタリングが必要です。",
-        "evidence": "看護roo! 理学療法",
-        "reference": "看護roo!"
-    },
-    {
-        "id": 6,
-        "category": "①呼吸器手技",
-        "subCategory": "モニタリング",
-        "question": "パルスオキシメータの予備測定部位として適切なのはどれか。",
-        "options": [
-            "耳朶",
-            "手首",
-            "鼻先",
-            "足の裏"
-        ],
-        "correctAnswerIndex": 0,
-        "explanation": "末梢循環不全の際は耳朶が有効です。",
-        "evidence": "Nursing Skills 基礎看護",
-        "reference": "Nursing Skills"
-    },
-    {
-        "id": 7,
-        "category": "①呼吸器手技",
-        "subCategory": "ドレーン管理",
-        "question": "水封室で連続的な気泡が見られる場合に疑うのはどれか。",
-        "options": [
-            "肺の再膨張",
-            "空気漏れ",
-            "吸引圧低下",
-            "正常変動"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "連続的な気泡はエアリークを示唆します。",
-        "evidence": "SafetyPlus 機器管理",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 8,
-        "category": "①呼吸器手技",
-        "subCategory": "体位変換",
-        "question": "右肺肺炎の患者で酸素化を改善させる体位はどれか。",
-        "options": [
-            "右側下位",
-            "左側下位",
-            "仰臥位",
-            "腹臥位"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "健側（左）を下にして血流を促します。",
-        "evidence": "Nursing Skills 呼吸ケア",
-        "reference": "Nursing Skills"
-    },
-    {
-        "id": 9,
-        "category": "①呼吸器手技",
-        "subCategory": "酸素療法",
-        "question": "ベンチュリーマスクで正確なFiO2を維持できる主な理由はどれか。",
-        "options": [
-            "密閉性が高いから",
-            "一定の酸素流量と空気の取り込みを制御するから",
-            "リザーバーがあるから",
-            "鼻から吸えるから"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "ベンチュリー効果により、一定の割合で空気を取り込みます。",
-        "evidence": "SafetyPlus 呼吸管理",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 10,
-        "category": "①呼吸器手技",
-        "subCategory": "血液ガス採血",
-        "question": "アレンテストの目的はどれか。",
-        "options": [
-            "血栓確認",
-            "側副血行の確認",
-            "血圧測定",
-            "神経損傷確認"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "橈骨動脈穿刺前に尺骨動脈の血流を確認します。",
-        "evidence": "SafetyPlus 採血技術",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 11,
-        "category": "②疾患観察",
-        "subCategory": "COPD",
-        "question": "COPD患者に見られる胸郭の特徴的な形はどれか。",
-        "options": [
-            "漏斗胸",
-            "樽状胸郭",
-            "鳩胸",
-            "円背"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "肺の過膨張により前後径が増大します。",
-        "evidence": "看護roo! 呼吸器疾患",
-        "reference": "看護roo!"
-    },
-    {
-        "id": 12,
-        "category": "②疾患観察",
-        "subCategory": "肺炎",
-        "question": "A-DROPの'A'は何を表すか。",
-        "options": [
-            "年齢 (Age)",
-            "脱水 (Dehydration)",
-            "呼吸 (Respiration)",
-            "血圧 (Pressure)"
-        ],
-        "correctAnswerIndex": 0,
-        "explanation": "男性70歳以上、女性75歳以上を1点とします。",
-        "evidence": "肺炎ガイドライン",
-        "reference": "看護roo!"
-    },
-    {
-        "id": 13,
-        "category": "②疾患観察",
-        "subCategory": "心不全",
-        "question": "心原性肺水腫で見られる痰の特徴はどれか。",
-        "options": [
-            "膿性痰",
-            "ピンク色の泡沫状痰",
-            "鉄錆色痰",
-            "粘液性痰"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "肺うっ血により血液成分が漏れ出したサインです。",
-        "evidence": "Nursing Skills 循環器看護",
-        "reference": "Nursing Skills"
-    },
-    {
-        "id": 14,
-        "category": "②疾患観察",
-        "subCategory": "気胸",
-        "question": "緊張性気胸で見られる生命に関わる兆候はどれか。",
-        "options": [
-            "喘鳴",
-            "健側への気管偏位と血圧低下",
-            "患側への気管偏位",
-            "発熱"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "縦隔偏位により静脈還流が阻害されショックを招きます。",
-        "evidence": "SafetyPlus 救命処置",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 15,
-        "category": "②疾患観察",
-        "subCategory": "間質性肺炎",
-        "question": "間質性肺炎の聴診で吸気終末に聞こえる特徴的な音はどれか。",
-        "options": [
-            "笛音",
-            "捻髪音 (バリバリ・チリチリ)",
-            "水泡音",
-            "摩擦音"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "「ベルクロラ音」とも呼ばれる捻髪音が特徴です。",
-        "evidence": "呼吸音アセスメント",
-        "reference": "Nursing Skills"
-    },
-    {
-        "id": 16,
-        "category": "③薬剤知識",
-        "subCategory": "気管支拡張薬",
-        "question": "SABAの適切な使用タイミングはどれか。",
-        "options": [
-            "毎日決まった時間に",
-            "喘息発作時 (レスキュー)",
-            "寝る前",
-            "食後"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "速効性があるため、苦しい時に使用します。",
-        "evidence": "喘息薬物療法",
-        "reference": "Nursing Skills"
-    },
-    {
-        "id": 17,
-        "category": "③薬剤知識",
-        "subCategory": "吸入指導",
-        "question": "吸入ステロイド使用後に必ず行うべきことはどれか。",
-        "options": [
-            "深呼吸",
-            "うがい",
-            "水分摂取",
-            "寝る"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "副作用（口腔内カンジダ等）を予防するためです。",
-        "evidence": "吸入療法マニュアル",
-        "reference": "Nursing Skills"
-    },
-    {
-        "id": 18,
-        "category": "③薬剤知識",
-        "subCategory": "抗凝固薬",
-        "question": "ワルファリンの作用を弱めるビタミンKを多く含む食品はどれか。",
-        "options": [
-            "納豆",
-            "グレープフルーツ",
-            "牛乳",
-            "お米"
-        ],
-        "correctAnswerIndex": 0,
-        "explanation": "納豆菌がビタミンKを生成し効果を打ち消します。",
-        "evidence": "薬剤指導ガイド",
-        "reference": "看護roo!"
-    },
-    {
-        "id": 19,
-        "category": "③薬剤知識",
-        "subCategory": "抗菌薬",
-        "question": "バンコマイシンの急速投与で起こる副作用はどれか。",
-        "options": [
-            "下痢",
-            "レッドマン症候群",
-            "不眠",
-            "高血圧"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "顔面や上半身の紅潮などの反応が起こります。",
-        "evidence": "薬剤安全投与",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 20,
-        "category": "③薬剤知識",
-        "subCategory": "ステロイド薬",
-        "question": "ステロイドの内服を急に中止してはいけない主な理由はどれか。",
-        "options": [
-            "太るから",
-            "副腎不全のリスクがあるから",
-            "薬がもったいない",
-            "眠れない"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "ショックを含む離脱症状を招く恐れがあります。",
-        "evidence": "薬剤安全管理",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 21,
-        "category": "①呼吸器手技",
-        "subCategory": "酸素療法",
-        "question": "酸素ボンベの残量計算：300Lのボンベを2L/分で使うと何分もつか。",
-        "options": [
-            "60分",
-            "100分",
-            "150分",
-            "300分"
-        ],
-        "correctAnswerIndex": 2,
-        "explanation": "300 ÷ 2 = 150分です。",
-        "evidence": "医療機器管理",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 22,
-        "category": "①呼吸器手技",
-        "subCategory": "酸素療法",
-        "question": "鼻カニューレ2L/分使用時のFiO2の目安はどれか。",
-        "options": [
-            "約24%",
-            "約28%",
-            "約32%",
-            "約40%"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "20 + 4 × 2 = 28%となります。",
-        "evidence": "酸素療法の基礎",
-        "reference": "Nursing Skills"
-    },
-    {
-        "id": 23,
-        "category": "②疾患観察",
-        "subCategory": "COPD",
-        "question": "COPD患者に推奨される呼吸法はどれか。",
-        "options": [
-            "浅い呼吸",
-            "口すぼめ呼吸",
-            "胸式呼吸",
-            "止める"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "末梢気道の閉塞を防ぎ、呼気を出しやすくします。",
-        "evidence": "呼吸リハビリ",
-        "reference": "Nursing Skills"
-    },
-    {
-        "id": 24,
-        "category": "②疾患観察",
-        "subCategory": "肺がん",
-        "question": "肺がんのパンコースト症候群で見られる症状はどれか。",
-        "options": [
-            "腹痛",
-            "上肢の痛みとホルネル症候群",
-            "下肢麻痺",
-            "多尿"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "肺尖部の腫瘍が神経を侵食することで起こります。",
-        "evidence": "がん看護",
-        "reference": "看護roo!"
-    },
-    {
-        "id": 25,
-        "category": "③薬剤知識",
-        "subCategory": "鎮咳薬",
-        "question": "リン酸コデインの注意すべき副作用はどれか。",
-        "options": [
-            "下痢",
-            "便秘",
-            "頻尿",
-            "高血圧"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "腸管運動を抑制するため、排便状況の観察が必要です。",
-        "evidence": "薬剤管理",
-        "reference": "Nursing Skills"
-    },
-    {
-        "id": 26,
-        "category": "①呼吸器手技",
-        "subCategory": "吸引",
-        "question": "吸引カテーテルの理想的な太さはどれか。",
-        "options": [
-            "太いほど良い",
-            "内径の半分以下",
-            "親指と同じ",
-            "極細"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "肺内の空気を吸い込み過ぎるのを防ぐためです。",
-        "evidence": "吸引の安全",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 27,
-        "category": "②疾患観察",
-        "subCategory": "肺炎",
-        "question": "誤嚥性肺炎の予防に適した食事の姿勢はどれか。",
-        "options": [
-            "平らな状態",
-            "30-60度の頭部挙上",
-            "伏臥位",
-            "右側臥位"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "重力を利用して逆流を防ぎます。",
-        "evidence": "摂食嚥下看護",
-        "reference": "看護roo!"
-    },
-    {
-        "id": 28,
-        "category": "③薬剤知識",
-        "subCategory": "去痰薬",
-        "question": "ムコダイン（カルボシステイン）の役割はどれか。",
-        "options": [
-            "咳を止める",
-            "痰の粘性を下げ、出しやすくする",
-            "菌を殺す",
-            "熱を下げる"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "痰をサラサラにする薬です。",
-        "evidence": "薬剤情報",
-        "reference": "看護roo!"
-    },
-    {
-        "id": 29,
-        "category": "①呼吸器手技",
-        "subCategory": "人工呼吸器",
-        "question": "NPPV導入初期に最も注意すべきことはどれか。",
-        "options": [
-            "食事内容",
-            "マスクのフィット感とリークの確認",
-            "テレビの音量",
-            "歩行練習"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "効果的な換気と皮膚保護の両立が不可欠です。",
-        "evidence": "NPPVの看護",
-        "reference": "Nursing Skills"
-    },
-    {
-        "id": 30,
-        "category": "②疾患観察",
-        "subCategory": "気胸",
-        "question": "自然気胸が好発する体型はどれか。",
-        "options": [
-            "肥満",
-            "長身で痩せ型",
-            "小柄",
-            "筋肉質"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "若年男性の長身痩せ型に多い傾向があります。",
-        "evidence": "呼吸器疾患知識",
-        "reference": "看護roo!"
-    },
-    {
-        "id": 31,
-        "category": "①呼吸器手技",
-        "subCategory": "救急対応",
-        "question": "「下顎呼吸」が見られる患者への対応として正しいのはどれか。",
-        "options": [
-            "様子を見る",
-            "直ちに蘇生処置や応援要請を行う",
-            "睡眠を促す",
-            "お茶を飲ませる"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "死戦期呼吸であり、緊急事態です。",
-        "evidence": "急変対応",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 32,
-        "category": "②疾患観察",
-        "subCategory": "モニタリング",
-        "question": "SpO2が突然低下した際、最初に確認すべきことはどれか。",
-        "options": [
-            "医師へ報告",
-            "センサーの装着状態と患者の意識・呼吸",
-            "酸素流量を上げる",
-            "部屋を暗くする"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "測定ミスか真の悪化かを瞬別します。",
-        "evidence": "フィジカルアセスメント",
-        "reference": "Nursing Skills"
-    },
-    {
-        "id": 33,
-        "category": "③薬剤知識",
-        "subCategory": "ステロイド薬",
-        "question": "吸入ステロイド使用後に口腔内カンジダ症を予防する方法はどれか。",
-        "options": [
-            "うがい",
-            "喉を温める",
-            "水分を控える",
-            "何もしない"
-        ],
-        "correctAnswerIndex": 0,
-        "explanation": "口腔内に残った薬剤を洗い流す必要があります。",
-        "evidence": "吸入指導",
-        "reference": "Nursing Skills"
-    },
-    {
-        "id": 34,
-        "category": "①呼吸器手技",
-        "subCategory": "ドレーン管理",
-        "question": "胸腔ドレーンのクランプが必要なタイミングはどれか。",
-        "options": [
-            "トイレに行く時",
-            "バッグを交換する時（一時的）",
-            "毎日定期的に",
-            "必要ない"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "システムの開放を防ぐために一時的にクランプします。",
-        "evidence": "ドレーン管理",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 35,
-        "category": "②疾患観察",
-        "subCategory": "心不全",
-        "question": "夜間、横になると呼吸が苦しくなる「起座呼吸」の主な原因はどれか。",
-        "options": [
-            "お腹が空くから",
-            "肺うっ血が強まり、心臓の負担が増えるから",
-            "枕が低いから",
-            "テレビが見にくいから"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "静脈還流が増えることで心不全症状が悪化します。",
-        "evidence": "循環器のフィジカル",
-        "reference": "Nursing Skills"
-    },
-    {
-        "id": 36,
-        "category": "③薬剤知識",
-        "subCategory": "抗菌薬",
-        "question": "抗菌薬の投与を完了させることが重要な理由はどれか。",
-        "options": [
-            "値段が高いから",
-            "耐性菌の発生を防ぐため",
-            "胃に良いから",
-            "早く退院するため"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "中途半端な中止は菌を強くしてしまいます。",
-        "evidence": "感染症治療ガイド",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 37,
-        "category": "①呼吸器手技",
-        "subCategory": "吸引",
-        "question": "気管内吸引の深さを決める基準はどれか。",
-        "options": [
-            "根元まで",
-            "気管チューブ長＋1〜2cm程度",
-            "適当に",
-            "一番奥まで"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "粘膜損傷を最小限にするための長さです。",
-        "evidence": "吸引手順",
-        "reference": "看護roo!"
-    },
-    {
-        "id": 38,
-        "category": "②疾患観察",
-        "subCategory": "肺がん",
-        "question": "肺がんのPET-CT検査前に制限されるのはどれか。",
-        "options": [
-            "運動",
-            "糖分の摂取",
-            "睡眠",
-            "会話"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "ブドウ糖の取り込みを確認するため絶食等が必要です。",
-        "evidence": "検査前看護",
-        "reference": "看護roo!"
-    },
-    {
-        "id": 39,
-        "category": "③薬剤知識",
-        "subCategory": "テオフィリン製剤",
-        "question": "テオフィリン製剤の中毒症状として代表的なのはどれか。",
-        "options": [
-            "眠気",
-            "吐き気・不整脈",
-            "便秘",
-            "皮膚の乾燥"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "血中濃度管理が重要な薬剤です。",
-        "evidence": "薬剤安全",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 40,
-        "category": "①呼吸器手技",
-        "subCategory": "呼吸理学療法",
-        "question": "ハフィングとはどのような手技か。",
-        "options": [
-            "大きく息を吸い込む",
-            "「ハッ、ハッ」と短く強く息を吐く",
-            "止める",
-            "歌う"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "咳より負担を少なく痰を移動させます。",
-        "evidence": "排痰援助",
-        "reference": "Nursing Skills"
-    },
-    {
-        "id": 41,
-        "category": "②疾患観察",
-        "subCategory": "肺炎",
-        "question": "肺炎の予防として有効なワクチンはどれか。",
-        "options": [
-            "インフルエンザワクチンと肺炎球菌ワクチン",
-            "破傷風ワクチン",
-            "狂犬病ワクチン",
-            "なし"
-        ],
-        "correctAnswerIndex": 0,
-        "explanation": "特に高齢者で推奨される予防策です。",
-        "evidence": "感染予防活動",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 42,
-        "category": "③薬剤知識",
-        "subCategory": "吸入薬",
-        "question": "スペーサー（吸入補助具）を洗う際の正しい方法はどれか。",
-        "options": [
-            "毎日塩素で消毒する",
-            "洗剤で洗い、自然乾燥させる（静電気防止）",
-            "タオルで拭く",
-            "洗わない"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "静電気で薬が壁につくのを防ぎます。",
-        "evidence": "吸入器管理",
-        "reference": "Nursing Skills"
-    },
-    {
-        "id": 43,
-        "category": "①呼吸器手技",
-        "subCategory": "酸素療法",
-        "question": "酸素ボンベを搬送する際、最も安全な置き方はどれか。",
-        "options": [
-            "立てたまま持つ",
-            "専用のカート（ボンベ運搬車）に固定する",
-            "横にして転がす",
-            "カバンに入れる"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "転倒やバルブ損傷を防ぐため固定が必須です。",
-        "evidence": "リスクマネジメント",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 44,
-        "category": "②疾患観察",
-        "subCategory": "肺血栓塞栓症",
-        "question": "肺血栓塞栓症を予防するために、ベッド上でできることはどれか。",
-        "options": [
-            "じっと動かない",
-            "足首をこまめに曲げ伸ばしする",
-            "水分を控える",
-            "深く眠る"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "血流の停滞を防ぐポンプ機能を働かせます。",
-        "evidence": "血栓症予防",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 45,
-        "category": "③薬剤知識",
-        "subCategory": "鎮静薬",
-        "question": "救急現場でベンゾジアゼピン系薬剤の拮抗薬として使われるのはどれか。",
-        "options": [
-            "ナロキソン",
-            "フルマゼニル",
-            "アドレナリン",
-            "アトロピン"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "鎮静・呼吸抑制を即座に改善させたい時に用います。",
-        "evidence": "救命薬剤",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 46,
-        "category": "①呼吸器手技",
-        "subCategory": "人工呼吸器",
-        "question": "気道圧低下アラームが鳴った際、考えられる原因はどれか。",
-        "options": [
-            "痰詰まり",
-            "回路の外れ（リーク）",
-            "患者の咳嗽",
-            "設定変更"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "回路が外れて空気が漏れている時に圧が下がります。",
-        "evidence": "トラブル対応",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 47,
-        "category": "②疾患観察",
-        "subCategory": "がん看護",
-        "question": "肺がんの骨転移がある患者への援助で最も気を付けるのはどれか。",
-        "options": [
-            "部屋の明るさ",
-            "病的骨折（わずかな力で折れる）",
-            "食事の味",
-            "会話"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "愛護的な取り扱いが非常に重要です。",
-        "evidence": "骨転移の看護",
-        "reference": "看護roo!"
-    },
-    {
-        "id": 48,
-        "category": "③薬剤知識",
-        "subCategory": "吸入指導",
-        "question": "シムビコートを吸入する際、正しい吸い方はどれか。",
-        "options": [
-            "ゆっくり吸う",
-            "「強く・速く」吸う",
-            "吸わない",
-            "鼻から"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "ドライパウダー式（DPI）は吸気流速が必要です。",
-        "evidence": "吸入技術",
-        "reference": "Nursing Skills"
-    },
-    {
-        "id": 49,
-        "category": "①呼吸器手技",
-        "subCategory": "血液ガス採血",
-        "question": "動脈採血後の止血時間の目安として適切なのはどれか。",
-        "options": [
-            "1分",
-            "5分以上確実に行う",
-            "10秒",
-            "不要"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "動脈は圧が高く止まりにくいためです。",
-        "evidence": "医療安全手技",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 50,
-        "category": "②疾患観察",
-        "subCategory": "フィジカルアセスメント",
-        "question": "健康成人の基準呼吸回数は1分間に約何回か。",
-        "options": [
-            "5回",
-            "12-20回",
-            "40回",
-            "80回"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "これより少なすぎたり多すぎたりすると異常を疑います。",
-        "evidence": "バイタルサイン",
-        "reference": "Nursing Skills"
-    },
-    {
-        "id": 51,
-        "category": "①呼吸器手技",
-        "subCategory": "酸素療法",
-        "question": "リザーバー付酸素マスクは何L/分以上で使用するのが標準か。",
-        "options": [
-            "1L",
-            "3L",
-            "6L",
-            "20L"
-        ],
-        "correctAnswerIndex": 2,
-        "explanation": "呼気の再呼吸を防ぐために十分な流量が必要です。",
-        "evidence": "機器安全",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 52,
-        "category": "②疾患観察",
-        "subCategory": "COPD",
-        "question": "COPD患者が酸素流量を自己判断で増やすと起こる危険な状態はどれか。",
-        "options": [
-            "元気になりすぎる",
-            "CO2ナルコーシス",
-            "低血圧",
-            "不眠"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "呼吸が止まるリスクがあるため、自己調整は厳禁です。",
-        "evidence": "慢性疾患看護",
-        "reference": "看護roo!"
-    },
-    {
-        "id": 53,
-        "category": "③薬剤知識",
-        "subCategory": "ステロイド薬",
-        "question": "ステロイド長期内服患者が手術を受ける際、追加でステロイドを投与する処置を何と呼ぶか。",
-        "options": [
-            "ステロイド・カバー",
-            "ステロイド・オフ",
-            "ステロイド・パス",
-            "なし"
-        ],
-        "correctAnswerIndex": 0,
-        "explanation": "手術のストレスで相対的にステロイド不足になるのを防ぎます。",
-        "evidence": "周術期管理",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 54,
-        "category": "①呼吸器手技",
-        "subCategory": "吸引",
-        "question": "口腔内吸引時、カテーテルをどこまで入れるべきか。",
-        "options": [
-            "見える範囲の口腔内",
-            "気管の奥まで",
-            "食道まで",
-            "鼻まで"
-        ],
-        "correctAnswerIndex": 0,
-        "explanation": "目的（口の中の掃除）に合わせた深さに留めます。",
-        "evidence": "口腔ケアと吸引",
-        "reference": "看護roo!"
-    },
-    {
-        "id": 55,
-        "category": "②疾患観察",
-        "subCategory": "喘息",
-        "question": "喘息発作時に「呼吸音が小さくなる（聞こえなくなる）」場合に疑う極めて危険な状態はどれか。",
-        "options": [
-            "治った",
-            "サイレントチェスト",
-            "熟睡",
-            "通常"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "重度の気道狭窄により空気が全く通っていない緊急事態です。",
-        "evidence": "急変の兆候",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 56,
-        "category": "③薬剤知識",
-        "subCategory": "抗菌薬",
-        "question": "抗菌薬投与前に必ず確認すべき既往歴はどれか。",
-        "options": [
-            "花粉症",
-            "薬物アレルギー歴",
-            "虫歯",
-            "骨折"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "ショック死を防ぐために最も重要です。",
-        "evidence": "医療安全",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 57,
-        "category": "①呼吸器手技",
-        "subCategory": "体位変換",
-        "question": "肺炎患者の体位ドレナージの際、肺炎のある側をどうするか。",
-        "options": [
-            "下にする",
-            "上にする",
-            "どちらでも良い",
-            "動かさない"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "重力で痰を中枢（上側から下へ）へ移動させます。",
-        "evidence": "理学療法の基本",
-        "reference": "Nursing Skills"
-    },
-    {
-        "id": 58,
-        "category": "②疾患観察",
-        "subCategory": "心不全",
-        "question": "左心不全で見られる代表的な聴診音はどれか。",
-        "options": [
-            "ヒューヒュー",
-            "湿性ラ音 (プツプツ・ブツブツ)",
-            "捻髪音",
-            "笛音"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "肺に水が溜まっている（肺水腫）サインです。",
-        "evidence": "心不全アセスメント",
-        "reference": "Nursing Skills"
-    },
-    {
-        "id": 59,
-        "category": "③薬剤知識",
-        "subCategory": "吸入指標",
-        "question": "吸入ステロイド薬の役割はどれか。",
-        "options": [
-            "今すぐ気道を広げる",
-            "気道の炎症を抑えて発作を予防する",
-            "咳を止める",
-            "菌を殺す"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "症状がない時も続けることが重要です。",
-        "evidence": "予防管理",
-        "reference": "Nursing Skills"
-    },
-    {
-        "id": 60,
-        "category": "①呼吸器手技",
-        "subCategory": "酸素療法",
-        "question": "酸素加湿器の水（精製水）はどのくらいで交換すべきか。",
-        "options": [
-            "減るまで足す",
-            "毎日交換、または都度使い切り",
-            "1ヶ月に1回",
-            "交換不要"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "細菌繁殖を防ぐためです。",
-        "evidence": "清潔管理",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 61,
-        "category": "②疾患観察",
-        "subCategory": "肺がん",
-        "question": "がん末期の呼吸困難に対し、麻薬（モルヒネ等）を使う主な目的はどれか。",
-        "options": [
-            "眠らせるため",
-            "息苦しさを和らげるため",
-            "寿命を延ばすため",
-            "便秘にするため"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "緩和ケアにおいて重要な処置の一つです。",
-        "evidence": "緩和医療ガイド",
-        "reference": "看護roo!"
-    },
-    {
-        "id": 62,
-        "category": "③薬剤知識",
-        "subCategory": "去痰薬",
-        "question": "去痰薬の効果を高めるために患者に勧めることはどれか。",
-        "options": [
-            "適度な水分摂取",
-            "絶食",
-            "激しい運動",
-            "お酒"
-        ],
-        "correctAnswerIndex": 0,
-        "explanation": "痰の粘度を下げるのを助けます。",
-        "evidence": "薬剤看護",
-        "reference": "Nursing Skills"
-    },
-    {
-        "id": 63,
-        "category": "①呼吸器手技",
-        "subCategory": "救急",
-        "question": "窒息が疑われる患者が意識がある場合の初期対応はどれか。",
-        "options": [
-            "背部叩打法やハイムリック法",
-            "心マッサージのみ",
-            "放置",
-            "様子を見る"
-        ],
-        "correctAnswerIndex": 0,
-        "explanation": "異物除去を試みます。",
-        "evidence": "救急ガイド",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 64,
-        "category": "②疾患観察",
-        "subCategory": "感染症",
-        "question": "結核患者のケアで必須のマスクはどれか。",
-        "options": [
-            "普通のマスク",
-            "N95マスク",
-            "透明マスク",
-            "なし"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "空気感染対策として必要です。",
-        "evidence": "結核管理基準",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 65,
-        "category": "③薬剤知識",
-        "subCategory": "抗凝固薬",
-        "question": "ワルファリンを飲んでいる人が抜歯などをする際の注意点はどれか。",
-        "options": [
-            "何もしない",
-            "医師に相談し、休薬や継続の指示を仰ぐ",
-            "お茶を飲む",
-            "運動する"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "血が止まらなくなるリスクへの対策です。",
-        "evidence": "薬剤と処置",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 66,
-        "category": "①呼吸器手技",
-        "subCategory": "人工呼吸器",
-        "question": "自発呼吸がない患者に使用する換気モードはどれか。",
-        "options": [
-            "強制換気 (A/C)",
-            "PSVのみ",
-            "なし",
-            "補助換気"
-        ],
-        "correctAnswerIndex": 0,
-        "explanation": "機械が一定回数、強制的に呼吸させます。",
-        "evidence": "呼吸器モード",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 67,
-        "category": "②疾患観察",
-        "subCategory": "ドレーン",
-        "question": "胸腔ドレーンの水封室に「呼吸性変動」が見られない場合に疑うことはどれか。",
-        "options": [
-            "正常",
-            "ドレーンの閉塞や折れ曲がり",
-            "肺が治った",
-            "テレビの故障"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "ドレーンが機能していない可能性があります。",
-        "evidence": "ドレーン観察",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 68,
-        "category": "③薬剤知識",
-        "subCategory": "鎮静薬",
-        "question": "鎮静状態の評価スケール（RASS等）で「0」は何を表すか。",
-        "options": [
-            "昏睡",
-            "落ち着いていて協力的",
-            "激昂",
-            "深い眠り"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "目指すべき適切な鎮静レベルの一つです。",
-        "evidence": "鎮静管理",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 69,
-        "category": "①呼吸器手技",
-        "subCategory": "吸引",
-        "question": "口から吸引する際、嘔吐反射を防ぐコツはどれか。",
-        "options": [
-            "一気に入れる",
-            "舌の奥を強く押さない",
-            "ずっと喋らせる",
-            "目をつぶらせる"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "苦痛を軽減するための配慮です。",
-        "evidence": "看護技術",
-        "reference": "Nursing Skills"
-    },
-    {
-        "id": 70,
-        "category": "②疾患観察",
-        "subCategory": "その他",
-        "question": "「チアノーゼ」が出現しやすい体の部位はどれか。",
-        "options": [
-            "背中",
-            "口唇や指先",
-            "お腹",
-            "膝"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "末梢の血流や酸素状態が出やすい箇所です。",
-        "evidence": "アセスメント",
-        "reference": "Nursing Skills"
-    },
-    {
-        "id": 71,
-        "category": "③薬剤知識",
-        "subCategory": "吸入",
-        "question": "配合吸入薬の吸入が終わった後、吸ったかどうか確認する方法（一部の容器）はどれか。",
-        "options": [
-            "味覚",
-            "カウンター（残量計）を見る",
-            "振る",
-            "匂い"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "確実に吸えているか、残量はいくらかを確認します。",
-        "evidence": "服薬指導",
-        "reference": "Nursing Skills"
-    },
-    {
-        "id": 72,
-        "category": "①呼吸器手技",
-        "subCategory": "モニタリング",
-        "question": "パルスオキシメータの数値に影響を与える因子はどれか。",
-        "options": [
-            "マニキュアや冷え、照明の光",
-            "部屋の色",
-            "患者の身長",
-            "テレビの音"
-        ],
-        "correctAnswerIndex": 0,
-        "explanation": "これらがあると正確に測定できない場合があります。",
-        "evidence": "機器アセスメント",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 73,
-        "category": "②疾患観察",
-        "subCategory": "気胸",
-        "question": "気胸で肺が縮んでいる側の呼吸音はどう聞こえるか。",
-        "options": [
-            "大きくなる",
-            "減弱または消失する",
-            "笛のような音がする",
-            "変わらない"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "空気が動いていないため、音は小さくなります。",
-        "evidence": "聴診の基本",
-        "reference": "Nursing Skills"
-    },
-    {
-        "id": 74,
-        "category": "③薬剤知識",
-        "subCategory": "去痰薬",
-        "question": "痰の粘り気が強く出しにくい際、併用すると良い処置はどれか。",
-        "options": [
-            "絶食",
-            "加湿や吸入",
-            "激しい運動",
-            "放置"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "物理的に痰を柔らかくして出しやすくします。",
-        "evidence": "痰のケア",
-        "reference": "Nursing Skills"
-    },
-    {
-        "id": 75,
-        "category": "①呼吸器手技",
-        "subCategory": "酸素療法",
-        "question": "酸素療法中の患者の火災事故を防ぐために最も重要な掲示はどれか。",
-        "options": [
-            "「禁煙」「火気厳禁」",
-            "「静かに」",
-            "「関係者以外立ち入り禁止」",
-            "なし"
-        ],
-        "correctAnswerIndex": 0,
-        "explanation": "爆発や火傷の重大事故を防ぐための大原則です。",
-        "evidence": "医療安全基準",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 76,
-        "category": "②疾患観察",
-        "subCategory": "肺がん",
-        "question": "肺がん患者の「悪液質」とはどのような状態か。",
-        "options": [
-            "筋肉や脂肪が極度に減り、衰弱した状態",
-            "食欲旺盛な状態",
-            "太っている状態",
-            "元気な状態"
-        ],
-        "correctAnswerIndex": 0,
-        "explanation": "がんによる代謝異常などが原因で起こります。",
-        "evidence": "終末期看護",
-        "reference": "看護roo!"
-    },
-    {
-        "id": 77,
-        "category": "③薬剤知識",
-        "subCategory": "抗菌薬",
-        "question": "抗菌薬投与開始後に「蕁麻疹」が出た際の対応はどれか。",
-        "options": [
-            "様子を見て最後まで投与する",
-            "直ちに中止し、医師へ報告する",
-            "冷やす",
-            "そのまま寝かせる"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "アレルギー反応（ショックの前兆）の可能性があるためです。",
-        "evidence": "薬剤インシデント対策",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 78,
-        "category": "①呼吸器手技",
-        "subCategory": "吸引",
-        "question": "吸引カテーテルの挿入時と抜去時、どちらで吸引をかけるべきか。",
-        "options": [
-            "挿入時",
-            "抜去時（回転させながら）",
-            "ずっとかける",
-            "かけない"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "粘膜を傷つけず効率的に吸い出すための技術です。",
-        "evidence": "吸引のコツ",
-        "reference": "Nursing Skills"
-    },
-    {
-        "id": 79,
-        "category": "②疾患観察",
-        "subCategory": "呼吸機能検査",
-        "question": "スパイロメトリー検査で判定できないのはどれか。",
-        "options": [
-            "肺活量",
-            "血圧",
-            "1秒率",
-            "肺機能のタイプ"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "肺の空気の流れを見る検査です。",
-        "evidence": "臨床検査知識",
-        "reference": "看護roo!"
-    },
-    {
-        "id": 80,
-        "category": "③薬剤知識",
-        "subCategory": "吸入",
-        "question": "pMDI（エアゾール）吸入器を使用する直前にすべきことは何か。",
-        "options": [
-            "温める",
-            "よく振る",
-            "洗う",
-            "目をつぶる"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "薬剤を均一に混ぜるために必要です。",
-        "evidence": "服薬指導マニュアル",
-        "reference": "Nursing Skills"
-    },
-    {
-        "id": 81,
-        "category": "①呼吸器手技",
-        "subCategory": "人工呼吸器",
-        "question": "人工呼吸器の加湿器の温度設定、一般的に何度くらいが好ましいか。",
-        "options": [
-            "20度",
-            "37度前後 (体温に近い温度)",
-            "50度",
-            "10度"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "気道の乾燥を防ぎ、不快感を最小限にします。",
-        "evidence": "呼吸器管理技術",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 82,
-        "category": "②疾患観察",
-        "subCategory": "肺炎",
-        "question": "肺炎患者の「叩打法（スクイージング）」を行うタイミングはいつか。",
-        "options": [
-            "吸気時",
-            "呼気時（吐いている時）に合わせて",
-            "寝ている時",
-            "いつでも良い"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "呼気に合わせて圧迫することで排痰を促します。",
-        "evidence": "排痰ハンドブック",
-        "reference": "Nursing Skills"
-    },
-    {
-        "id": 83,
-        "category": "③薬剤知識",
-        "subCategory": "テオフィリン",
-        "question": "テオフィリン製剤の血中濃度を上昇させる（効き過ぎさせる）原因となる習慣はどれか。",
-        "options": [
-            "禁煙",
-            "喫煙",
-            "散歩",
-            "読書"
-        ],
-        "correctAnswerIndex": 0,
-        "explanation": "禁煙すると代謝が落ち、血中濃度が上がる場合があります。",
-        "evidence": "薬剤と生活習慣",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 84,
-        "category": "①呼吸器手技",
-        "subCategory": "酸素療法",
-        "question": "酸素濃縮器を通気性の悪い場所に置いてはいけない理由はどれか。",
-        "options": [
-            "うるさいから",
-            "熱がこもり故障や火災の原因になるから",
-            "重くなるから",
-            "色が剥げるから"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "放熱が必要な機械であるため、周囲に空間が必要です。",
-        "evidence": "在宅酸素療法指導",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 85,
-        "category": "②疾患観察",
-        "subCategory": "気胸",
-        "question": "気胸患者が急に「激しい胸痛と息苦しさ」を訴え、片側の胸が動かなくなった際の対応はどれか。",
-        "options": [
-            "お風呂に入れる",
-            "直ちに医師等に報告（緊急事態）",
-            "お茶を飲ませる",
-            "マッサージする"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "緊張性気胸への進展などを疑い、救命処置が必要です。",
-        "evidence": "クリティカル看護",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 86,
-        "category": "③薬剤知識",
-        "subCategory": "抗凝固薬",
-        "question": "ワルファリンの効き目を弱めるクロレラ（健康食品）を控えるべき理由は何か。",
-        "options": [
-            "高いから",
-            "ビタミンKが豊富に含まれているから",
-            "味が濃いから",
-            "太るから"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "納豆と同様の理由でワルファリンと相性が悪いです。",
-        "evidence": "薬剤安全指導",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 87,
-        "category": "①呼吸器手技",
-        "subCategory": "吸引",
-        "question": "吸引後に心拍数が急激に下がった場合に疑うことはどれか。",
-        "options": [
-            "眠った",
-            "迷走神経反射",
-            "元気になった",
-            "通常"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "吸引の刺激が神経を介して心拍を下げてしまうことがあります。",
-        "evidence": "吸引の副作用",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 88,
-        "category": "②疾患観察",
-        "subCategory": "肺血栓塞栓症",
-        "question": "肺血栓塞栓症のリスクが高い手術はどれか。",
-        "options": [
-            "整形外科領域（股関節手術など）",
-            "耳鼻科の手術",
-            "眼科の手術",
-            "なし"
-        ],
-        "correctAnswerIndex": 0,
-        "explanation": "長時間動けない大手術はリスクが上がります。",
-        "evidence": "周術期合併症予防",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 89,
-        "category": "③薬剤知識",
-        "subCategory": "抗菌薬",
-        "question": "高齢者に抗菌薬を投与する際、特に注意して確認する血液データはどれか。",
-        "options": [
-            "身長",
-            "腎機能（クレアチニン値など）",
-            "血糖値",
-            "コレステロール"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "排泄機能が落ちている場合、薬が体に溜まりすぎるのを防ぐためです。",
-        "evidence": "薬剤評価",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 90,
-        "category": "①呼吸器手技",
-        "subCategory": "胸水穿刺",
-        "question": "胸水穿刺（胸腔穿刺）の際、患者にとってもらう一般的な体位はどれか。",
-        "options": [
-            "仰向け",
-            "座位（前かがみ）",
-            "逆立ち",
-            "歩行"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "背中側から針を刺しやすくし、肺を傷つけにくい姿勢です。",
-        "evidence": "検査介助看護",
-        "reference": "Nursing Skills"
-    },
-    {
-        "id": 91,
-        "category": "②疾患観察",
-        "subCategory": "肺がん",
-        "question": "肺がん患者の喀血（血液を吐き出す）があった際の初期対応として安楽な体位はどれか。",
-        "options": [
-            "仰向けで頭を低くする",
-            "健側を下にして寝かせる（血液の流入を防ぐ）",
-            "走らせる",
-            "座らせる"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "健側の肺に血液が入り込み、呼吸ができなくなるのを防ぎます。",
-        "evidence": "救急看護技術",
-        "reference": "Nursing Skills"
-    },
-    {
-        "id": 92,
-        "category": "③薬剤知識",
-        "subCategory": "鎮静薬",
-        "question": "ICU等で使われる「プロポフォール」の液体の色はどれか。",
-        "options": [
-            "透明",
-            "白濁（ミルク色）",
-            "赤",
-            "青"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "脂肪乳剤に溶かされているため、特徴的な白色をしています。",
-        "evidence": "集中治療薬剤",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 93,
-        "category": "①呼吸器手技",
-        "subCategory": "口腔ケア",
-        "question": "人工呼吸器患者のVAP（呼吸器関連肺炎）予防で最も重要な口腔ケアの目的はどれか。",
-        "options": [
-            "歯を白くする",
-            "細菌の繁殖を抑え、気道への流入を防ぐ",
-            "口臭予防",
-            "味覚改善"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "肺炎リスクを劇的に下げるための必須ケアです。",
-        "evidence": "VAP予防ガイドライン",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 94,
-        "category": "②疾患観察",
-        "subCategory": "COPD",
-        "question": "COPD患者が「風邪を引いた」際のアドバイスで適切なのはどれか。",
-        "options": [
-            "放置して良い",
-            "早めに受診し、増悪（急激な悪化）を防ぐ",
-            "激しく運動する",
-            "水分を絶つ"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "風邪一つで命に関わる重篤な呼吸不全になることがあるためです。",
-        "evidence": "在宅療養指導",
-        "reference": "看護roo!"
-    },
-    {
-        "id": 95,
-        "category": "③薬剤知識",
-        "subCategory": "吸入",
-        "question": "吸入薬の保管場所として一般的に避けるべきなのはどれか。",
-        "options": [
-            "直射日光や湿気の多い場所",
-            "薬箱の中",
-            "涼しい場所",
-            "目に見える場所"
-        ],
-        "correctAnswerIndex": 0,
-        "explanation": "薬剤の変質や詰まりを防ぐためです。",
-        "evidence": "薬剤管理技術",
-        "reference": "Nursing Skills"
-    },
-    {
-        "id": 96,
-        "category": "①呼吸器手技",
-        "subCategory": "体位変換",
-        "question": "人工呼吸器患者の「腹臥位療法」の主な目的はどれか。",
-        "options": [
-            "背中側の肺を広げ、酸素化を改善する",
-            "寝やすくするため",
-            "食事のため",
-            "運動"
-        ],
-        "correctAnswerIndex": 0,
-        "explanation": "重症呼吸不全（ARDS等）で行われる高度な看護技術です。",
-        "evidence": "ARDS診療ガイドライン",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 97,
-        "category": "②疾患観察",
-        "subCategory": "間質性肺炎",
-        "question": "間質性肺炎の進行により「労作時呼吸困難」がある患者への指導はどれか。",
-        "options": [
-            "常に全力で動く",
-            "動作に合わせてゆっくり呼吸し、活動を調整する",
-            "動かない",
-            "呼吸を止める"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "SpO2が下がりすぎない範囲で活動を維持します。",
-        "evidence": "リハビリテーション看護",
-        "reference": "Nursing Skills"
-    },
-    {
-        "id": 98,
-        "category": "③薬剤知識",
-        "subCategory": "去痰薬",
-        "question": "去痰薬を飲んでも効果が薄い場合、看護師が確認すべきことはどれか。",
-        "options": [
-            "薬の値段",
-            "一日の水分摂取量や空気の乾燥状態",
-            "患者の学歴",
-            "テレビの番組"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "環境や生理的要因が排痰を邪魔している場合が多いです。",
-        "evidence": "排痰ケアのアセスメント",
-        "reference": "Nursing Skills"
-    },
-    {
-        "id": 99,
-        "category": "①呼吸器手技",
-        "subCategory": "モニタリング",
-        "question": "呼気終末二酸化炭素分圧（EtCO2）をモニタリングする主な目的はどれか。",
-        "options": [
-            "血圧を見る",
-            "換気状態が適切かどうかをリアルタイムで確認する",
-            "体温を見る",
-            "脈拍を見る"
-        ],
-        "correctAnswerIndex": 1,
-        "explanation": "人工呼吸器管理等で換気ができているかを見る重要な指標です。",
-        "evidence": "呼吸モニタリング技術",
-        "reference": "SafetyPlus"
-    },
-    {
-        "id": 100,
-        "category": "③薬剤知識",
-        "subCategory": "薬物アレルギー",
-        "question": "医師から「ステロイド（ソルメドロール等）」の指示があった際、アスピリン喘息の既往がある患者に確認することは何か。",
-        "options": [
-            "投与しても安全な製剤かどうか再確認する",
-            "何も言わず投与する",
-            "患者を叱る",
-            "無視する"
-        ],
-        "correctAnswerIndex": 0,
-        "explanation": "一部の注射用ステロイドは禁忌になる場合があるため、重大インシデント回避が必要です。",
-        "evidence": "アスピリン喘息の管理",
-        "reference": "SafetyPlus"
-    }
+  {
+    "id": 1,
+    "category": "①呼吸器手技",
+    "subCategory": "酸素療法",
+    "question": "鼻カニューレの適正流量範囲はどれか。",
+    "options": [
+      "1-6L/分",
+      "7-10L/分",
+      "11-15L/分",
+      "制限なし"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "6L/分を超えると鼻粘膜の乾燥や不快感が強くなります。",
+    "evidence": "Nursing Skills 呼吸管理",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 2,
+    "category": "①呼吸器手技",
+    "subCategory": "吸引",
+    "question": "気管吸引の1回の吸引時間として適切なのはどれか。",
+    "options": [
+      "5秒以内",
+      "10-15秒以内",
+      "20-30秒以内",
+      "制限なし"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "低酸素血症や徐脈を防ぐため10-15秒以内とします。",
+    "evidence": "看護roo! 吸引技術",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 3,
+    "category": "①呼吸器手技",
+    "subCategory": "吸入療法",
+    "question": "ネブライザー吸入時の呼吸法として適切なのはどれか。",
+    "options": [
+      "浅く速い",
+      "ゆっくりと深い",
+      "息を止める",
+      "口すぼめ"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "薬剤を末梢まで届けるため、ゆっくりとした深呼吸が重要です。",
+    "evidence": "Nursing Skills 呼吸器治療",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 4,
+    "category": "①呼吸器手技",
+    "subCategory": "人工呼吸器",
+    "question": "人工呼吸器のカフ圧として適正な範囲はどれか。",
+    "options": [
+      "10-15cmH2O",
+      "20-30cmH2O",
+      "35-45cmH2O",
+      "50cmH2O以上"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "20-30cmH2Oが標準。低すぎると誤嚥を招きます。",
+    "evidence": "SafetyPlus 呼吸管理",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 5,
+    "category": "①呼吸器手技",
+    "subCategory": "呼吸理学療法",
+    "question": "体位ドレナージの注意点として誤っているのはどれか。",
+    "options": [
+      "食直後は避ける",
+      "酸素投与中は不可",
+      "頭低位は血圧に注意",
+      "前後で呼吸音確認"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "酸素投与中でも実施可能ですが、モニタリングが必要です。",
+    "evidence": "看護roo! 理学療法",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 6,
+    "category": "①呼吸器手技",
+    "subCategory": "モニタリング",
+    "question": "パルスオキシメータの予備測定部位として適切なのはどれか。",
+    "options": [
+      "耳朶",
+      "手首",
+      "鼻先",
+      "足の裏"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "末梢循環不全の際は耳朶が有効です。",
+    "evidence": "Nursing Skills 基礎看護",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 7,
+    "category": "①呼吸器手技",
+    "subCategory": "ドレーン管理",
+    "question": "水封室で連続的な気泡が見られる場合に疑うのはどれか。",
+    "options": [
+      "肺の再膨張",
+      "空気漏れ",
+      "吸引圧低下",
+      "正常変動"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "連続的な気泡はエアリークを示唆します。",
+    "evidence": "SafetyPlus 機器管理",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 8,
+    "category": "①呼吸器手技",
+    "subCategory": "体位変換",
+    "question": "右肺肺炎の患者で酸素化を改善させる体位はどれか。",
+    "options": [
+      "右側下位",
+      "左側下位",
+      "仰臥位",
+      "腹臥位"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "健側（左）を下にして血流を促します。",
+    "evidence": "Nursing Skills 呼吸ケア",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 9,
+    "category": "①呼吸器手技",
+    "subCategory": "酸素療法",
+    "question": "ベンチュリーマスクで正確なFiO2を維持できる主な理由はどれか。",
+    "options": [
+      "密閉性が高いから",
+      "一定の酸素流量と空気の取り込みを制御するから",
+      "リザーバーがあるから",
+      "鼻から吸えるから"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "ベンチュリー効果により、一定の割合で空気を取り込みます。",
+    "evidence": "SafetyPlus 呼吸管理",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 10,
+    "category": "①呼吸器手技",
+    "subCategory": "血液ガス採血",
+    "question": "アレンテストの目的はどれか。",
+    "options": [
+      "血栓確認",
+      "側副血行の確認",
+      "血圧測定",
+      "神経損傷確認"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "橈骨動脈穿刺前に尺骨動脈の血流を確認します。",
+    "evidence": "SafetyPlus 採血技術",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 11,
+    "category": "②疾患観察",
+    "subCategory": "COPD",
+    "question": "COPD患者に見られる胸郭の特徴的な形はどれか。",
+    "options": [
+      "漏斗胸",
+      "樽状胸郭",
+      "鳩胸",
+      "円背"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "肺の過膨張により前後径が増大します。",
+    "evidence": "看護roo! 呼吸器疾患",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 12,
+    "category": "②疾患観察",
+    "subCategory": "肺炎",
+    "question": "A-DROPの'A'は何を表すか。",
+    "options": [
+      "年齢 (Age)",
+      "脱水 (Dehydration)",
+      "呼吸 (Respiration)",
+      "血圧 (Pressure)"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "男性70歳以上、女性75歳以上を1点とします。",
+    "evidence": "肺炎ガイドライン",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 13,
+    "category": "②疾患観察",
+    "subCategory": "心不全",
+    "question": "心原性肺水腫で見られる痰の特徴はどれか。",
+    "options": [
+      "膿性痰",
+      "ピンク色の泡沫状痰",
+      "鉄錆色痰",
+      "粘液性痰"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "肺うっ血により血液成分が漏れ出したサインです。",
+    "evidence": "Nursing Skills 循環器看護",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 14,
+    "category": "②疾患観察",
+    "subCategory": "気胸",
+    "question": "緊張性気胸で見られる生命に関わる兆候はどれか。",
+    "options": [
+      "喘鳴",
+      "健側への気管偏位と血圧低下",
+      "患側への気管偏位",
+      "発熱"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "縦隔偏位により静脈還流が阻害されショックを招きます。",
+    "evidence": "SafetyPlus 救命処置",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 15,
+    "category": "②疾患観察",
+    "subCategory": "間質性肺炎",
+    "question": "間質性肺炎の聴診で吸気終末に聞こえる特徴的な音はどれか。",
+    "options": [
+      "笛音",
+      "捻髪音 (バリバリ・チリチリ)",
+      "水泡音",
+      "摩擦音"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "「ベルクロラ音」とも呼ばれる捻髪音が特徴です。",
+    "evidence": "呼吸音アセスメント",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 16,
+    "category": "③薬剤知識",
+    "subCategory": "気管支拡張薬",
+    "question": "SABAの適切な使用タイミングはどれか。",
+    "options": [
+      "毎日決まった時間に",
+      "喘息発作時 (レスキュー)",
+      "寝る前",
+      "食後"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "速効性があるため、苦しい時に使用します。",
+    "evidence": "喘息薬物療法",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 17,
+    "category": "③薬剤知識",
+    "subCategory": "吸入指導",
+    "question": "吸入ステロイド使用後に必ず行うべきことはどれか。",
+    "options": [
+      "深呼吸",
+      "うがい",
+      "水分摂取",
+      "寝る"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "副作用（口腔内カンジダ等）を予防するためです。",
+    "evidence": "吸入療法マニュアル",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 18,
+    "category": "③薬剤知識",
+    "subCategory": "抗凝固薬",
+    "question": "ワルファリンの作用を弱めるビタミンKを多く含む食品はどれか。",
+    "options": [
+      "納豆",
+      "グレープフルーツ",
+      "牛乳",
+      "お米"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "納豆菌がビタミンKを生成し効果を打ち消します。",
+    "evidence": "薬剤指導ガイド",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 19,
+    "category": "③薬剤知識",
+    "subCategory": "抗菌薬",
+    "question": "バンコマイシンの急速投与で起こる副作用はどれか。",
+    "options": [
+      "下痢",
+      "レッドマン症候群",
+      "不眠",
+      "高血圧"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "顔面や上半身の紅潮などの反応が起こります。",
+    "evidence": "薬剤安全投与",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 20,
+    "category": "③薬剤知識",
+    "subCategory": "ステロイド薬",
+    "question": "ステロイドの内服を急に中止してはいけない主な理由はどれか。",
+    "options": [
+      "太るから",
+      "副腎不全のリスクがあるから",
+      "薬がもったいない",
+      "眠れない"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "ショックを含む離脱症状を招く恐れがあります。",
+    "evidence": "薬剤安全管理",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 21,
+    "category": "①呼吸器手技",
+    "subCategory": "酸素療法",
+    "question": "酸素ボンベの残量計算：300Lのボンベを2L/分で使うと何分もつか。",
+    "options": [
+      "60分",
+      "100分",
+      "150分",
+      "300分"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "300 ÷ 2 = 150分です。",
+    "evidence": "医療機器管理",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 22,
+    "category": "①呼吸器手技",
+    "subCategory": "酸素療法",
+    "question": "鼻カニューレ2L/分使用時のFiO2の目安はどれか。",
+    "options": [
+      "約24%",
+      "約28%",
+      "約32%",
+      "約40%"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "20 + 4 × 2 = 28%となります。",
+    "evidence": "酸素療法の基礎",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 23,
+    "category": "②疾患観察",
+    "subCategory": "COPD",
+    "question": "COPD患者に推奨される呼吸法はどれか。",
+    "options": [
+      "浅い呼吸",
+      "口すぼめ呼吸",
+      "胸式呼吸",
+      "止める"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "末梢気道の閉塞を防ぎ、呼気を出しやすくします。",
+    "evidence": "呼吸リハビリ",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 24,
+    "category": "②疾患観察",
+    "subCategory": "肺がん",
+    "question": "肺がんのパンコースト症候群で見られる症状はどれか。",
+    "options": [
+      "腹痛",
+      "上肢の痛みとホルネル症候群",
+      "下肢麻痺",
+      "多尿"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "肺尖部の腫瘍が神経を侵食することで起こります。",
+    "evidence": "がん看護",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 25,
+    "category": "③薬剤知識",
+    "subCategory": "鎮咳薬",
+    "question": "リン酸コデインの注意すべき副作用はどれか。",
+    "options": [
+      "下痢",
+      "便秘",
+      "頻尿",
+      "高血圧"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "腸管運動を抑制するため、排便状況の観察が必要です。",
+    "evidence": "薬剤管理",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 26,
+    "category": "①呼吸器手技",
+    "subCategory": "吸引",
+    "question": "吸引カテーテルの理想的な太さはどれか。",
+    "options": [
+      "太いほど良い",
+      "内径の半分以下",
+      "親指と同じ",
+      "極細"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "肺内の空気を吸い込み過ぎるのを防ぐためです。",
+    "evidence": "吸引の安全",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 27,
+    "category": "②疾患観察",
+    "subCategory": "肺炎",
+    "question": "誤嚥性肺炎の予防に適した食事の姿勢はどれか。",
+    "options": [
+      "平らな状態",
+      "30-60度の頭部挙上",
+      "伏臥位",
+      "右側臥位"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "重力を利用して逆流を防ぎます。",
+    "evidence": "摂食嚥下看護",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 28,
+    "category": "③薬剤知識",
+    "subCategory": "去痰薬",
+    "question": "ムコダイン（カルボシステイン）の役割はどれか。",
+    "options": [
+      "咳を止める",
+      "痰の粘性を下げ、出しやすくする",
+      "菌を殺す",
+      "熱を下げる"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "痰をサラサラにする薬です。",
+    "evidence": "薬剤情報",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 29,
+    "category": "①呼吸器手技",
+    "subCategory": "人工呼吸器",
+    "question": "NPPV導入初期に最も注意すべきことはどれか。",
+    "options": [
+      "食事内容",
+      "マスクのフィット感とリークの確認",
+      "テレビの音量",
+      "歩行練習"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "効果的な換気と皮膚保護の両立が不可欠です。",
+    "evidence": "NPPVの看護",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 30,
+    "category": "②疾患観察",
+    "subCategory": "気胸",
+    "question": "自然気胸が好発する体型はどれか。",
+    "options": [
+      "肥満",
+      "長身で痩せ型",
+      "小柄",
+      "筋肉質"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "若年男性の長身痩せ型に多い傾向があります。",
+    "evidence": "呼吸器疾患知識",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 31,
+    "category": "①呼吸器手技",
+    "subCategory": "救急対応",
+    "question": "「下顎呼吸」が見られる患者への対応として正しいのはどれか。",
+    "options": [
+      "様子を見る",
+      "直ちに蘇生処置や応援要請を行う",
+      "睡眠を促す",
+      "お茶を飲ませる"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "死戦期呼吸であり、緊急事態です。",
+    "evidence": "急変対応",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 32,
+    "category": "②疾患観察",
+    "subCategory": "モニタリング",
+    "question": "SpO2が突然低下した際、最初に確認すべきことはどれか。",
+    "options": [
+      "医師へ報告",
+      "センサーの装着状態と患者の意識・呼吸",
+      "酸素流量を上げる",
+      "部屋を暗くする"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "測定ミスか真の悪化かを瞬別します。",
+    "evidence": "フィジカルアセスメント",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 33,
+    "category": "③薬剤知識",
+    "subCategory": "ステロイド薬",
+    "question": "吸入ステロイド使用後に口腔内カンジダ症を予防する方法はどれか。",
+    "options": [
+      "うがい",
+      "喉を温める",
+      "水分を控える",
+      "何もしない"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "口腔内に残った薬剤を洗い流す必要があります。",
+    "evidence": "吸入指導",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 34,
+    "category": "①呼吸器手技",
+    "subCategory": "ドレーン管理",
+    "question": "胸腔ドレーンのクランプが必要なタイミングはどれか。",
+    "options": [
+      "トイレに行く時",
+      "バッグを交換する時（一時的）",
+      "毎日定期的に",
+      "必要ない"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "システムの開放を防ぐために一時的にクランプします。",
+    "evidence": "ドレーン管理",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 35,
+    "category": "②疾患観察",
+    "subCategory": "心不全",
+    "question": "夜間、横になると呼吸が苦しくなる「起座呼吸」の主な原因はどれか。",
+    "options": [
+      "お腹が空くから",
+      "肺うっ血が強まり、心臓の負担が増えるから",
+      "枕が低いから",
+      "テレビが見にくいから"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "静脈還流が増えることで心不全症状が悪化します。",
+    "evidence": "循環器のフィジカル",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 36,
+    "category": "③薬剤知識",
+    "subCategory": "抗菌薬",
+    "question": "抗菌薬の投与を完了させることが重要な理由はどれか。",
+    "options": [
+      "値段が高いから",
+      "耐性菌の発生を防ぐため",
+      "胃に良いから",
+      "早く退院するため"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "中途半端な中止は菌を強くしてしまいます。",
+    "evidence": "感染症治療ガイド",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 37,
+    "category": "①呼吸器手技",
+    "subCategory": "吸引",
+    "question": "気管内吸引の深さを決める基準はどれか。",
+    "options": [
+      "根元まで",
+      "気管チューブ長＋1〜2cm程度",
+      "適当に",
+      "一番奥まで"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "粘膜損傷を最小限にするための長さです。",
+    "evidence": "吸引手順",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 38,
+    "category": "②疾患観察",
+    "subCategory": "肺がん",
+    "question": "肺がんのPET-CT検査前に制限されるのはどれか。",
+    "options": [
+      "運動",
+      "糖分の摂取",
+      "睡眠",
+      "会話"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "ブドウ糖の取り込みを確認するため絶食等が必要です。",
+    "evidence": "検査前看護",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 39,
+    "category": "③薬剤知識",
+    "subCategory": "テオフィリン製剤",
+    "question": "テオフィリン製剤の中毒症状として代表的なのはどれか。",
+    "options": [
+      "眠気",
+      "吐き気・不整脈",
+      "便秘",
+      "皮膚の乾燥"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "血中濃度管理が重要な薬剤です。",
+    "evidence": "薬剤安全",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 40,
+    "category": "①呼吸器手技",
+    "subCategory": "呼吸理学療法",
+    "question": "ハフィングとはどのような手技か。",
+    "options": [
+      "大きく息を吸い込む",
+      "「ハッ、ハッ」と短く強く息を吐く",
+      "止める",
+      "歌う"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "咳より負担を少なく痰を移動させます。",
+    "evidence": "排痰援助",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 41,
+    "category": "②疾患観察",
+    "subCategory": "肺炎",
+    "question": "肺炎の予防として有効なワクチンはどれか。",
+    "options": [
+      "インフルエンザワクチンと肺炎球菌ワクチン",
+      "破傷風ワクチン",
+      "狂犬病ワクチン",
+      "なし"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "特に高齢者で推奨される予防策です。",
+    "evidence": "感染予防活動",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 42,
+    "category": "③薬剤知識",
+    "subCategory": "吸入薬",
+    "question": "スペーサー（吸入補助具）を洗う際の正しい方法はどれか。",
+    "options": [
+      "毎日塩素で消毒する",
+      "洗剤で洗い、自然乾燥させる（静電気防止）",
+      "タオルで拭く",
+      "洗わない"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "静電気で薬が壁につくのを防ぎます。",
+    "evidence": "吸入器管理",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 43,
+    "category": "①呼吸器手技",
+    "subCategory": "酸素療法",
+    "question": "酸素ボンベを搬送する際、最も安全な置き方はどれか。",
+    "options": [
+      "立てたまま持つ",
+      "専用のカート（ボンベ運搬車）に固定する",
+      "横にして転がす",
+      "カバンに入れる"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "転倒やバルブ損傷を防ぐため固定が必須です。",
+    "evidence": "リスクマネジメント",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 44,
+    "category": "②疾患観察",
+    "subCategory": "肺血栓塞栓症",
+    "question": "肺血栓塞栓症を予防するために、ベッド上でできることはどれか。",
+    "options": [
+      "じっと動かない",
+      "足首をこまめに曲げ伸ばしする",
+      "水分を控える",
+      "深く眠る"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "血流の停滞を防ぐポンプ機能を働かせます。",
+    "evidence": "血栓症予防",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 45,
+    "category": "③薬剤知識",
+    "subCategory": "鎮静薬",
+    "question": "救急現場でベンゾジアゼピン系薬剤の拮抗薬として使われるのはどれか。",
+    "options": [
+      "ナロキソン",
+      "フルマゼニル",
+      "アドレナリン",
+      "アトロピン"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "鎮静・呼吸抑制を即座に改善させたい時に用います。",
+    "evidence": "救命薬剤",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 46,
+    "category": "①呼吸器手技",
+    "subCategory": "人工呼吸器",
+    "question": "気道圧低下アラームが鳴った際、考えられる原因はどれか。",
+    "options": [
+      "痰詰まり",
+      "回路の外れ（リーク）",
+      "患者の咳嗽",
+      "設定変更"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "回路が外れて空気が漏れている時に圧が下がります。",
+    "evidence": "トラブル対応",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 47,
+    "category": "②疾患観察",
+    "subCategory": "がん看護",
+    "question": "肺がんの骨転移がある患者への援助で最も気を付けるのはどれか。",
+    "options": [
+      "部屋の明るさ",
+      "病的骨折（わずかな力で折れる）",
+      "食事の味",
+      "会話"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "愛護的な取り扱いが非常に重要です。",
+    "evidence": "骨転移の看護",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 48,
+    "category": "③薬剤知識",
+    "subCategory": "吸入指導",
+    "question": "シムビコートを吸入する際、正しい吸い方はどれか。",
+    "options": [
+      "ゆっくり吸う",
+      "「強く・速く」吸う",
+      "吸わない",
+      "鼻から"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "ドライパウダー式（DPI）は吸気流速が必要です。",
+    "evidence": "吸入技術",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 49,
+    "category": "①呼吸器手技",
+    "subCategory": "血液ガス採血",
+    "question": "動脈採血後の止血時間の目安として適切なのはどれか。",
+    "options": [
+      "1分",
+      "5分以上確実に行う",
+      "10秒",
+      "不要"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "動脈は圧が高く止まりにくいためです。",
+    "evidence": "医療安全手技",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 50,
+    "category": "②疾患観察",
+    "subCategory": "フィジカルアセスメント",
+    "question": "健康成人の基準呼吸回数は1分間に約何回か。",
+    "options": [
+      "5回",
+      "12-20回",
+      "40回",
+      "80回"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "これより少なすぎたり多すぎたりすると異常を疑います。",
+    "evidence": "バイタルサイン",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 51,
+    "category": "①呼吸器手技",
+    "subCategory": "酸素療法",
+    "question": "リザーバー付酸素マスクは何L/分以上で使用するのが標準か。",
+    "options": [
+      "1L",
+      "3L",
+      "6L",
+      "20L"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "呼気の再呼吸を防ぐために十分な流量が必要です。",
+    "evidence": "機器安全",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 52,
+    "category": "②疾患観察",
+    "subCategory": "COPD",
+    "question": "COPD患者が酸素流量を自己判断で増やすと起こる危険な状態はどれか。",
+    "options": [
+      "元気になりすぎる",
+      "CO2ナルコーシス",
+      "低血圧",
+      "不眠"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "呼吸が止まるリスクがあるため、自己調整は厳禁です。",
+    "evidence": "慢性疾患看護",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 53,
+    "category": "③薬剤知識",
+    "subCategory": "ステロイド薬",
+    "question": "ステロイド長期内服患者が手術を受ける際、追加でステロイドを投与する処置を何と呼ぶか。",
+    "options": [
+      "ステロイド・カバー",
+      "ステロイド・オフ",
+      "ステロイド・パス",
+      "なし"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "手術のストレスで相対的にステロイド不足になるのを防ぎます。",
+    "evidence": "周術期管理",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 54,
+    "category": "①呼吸器手技",
+    "subCategory": "吸引",
+    "question": "口腔内吸引時、カテーテルをどこまで入れるべきか。",
+    "options": [
+      "見える範囲の口腔内",
+      "気管の奥まで",
+      "食道まで",
+      "鼻まで"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "目的（口の中の掃除）に合わせた深さに留めます。",
+    "evidence": "口腔ケアと吸引",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 55,
+    "category": "②疾患観察",
+    "subCategory": "喘息",
+    "question": "喘息発作時に「呼吸音が小さくなる（聞こえなくなる）」場合に疑う極めて危険な状態はどれか。",
+    "options": [
+      "治った",
+      "サイレントチェスト",
+      "熟睡",
+      "通常"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "重度の気道狭窄により空気が全く通っていない緊急事態です。",
+    "evidence": "急変の兆候",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 56,
+    "category": "③薬剤知識",
+    "subCategory": "抗菌薬",
+    "question": "抗菌薬投与前に必ず確認すべき既往歴はどれか。",
+    "options": [
+      "花粉症",
+      "薬物アレルギー歴",
+      "虫歯",
+      "骨折"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "ショック死を防ぐために最も重要です。",
+    "evidence": "医療安全",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 57,
+    "category": "①呼吸器手技",
+    "subCategory": "体位変換",
+    "question": "肺炎患者の体位ドレナージの際、肺炎のある側をどうするか。",
+    "options": [
+      "下にする",
+      "上にする",
+      "どちらでも良い",
+      "動かさない"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "重力で痰を中枢（上側から下へ）へ移動させます。",
+    "evidence": "理学療法の基本",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 58,
+    "category": "②疾患観察",
+    "subCategory": "心不全",
+    "question": "左心不全で見られる代表的な聴診音はどれか。",
+    "options": [
+      "ヒューヒュー",
+      "湿性ラ音 (プツプツ・ブツブツ)",
+      "捻髪音",
+      "笛音"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "肺に水が溜まっている（肺水腫）サインです。",
+    "evidence": "心不全アセスメント",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 59,
+    "category": "③薬剤知識",
+    "subCategory": "吸入指標",
+    "question": "吸入ステロイド薬の役割はどれか。",
+    "options": [
+      "今すぐ気道を広げる",
+      "気道の炎症を抑えて発作を予防する",
+      "咳を止める",
+      "菌を殺す"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "症状がない時も続けることが重要です。",
+    "evidence": "予防管理",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 60,
+    "category": "①呼吸器手技",
+    "subCategory": "酸素療法",
+    "question": "酸素加湿器の水（精製水）はどのくらいで交換すべきか。",
+    "options": [
+      "減るまで足す",
+      "毎日交換、または都度使い切り",
+      "1ヶ月に1回",
+      "交換不要"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "細菌繁殖を防ぐためです。",
+    "evidence": "清潔管理",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 61,
+    "category": "②疾患観察",
+    "subCategory": "肺がん",
+    "question": "がん末期の呼吸困難に対し、麻薬（モルヒネ等）を使う主な目的はどれか。",
+    "options": [
+      "眠らせるため",
+      "息苦しさを和らげるため",
+      "寿命を延ばすため",
+      "便秘にするため"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "緩和ケアにおいて重要な処置の一つです。",
+    "evidence": "緩和医療ガイド",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 62,
+    "category": "③薬剤知識",
+    "subCategory": "去痰薬",
+    "question": "去痰薬の効果を高めるために患者に勧めることはどれか。",
+    "options": [
+      "適度な水分摂取",
+      "絶食",
+      "激しい運動",
+      "お酒"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "痰の粘度を下げるのを助けます。",
+    "evidence": "薬剤看護",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 63,
+    "category": "①呼吸器手技",
+    "subCategory": "救急",
+    "question": "窒息が疑われる患者が意識がある場合の初期対応はどれか。",
+    "options": [
+      "背部叩打法やハイムリック法",
+      "心マッサージのみ",
+      "放置",
+      "様子を見る"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "異物除去を試みます。",
+    "evidence": "救急ガイド",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 64,
+    "category": "②疾患観察",
+    "subCategory": "感染症",
+    "question": "結核患者のケアで必須のマスクはどれか。",
+    "options": [
+      "普通のマスク",
+      "N95マスク",
+      "透明マスク",
+      "なし"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "空気感染対策として必要です。",
+    "evidence": "結核管理基準",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 65,
+    "category": "③薬剤知識",
+    "subCategory": "抗凝固薬",
+    "question": "ワルファリンを飲んでいる人が抜歯などをする際の注意点はどれか。",
+    "options": [
+      "何もしない",
+      "医師に相談し、休薬や継続の指示を仰ぐ",
+      "お茶を飲む",
+      "運動する"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "血が止まらなくなるリスクへの対策です。",
+    "evidence": "薬剤と処置",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 66,
+    "category": "①呼吸器手技",
+    "subCategory": "人工呼吸器",
+    "question": "自発呼吸がない患者に使用する換気モードはどれか。",
+    "options": [
+      "強制換気 (A/C)",
+      "PSVのみ",
+      "なし",
+      "補助換気"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "機械が一定回数、強制的に呼吸させます。",
+    "evidence": "呼吸器モード",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 67,
+    "category": "②疾患観察",
+    "subCategory": "ドレーン",
+    "question": "胸腔ドレーンの水封室に「呼吸性変動」が見られない場合に疑うことはどれか。",
+    "options": [
+      "正常",
+      "ドレーンの閉塞や折れ曲がり",
+      "肺が治った",
+      "テレビの故障"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "ドレーンが機能していない可能性があります。",
+    "evidence": "ドレーン観察",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 68,
+    "category": "③薬剤知識",
+    "subCategory": "鎮静薬",
+    "question": "鎮静状態の評価スケール（RASS等）で「0」は何を表すか。",
+    "options": [
+      "昏睡",
+      "落ち着いていて協力的",
+      "激昂",
+      "深い眠り"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "目指すべき適切な鎮静レベルの一つです。",
+    "evidence": "鎮静管理",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 69,
+    "category": "①呼吸器手技",
+    "subCategory": "吸引",
+    "question": "口から吸引する際、嘔吐反射を防ぐコツはどれか。",
+    "options": [
+      "一気に入れる",
+      "舌の奥を強く押さない",
+      "ずっと喋らせる",
+      "目をつぶらせる"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "苦痛を軽減するための配慮です。",
+    "evidence": "看護技術",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 70,
+    "category": "②疾患観察",
+    "subCategory": "その他",
+    "question": "「チアノーゼ」が出現しやすい体の部位はどれか。",
+    "options": [
+      "背中",
+      "口唇や指先",
+      "お腹",
+      "膝"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "末梢の血流や酸素状態が出やすい箇所です。",
+    "evidence": "アセスメント",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 71,
+    "category": "③薬剤知識",
+    "subCategory": "吸入",
+    "question": "配合吸入薬の吸入が終わった後、吸ったかどうか確認する方法（一部の容器）はどれか。",
+    "options": [
+      "味覚",
+      "カウンター（残量計）を見る",
+      "振る",
+      "匂い"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "確実に吸えているか、残量はいくらかを確認します。",
+    "evidence": "服薬指導",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 72,
+    "category": "①呼吸器手技",
+    "subCategory": "モニタリング",
+    "question": "パルスオキシメータの数値に影響を与える因子はどれか。",
+    "options": [
+      "マニキュアや冷え、照明の光",
+      "部屋の色",
+      "患者の身長",
+      "テレビの音"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "これらがあると正確に測定できない場合があります。",
+    "evidence": "機器アセスメント",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 73,
+    "category": "②疾患観察",
+    "subCategory": "気胸",
+    "question": "気胸で肺が縮んでいる側の呼吸音はどう聞こえるか。",
+    "options": [
+      "大きくなる",
+      "減弱または消失する",
+      "笛のような音がする",
+      "変わらない"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "空気が動いていないため、音は小さくなります。",
+    "evidence": "聴診の基本",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 74,
+    "category": "③薬剤知識",
+    "subCategory": "去痰薬",
+    "question": "痰の粘り気が強く出しにくい際、併用すると良い処置はどれか。",
+    "options": [
+      "絶食",
+      "加湿や吸入",
+      "激しい運動",
+      "放置"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "物理的に痰を柔らかくして出しやすくします。",
+    "evidence": "痰のケア",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 75,
+    "category": "①呼吸器手技",
+    "subCategory": "酸素療法",
+    "question": "酸素療法中の患者の火災事故を防ぐために最も重要な掲示はどれか。",
+    "options": [
+      "「禁煙」「火気厳禁」",
+      "「静かに」",
+      "「関係者以外立ち入り禁止」",
+      "なし"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "爆発や火傷の重大事故を防ぐための大原則です。",
+    "evidence": "医療安全基準",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 76,
+    "category": "②疾患観察",
+    "subCategory": "肺がん",
+    "question": "肺がん患者の「悪液質」とはどのような状態か。",
+    "options": [
+      "筋肉や脂肪が極度に減り、衰弱した状態",
+      "食欲旺盛な状態",
+      "太っている状態",
+      "元気な状態"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "がんによる代謝異常などが原因で起こります。",
+    "evidence": "終末期看護",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 77,
+    "category": "③薬剤知識",
+    "subCategory": "抗菌薬",
+    "question": "抗菌薬投与開始後に「蕁麻疹」が出た際の対応はどれか。",
+    "options": [
+      "様子を見て最後まで投与する",
+      "直ちに中止し、医師へ報告する",
+      "冷やす",
+      "そのまま寝かせる"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "アレルギー反応（ショックの前兆）の可能性があるためです。",
+    "evidence": "薬剤インシデント対策",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 78,
+    "category": "①呼吸器手技",
+    "subCategory": "吸引",
+    "question": "吸引カテーテルの挿入時と抜去時、どちらで吸引をかけるべきか。",
+    "options": [
+      "挿入時",
+      "抜去時（回転させながら）",
+      "ずっとかける",
+      "かけない"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "粘膜を傷つけず効率的に吸い出すための技術です。",
+    "evidence": "吸引のコツ",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 79,
+    "category": "②疾患観察",
+    "subCategory": "呼吸機能検査",
+    "question": "スパイロメトリー検査で判定できないのはどれか。",
+    "options": [
+      "肺活量",
+      "血圧",
+      "1秒率",
+      "肺機能のタイプ"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "肺の空気の流れを見る検査です。",
+    "evidence": "臨床検査知識",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 80,
+    "category": "③薬剤知識",
+    "subCategory": "吸入",
+    "question": "pMDI（エアゾール）吸入器を使用する直前にすべきことは何か。",
+    "options": [
+      "温める",
+      "よく振る",
+      "洗う",
+      "目をつぶる"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "薬剤を均一に混ぜるために必要です。",
+    "evidence": "服薬指導マニュアル",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 81,
+    "category": "①呼吸器手技",
+    "subCategory": "人工呼吸器",
+    "question": "人工呼吸器の加湿器の温度設定、一般的に何度くらいが好ましいか。",
+    "options": [
+      "20度",
+      "37度前後 (体温に近い温度)",
+      "50度",
+      "10度"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "気道の乾燥を防ぎ、不快感を最小限にします。",
+    "evidence": "呼吸器管理技術",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 82,
+    "category": "②疾患観察",
+    "subCategory": "肺炎",
+    "question": "肺炎患者の「叩打法（スクイージング）」を行うタイミングはいつか。",
+    "options": [
+      "吸気時",
+      "呼気時（吐いている時）に合わせて",
+      "寝ている時",
+      "いつでも良い"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "呼気に合わせて圧迫することで排痰を促します。",
+    "evidence": "排痰ハンドブック",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 83,
+    "category": "③薬剤知識",
+    "subCategory": "テオフィリン",
+    "question": "テオフィリン製剤の血中濃度を上昇させる（効き過ぎさせる）原因となる習慣はどれか。",
+    "options": [
+      "禁煙",
+      "喫煙",
+      "散歩",
+      "読書"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "禁煙すると代謝が落ち、血中濃度が上がる場合があります。",
+    "evidence": "薬剤と生活習慣",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 84,
+    "category": "①呼吸器手技",
+    "subCategory": "酸素療法",
+    "question": "酸素濃縮器を通気性の悪い場所に置いてはいけない理由はどれか。",
+    "options": [
+      "うるさいから",
+      "熱がこもり故障や火災の原因になるから",
+      "重くなるから",
+      "色が剥げるから"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "放熱が必要な機械であるため、周囲に空間が必要です。",
+    "evidence": "在宅酸素療法指導",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 85,
+    "category": "②疾患観察",
+    "subCategory": "気胸",
+    "question": "気胸患者が急に「激しい胸痛と息苦しさ」を訴え、片側の胸が動かなくなった際の対応はどれか。",
+    "options": [
+      "お風呂に入れる",
+      "直ちに医師等に報告（緊急事態）",
+      "お茶を飲ませる",
+      "マッサージする"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "緊張性気胸への進展などを疑い、救命処置が必要です。",
+    "evidence": "クリティカル看護",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 86,
+    "category": "③薬剤知識",
+    "subCategory": "抗凝固薬",
+    "question": "ワルファリンの効き目を弱めるクロレラ（健康食品）を控えるべき理由は何か。",
+    "options": [
+      "高いから",
+      "ビタミンKが豊富に含まれているから",
+      "味が濃いから",
+      "太るから"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "納豆と同様の理由でワルファリンと相性が悪いです。",
+    "evidence": "薬剤安全指導",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 87,
+    "category": "①呼吸器手技",
+    "subCategory": "吸引",
+    "question": "吸引後に心拍数が急激に下がった場合に疑うことはどれか。",
+    "options": [
+      "眠った",
+      "迷走神経反射",
+      "元気になった",
+      "通常"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "吸引の刺激が神経を介して心拍を下げてしまうことがあります。",
+    "evidence": "吸引の副作用",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 88,
+    "category": "②疾患観察",
+    "subCategory": "肺血栓塞栓症",
+    "question": "肺血栓塞栓症のリスクが高い手術はどれか。",
+    "options": [
+      "整形外科領域（股関節手術など）",
+      "耳鼻科の手術",
+      "眼科の手術",
+      "なし"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "長時間動けない大手術はリスクが上がります。",
+    "evidence": "周術期合併症予防",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 89,
+    "category": "③薬剤知識",
+    "subCategory": "抗菌薬",
+    "question": "高齢者に抗菌薬を投与する際、特に注意して確認する血液データはどれか。",
+    "options": [
+      "身長",
+      "腎機能（クレアチニン値など）",
+      "血糖値",
+      "コレステロール"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "排泄機能が落ちている場合、薬が体に溜まりすぎるのを防ぐためです。",
+    "evidence": "薬剤評価",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 90,
+    "category": "①呼吸器手技",
+    "subCategory": "胸水穿刺",
+    "question": "胸水穿刺（胸腔穿刺）の際、患者にとってもらう一般的な体位はどれか。",
+    "options": [
+      "仰向け",
+      "座位（前かがみ）",
+      "逆立ち",
+      "歩行"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "背中側から針を刺しやすくし、肺を傷つけにくい姿勢です。",
+    "evidence": "検査介助看護",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 91,
+    "category": "②疾患観察",
+    "subCategory": "肺がん",
+    "question": "肺がん患者の喀血（血液を吐き出す）があった際の初期対応として安楽な体位はどれか。",
+    "options": [
+      "仰向けで頭を低くする",
+      "健側を下にして寝かせる（血液の流入を防ぐ）",
+      "走らせる",
+      "座らせる"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "健側の肺に血液が入り込み、呼吸ができなくなるのを防ぎます。",
+    "evidence": "救急看護技術",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 92,
+    "category": "③薬剤知識",
+    "subCategory": "鎮静薬",
+    "question": "ICU等で使われる「プロポフォール」の液体の色はどれか。",
+    "options": [
+      "透明",
+      "白濁（ミルク色）",
+      "赤",
+      "青"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "脂肪乳剤に溶かされているため、特徴的な白色をしています。",
+    "evidence": "集中治療薬剤",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 93,
+    "category": "①呼吸器手技",
+    "subCategory": "口腔ケア",
+    "question": "人工呼吸器患者のVAP（呼吸器関連肺炎）予防で最も重要な口腔ケアの目的はどれか。",
+    "options": [
+      "歯を白くする",
+      "細菌の繁殖を抑え、気道への流入を防ぐ",
+      "口臭予防",
+      "味覚改善"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "肺炎リスクを劇的に下げるための必須ケアです。",
+    "evidence": "VAP予防ガイドライン",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 94,
+    "category": "②疾患観察",
+    "subCategory": "COPD",
+    "question": "COPD患者が「風邪を引いた」際のアドバイスで適切なのはどれか。",
+    "options": [
+      "放置して良い",
+      "早めに受診し、増悪（急激な悪化）を防ぐ",
+      "激しく運動する",
+      "水分を絶つ"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "風邪一つで命に関わる重篤な呼吸不全になることがあるためです。",
+    "evidence": "在宅療養指導",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 95,
+    "category": "③薬剤知識",
+    "subCategory": "吸入",
+    "question": "吸入薬の保管場所として一般的に避けるべきなのはどれか。",
+    "options": [
+      "直射日光や湿気の多い場所",
+      "薬箱の中",
+      "涼しい場所",
+      "目に見える場所"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "薬剤の変質や詰まりを防ぐためです。",
+    "evidence": "薬剤管理技術",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 96,
+    "category": "①呼吸器手技",
+    "subCategory": "体位変換",
+    "question": "人工呼吸器患者の「腹臥位療法」の主な目的はどれか。",
+    "options": [
+      "背中側の肺を広げ、酸素化を改善する",
+      "寝やすくするため",
+      "食事のため",
+      "運動"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "重症呼吸不全（ARDS等）で行われる高度な看護技術です。",
+    "evidence": "ARDS診療ガイドライン",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 97,
+    "category": "②疾患観察",
+    "subCategory": "間質性肺炎",
+    "question": "間質性肺炎の進行により「労作時呼吸困難」がある患者への指導はどれか。",
+    "options": [
+      "常に全力で動く",
+      "動作に合わせてゆっくり呼吸し、活動を調整する",
+      "動かない",
+      "呼吸を止める"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "SpO2が下がりすぎない範囲で活動を維持します。",
+    "evidence": "リハビリテーション看護",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 98,
+    "category": "③薬剤知識",
+    "subCategory": "去痰薬",
+    "question": "去痰薬を飲んでも効果が薄い場合、看護師が確認すべきことはどれか。",
+    "options": [
+      "薬の値段",
+      "一日の水分摂取量や空気の乾燥状態",
+      "患者の学歴",
+      "テレビの番組"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "環境や生理的要因が排痰を邪魔している場合が多いです。",
+    "evidence": "排痰ケアのアセスメント",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 99,
+    "category": "①呼吸器手技",
+    "subCategory": "モニタリング",
+    "question": "呼気終末二酸化炭素分圧（EtCO2）をモニタリングする主な目的はどれか。",
+    "options": [
+      "血圧を見る",
+      "換気状態が適切かどうかをリアルタイムで確認する",
+      "体温を見る",
+      "脈拍を見る"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "人工呼吸器管理等で換気ができているかを見る重要な指標です。",
+    "evidence": "呼吸モニタリング技術",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 100,
+    "category": "③薬剤知識",
+    "subCategory": "薬物アレルギー",
+    "question": "医師から「ステロイド（ソルメドロール等）」の指示があった際、アスピリン喘息の既往がある患者に確認することは何か。",
+    "options": [
+      "投与しても安全な製剤かどうか再確認する",
+      "何も言わず投与する",
+      "患者を叱る",
+      "無視する"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "一部の注射用ステロイドは禁忌になる場合があるため、重大インシデント回避が必要です。",
+    "evidence": "アスピリン喘息の管理",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 151,
+    "category": "①呼吸器手技",
+    "subCategory": "感染対策",
+    "question": "結核の疑いがある患者の気管吸引を行う際、看護師が装着すべきマスクの規格はどれか。",
+    "options": [
+      "サージカルマスク",
+      "N95マスク",
+      "布マスク",
+      "防塵マスク"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "結核は空気感染するため、0.3μmの微粒子を95％以上捕集できるN95マスクの装着が必要です。",
+    "evidence": "感染症法に基づく結核予防ガイドライン",
+    "reference": "SafetyPlus 感染対策"
+  },
+  {
+    "id": 152,
+    "category": "①呼吸器手技",
+    "subCategory": "吸引",
+    "question": "気管吸引時に吸引圧をかけるタイミングとして最も適切なのはどれか。",
+    "options": [
+      "挿入中からずっと",
+      "カテーテルを引き抜きながら",
+      "カテーテルを一番奥に押し込んだ瞬間のみ",
+      "挿入前に確認する時だけ"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "挿入時に吸引圧をかけると粘膜を傷つけるため、目的の深さまで挿入した後に引き抜きながら吸引を行います。",
+    "evidence": "Nursing Skills 吸引の基本",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 153,
+    "category": "①呼吸器手技",
+    "subCategory": "酸素療法",
+    "question": "非再呼吸式リザーバーマスク（10L/分以上）で使用した場合のFiO2の目安はどれか。",
+    "options": [
+      "約40%",
+      "約60%",
+      "約80-90%以上",
+      "30%固定"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "弁が付いているため呼気の再呼吸がほとんどなく、高濃度の酸素投与が可能です。",
+    "evidence": "酸素療法ガイドブック",
+    "reference": "SafetyPlus 機器管理"
+  },
+  {
+    "id": 154,
+    "category": "①呼吸器手技",
+    "subCategory": "人工呼吸器",
+    "question": "人工呼吸器の加湿器に使用する水として最も適切なのはどれか。",
+    "options": [
+      "水道水",
+      "滅菌精製水",
+      "生理食塩液",
+      "ミネラルウォーター"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "回路内の感染予防および吸入ガスの性状維持のため、滅菌精製水を使用します。",
+    "evidence": "呼吸療法認定士テキスト",
+    "reference": "SafetyPlus 機器管理"
+  },
+  {
+    "id": 155,
+    "category": "①呼吸器手技",
+    "subCategory": "呼吸機能検査",
+    "question": "スパイロメトリー検査において、1秒率（FEV1%）が何％以下の場合に閉塞性換気障害と診断されるか。",
+    "options": [
+      "80%以下",
+      "70%以下",
+      "50%以下",
+      "90%以下"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "1秒率70％未満が閉塞性換気障害（COPDや喘息など）の診断基準です。",
+    "evidence": "呼吸機能検査ガイドライン",
+    "reference": "看護roo! 検査"
+  },
+  {
+    "id": 156,
+    "category": "①呼吸器手技",
+    "subCategory": "体位変換",
+    "question": "肺尖部に痰が貯留している場合、体位ドレナージとして適切な姿勢はどれか。",
+    "options": [
+      "仰臥位",
+      "起坐位または半坐位（ヘッドアップ）",
+      "側臥位",
+      "頭低位"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "重力を利用して肺上部から中枢気道へ痰を移動させるため、上体を起こした姿勢をとります。",
+    "evidence": "呼吸理学療法技術",
+    "reference": "Nursing Skills 呼吸ケア"
+  },
+  {
+    "id": 157,
+    "category": "①呼吸器手技",
+    "subCategory": "酸素療法",
+    "question": "酸素濃縮器のゼオライトが窒素を吸着する仕組みを利用して生成される酸素の濃度は約何％か。",
+    "options": [
+      "100%",
+      "90-95%程度",
+      "50%",
+      "21%"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "空気中の窒素を除去することで、高濃度の酸素を取り出しますが、100％には到達しません。",
+    "evidence": "在宅酸素療法（HOT）マニュアル",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 158,
+    "category": "①呼吸器手技",
+    "subCategory": "モニタリング",
+    "question": "カプノグラフィ（EtCO2）の正常値の範囲（mmHg）として最も近いのはどれか。",
+    "options": [
+      "20-30",
+      "35-45",
+      "50-60",
+      "70-80"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "動脈血二酸化炭素分圧（PaCO2）と相関し、通常35-45mmHg程度です。",
+    "evidence": "バイタルサインモニタリング",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 159,
+    "category": "①呼吸器手技",
+    "subCategory": "血液ガス採血",
+    "question": "血液ガス採血後の検体を直ちに分析できない場合、どうすべきか。",
+    "options": [
+      "常温で放置する",
+      "氷水で冷却保存する（シリンジによる）",
+      "加温する",
+      "振盪し続ける"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "細胞の代謝による gas 分圧の変化を抑えるため、氷冷保存が推奨される場合があります。",
+    "evidence": "臨床検査標準手順書",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 160,
+    "category": "①呼吸器手技",
+    "subCategory": "吸引",
+    "question": "気管内吸引の際、カテーテルの外径が気管チューブの内径の何倍を超えないようにすべきか。",
+    "options": [
+      "1/4以内",
+      "1/2以内",
+      "3/4以内",
+      "同じ太さ"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "カテーテルが太すぎると、吸引時に肺内の空気を吸い込み過ぎてしまい、無気肺の原因となります。",
+    "evidence": "吸引の安全基準",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 161,
+    "category": "①呼吸器手技",
+    "subCategory": "酸素療法",
+    "question": "酸素療法中の患者が、酸素を吸っている状態で喫煙しようとした場合のリスクはどれか。",
+    "options": [
+      "酸素中毒",
+      "火災および顔面の重度火傷",
+      "肺がんの悪化",
+      "特になし"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "酸素は助燃性ガスのため、火気に近づけると爆発的に燃焼します。",
+    "evidence": "医療安全情報",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 162,
+    "category": "①呼吸器手技",
+    "subCategory": "人工呼吸器",
+    "question": "人工呼吸器装着患者で「ファイティング」が起きている際のアセスメントとして正しいのはどれか。",
+    "options": [
+      "設定が完璧である証拠",
+      "患者の自発呼吸と機械の換気タイミングが合っていない",
+      "痰が全くない状態",
+      "睡眠不足"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "同調性が悪く、患者に苦痛や酸素消費量増大を招くため、鎮静や設定調整が必要です。",
+    "evidence": "呼吸器管理のポイント",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 163,
+    "category": "①呼吸器手技",
+    "subCategory": "呼吸理学療法",
+    "question": "スクイージングを実施するタイミングとして適切なのはどれか。",
+    "options": [
+      "吸気時（吸う時）",
+      "呼気時（吐く時）",
+      "無呼吸時",
+      "咳をしている最中"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "呼気に合わせて胸郭を圧迫し、気流を速めて排痰を促す手技です。",
+    "evidence": "排痰援助技術マニュアル",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 164,
+    "category": "①呼吸器手技",
+    "subCategory": "ドレーン管理",
+    "question": "胸腔ドレーンバッグの「水封室」の水の役割はどれか。",
+    "options": [
+      "加湿するため",
+      "胸腔内への空気の逆流を防ぐワンウェイバルブの役割",
+      "排液を薄めるため",
+      "重り"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "水が壁となり、外気が胸の中に入るのを防ぎつつ、胸の中の空気は外に出せる仕組みです。",
+    "evidence": "ドレーン管理技術",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 165,
+    "category": "①呼吸器手技",
+    "subCategory": "吸引",
+    "question": "閉鎖式吸引システム（回路を切り離さない吸引）の最大のメリットはどれか。",
+    "options": [
+      "安価である",
+      "PEEP（呼気終末陽圧）を維持したまま、感染リスクを低減して吸引できる",
+      "時間がかかる",
+      "吸引力が強い"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "回路を開放しないため、肺の虚脱を防ぎ、医療従事者への感染曝露も防げます。",
+    "evidence": "VAP予防ガイドライン",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 166,
+    "category": "①呼吸器手技",
+    "subCategory": "救急対応",
+    "question": "バッグバルブマスク（アンビューバッグ）で換気を行う際、1回換気量の目安として適切なのはどれか。",
+    "options": [
+      "バッグを両手で全力で潰す（1000ml以上）",
+      "胸が軽く上がる程度（約500ml前後）",
+      "100ml程度",
+      "膨らませない"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "過換気や胃への空気流入を防ぐため、視診で胸の上がりを確認しながら適切な量（6-7ml/kg）を送り込みます。",
+    "evidence": "JRC蘇生ガイドライン",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 167,
+    "category": "①呼吸器手技",
+    "subCategory": "酸素療法",
+    "question": "簡易酸素マスクで酸素流量を5L/分未満で使用してはいけない主な理由はどれか。",
+    "options": [
+      "酸素が冷たすぎるから",
+      "呼気の再呼吸によるCO2貯留のリスクがあるから",
+      "音がうるさいから",
+      "マスクが壊れるから"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "低流量すぎるとマスク内に呼気が溜まり、二酸化炭素を再吸収してしまうため、通常5L/分以上で使用します。",
+    "evidence": "酸素療法の安全管理",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 168,
+    "category": "②疾患観察",
+    "subCategory": "気胸",
+    "question": "緊張性気胸において、頸静脈が怒張（膨らむ）する原因はどれか。",
+    "options": [
+      "水分を摂りすぎたから",
+      "胸腔内圧上昇により心臓への静脈還流が阻害されるため",
+      "元気だから",
+      "横になったから"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "急激な圧迫で血液が心臓に戻れなくなり、首の静脈がうっ滞します。",
+    "evidence": "救命救急看護",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 169,
+    "category": "②疾患観察",
+    "subCategory": "心不全",
+    "question": "右心不全で見られる典型的な症状はどれか。",
+    "options": [
+      "肺水腫",
+      "下腿浮腫や肝腫大・頸静脈怒張",
+      "血痰",
+      "ピンク色の痰"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "全身の静脈系がうっ滞するため、足のむくみや腹水、肝臓の腫れが出現します。",
+    "evidence": "循環器アセスメント",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 170,
+    "category": "②疾患観察",
+    "subCategory": "COPD",
+    "question": "COPDの急性増悪のサインとして、最も注意すべき変化はどれか。",
+    "options": [
+      "お腹が空く",
+      "呼吸困難の増悪、痰の量の増加や膿性化",
+      "爪が伸びる",
+      "喉が渇く"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "感染をきっかけに急激に悪化しやすく、治療の強化が必要です。",
+    "evidence": "COPD診療ガイド",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 171,
+    "category": "②疾患観察",
+    "subCategory": "肺炎",
+    "question": "吸入性肺炎（誤嚥性肺炎）の好発部位として、解剖学的に多いのはどれか。",
+    "options": [
+      "左上葉",
+      "右下葉",
+      "左下葉",
+      "全肺野"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "右の主気管支は左よりも太く短く、傾斜が急なため、異物が入り込みやすい構造になっています。",
+    "evidence": "解剖生理学",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 172,
+    "category": "②疾患観察",
+    "subCategory": "肺がん",
+    "question": "肺がん患者の「ホルネル症候群」に見られる症状の組み合わせはどれか。",
+    "options": [
+      "発熱・発疹",
+      "眼瞼下垂・縮瞳・顔面の無汗症",
+      "頭痛・嘔吐",
+      "多尿・頻脈"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "頸部交感神経が腫瘍などに圧迫されることで起こる特徴的な徴候です。",
+    "evidence": "がん診療アセスメント",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 173,
+    "category": "②疾患観察",
+    "subCategory": "フィジカルアセスメント",
+    "question": "聴診で聞こえる「摩擦音（胸膜摩擦音）」の原因はどれか。",
+    "options": [
+      "痰がゴロゴロ動く音",
+      "炎症で粗くなった胸膜同士が呼吸に合わせて擦れる音",
+      "心臓の筋肉が開く音",
+      "胃の動く音"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "胸膜炎などで見られ、呼吸を止めると消失するのが特徴です。",
+    "evidence": "フィジカルイグザミネーション",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 174,
+    "category": "②疾患観察",
+    "subCategory": "睡眠時無呼吸",
+    "question": "閉塞性睡眠時無呼吸症候群（OSAS）の患者に特徴的な症状はどれか。",
+    "options": [
+      "日中の強い眠気・激しいいびき",
+      "夜泣き",
+      "痩せ型",
+      "食欲不振"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "睡眠中の呼吸停止により深い睡眠がとれず、日中の覚醒レベルが低下します。",
+    "evidence": "OSAS診療ガイドライン",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 175,
+    "category": "②疾患観察",
+    "subCategory": "肺血栓塞栓症",
+    "question": "肺血栓塞栓症の確定診断に有用な画像検査はどれか。",
+    "options": [
+      "腹部エコー",
+      "造影CT検査 (肺動脈)",
+      "単純レントゲン",
+      "胃カメラ"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "肺動脈内の血栓を視覚的に捉えるために最も有用な検査の一つです。",
+    "evidence": "PE診療指針",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 176,
+    "category": "②疾患観察",
+    "subCategory": "間質性肺炎",
+    "question": "間質性肺炎の進行により、肺コンプライアンス（膨らみやすさ）はどう変化するか。",
+    "options": [
+      "膨らみやすくなる",
+      "硬くなり、膨らみにくくなる（低下する）",
+      "変わらない",
+      "大きくなる"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "肺の組織が線維化して硬くなるため、呼吸に大きな努力が必要になります。",
+    "evidence": "呼吸病態学",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 177,
+    "category": "②疾患観察",
+    "subCategory": "喘息",
+    "question": "成人気管支喘息の治療の基本となる薬剤はどれか。",
+    "options": [
+      "抗菌薬",
+      "吸入ステロイド薬（長期管理薬）",
+      "解熱剤",
+      "ビタミン剤"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "気道の慢性炎症を抑えることが、発作予防の根本治療となります。",
+    "evidence": "喘息予防・管理ガイドライン",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 178,
+    "category": "②疾患観察",
+    "subCategory": "フィジカルアセスメント",
+    "question": "「クスマウル呼吸」が見られる代表的な状態はどれか。",
+    "options": [
+      "睡眠中",
+      "糖尿病ケトアシドーシスなどの代謝性アシドーシス",
+      "笑いすぎた後",
+      "緊張している時"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "深く大きな呼吸を連続させることで、酸性に傾いた体を中和しようとする代償反応です。",
+    "evidence": "症候学",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 179,
+    "category": "②疾患観察",
+    "subCategory": "肺炎",
+    "question": "肺炎の入院治療が必要な重症度を判断する際、A-DROPのスコアが何点以上から中等症以上とされるか。",
+    "options": [
+      "0点",
+      "1点以上",
+      "5点",
+      "10点"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "1〜2点が中等症（外来または入院検討）、3点以上が重症（入院）の目安です。",
+    "evidence": "市中肺炎指針",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 180,
+    "category": "②疾患観察",
+    "subCategory": "がん看護",
+    "question": "肺がんの脳転移で見られる初期症状として注意すべきものはどれか。",
+    "options": [
+      "頭痛・吐き気・麻痺・性格の変化",
+      "足のむくみ",
+      "多尿",
+      "耳鳴り"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "意識レベルの低下や神経局在症状に注意が必要です。",
+    "evidence": "脳転移の看護管理",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 181,
+    "category": "②疾患観察",
+    "subCategory": "肺結核",
+    "question": "結核の診断において、現在最も特異度・感度が高い血液検査はどれか。",
+    "options": [
+      "ツベルクリン反応",
+      "IGRA（インターフェロンγ遊離試験）",
+      "血糖値",
+      "コレステロール"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "BCG接種の影響を受けずに結核感染を判定できる新しい検査法です。",
+    "evidence": "結核予防法",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 182,
+    "category": "②疾患観察",
+    "subCategory": "フィジカルアセスメント",
+    "question": "「ばち指」の測定法である「シャンロス窓（Schamroth window）」とはどのような確認方法か。",
+    "options": [
+      "指を噛む",
+      "左右の指の爪の背中同士を合わせ、隙間が出るか見る",
+      "指の長さを測る",
+      "指を振る"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "左右を合わせた際、爪の間にひし形の隙間（窓）がなくなっている状態をばち指と判定します。",
+    "evidence": "フィジカルイグザミネーション",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 183,
+    "category": "②疾患観察",
+    "subCategory": "モニタリング",
+    "question": "パルスオキシメータ（SpO2）の数値が、実際の血中酸素飽和度よりも低く出てしまう原因はどれか。",
+    "options": [
+      "患者が動いている（体動）",
+      "周囲の光が強い",
+      "一酸化炭素中毒",
+      "皮膚が温かい"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "体動やマニキュア、冷えによる血流不全などが低値誤差の原因となります。",
+    "evidence": "医療安全・機器管理",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 184,
+    "category": "②疾患観察",
+    "subCategory": "ドレーン管理",
+    "question": "胸腔ドレーンの水封室に「呼吸性変動」がない時、肺が再膨張しているか、もう一つの可能性はどれか。",
+    "options": [
+      "正常",
+      "ドレーンの閉塞またはキンク（折れ曲がり）",
+      "水が多すぎる",
+      "空気が多い"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "ドレーンが詰まっていたり折れていたりすると、呼吸に合わせた水の動きが止まります。",
+    "evidence": "ドレーン観察ガイド",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 185,
+    "category": "③薬剤知識",
+    "subCategory": "吸入薬",
+    "question": "吸入補助器具（スペーサー）を使用する最大の目的はどれか。",
+    "options": [
+      "薬剤の味を消すため",
+      "吸速が遅い患者でも、薬剤を効率よく肺に届けるため",
+      "音を静かにするため",
+      "持ちやすくするため"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "手と口のタイミングを合わせる必要がなくなり、より確実な治療が可能になります。",
+    "evidence": "吸入療法におけるスペーサーの役割",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 186,
+    "category": "③薬剤知識",
+    "subCategory": "ステロイド薬",
+    "question": "ステロイドの副作用として「中心性肥満」や「満月様顔貌（ムーンフェイス）」が起こる理由はどれか。",
+    "options": [
+      "食べ過ぎるから",
+      "脂質代謝に影響し、脂肪の沈着部位が変化するため",
+      "水ばかり飲むから",
+      "運動不足"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "ステロイド薬によるホルモン作用の変化によるものです。",
+    "evidence": "ステロイド薬の副作用マネジメント",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 187,
+    "category": "③薬剤知識",
+    "subCategory": "抗凝固薬",
+    "question": "DOAC（直接経口抗凝固薬）のワルファリンと比較した特徴はどれか。",
+    "options": [
+      "納豆を食べて良い",
+      "PT-INRの測定が必須",
+      "安い",
+      "毎日決まった時間に飲まなくても良い"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "特定の食事制限（ビタミンK）がないことが大きなメリットです。",
+    "evidence": "最新の血栓溶解療法",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 188,
+    "category": "③薬剤知識",
+    "subCategory": "抗菌薬",
+    "question": "抗菌薬投与中に「下痢」が頻発した場合に疑うべき、重大な腸炎はどれか。",
+    "options": [
+      "食中毒",
+      "偽膜性大腸炎 (CDI)",
+      "過敏性腸症候群",
+      "ノロウイルス"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "抗菌薬により正常な腸内細菌叢が崩れ菌が異常増殖する、院内感染の重要項目です。",
+    "evidence": "院内感染管理",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 189,
+    "category": "③薬剤知識",
+    "subCategory": "鎮静薬",
+    "question": "集中治療室でプロポフォールを使用中、血圧低下が起きた際の初期対応として一般的なのはどれか。",
+    "options": [
+      "投与速度を速める",
+      "投与速度を緩める、または中断し医師へ報告",
+      "放置",
+      "加温する"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "プロポフォールには強い血管拡張・心抑制作用があるため、循環動態の観察が必須です。",
+    "evidence": "鎮静管理マニュアル",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 190,
+    "category": "③薬剤知識",
+    "subCategory": "吸入指導",
+    "question": "吸入ステロイドは、発作が起きてから吸っても効果があるか。",
+    "options": [
+      "即効性があり、すぐに効く",
+      "即効性はないため、発作時には向かない",
+      "どちらでも良い",
+      "鼻から吸えば効く"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "これらは予防のための「長期管理薬」であり、即効性のある「レスキュー薬」とは使い分けが必要です。",
+    "evidence": "喘息の基本薬物療法",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 191,
+    "category": "③薬剤知識",
+    "subCategory": "アドレナリン",
+    "question": "アナフィラキシーショックに対する第一選択薬「アドレナリン」の適切な投与部位はどれか。",
+    "options": [
+      "お尻",
+      "大腿前外側部 (太もも)",
+      "腕",
+      "足の裏"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "最も筋肉量が多く、吸収が安定している大腿部への筋肉内注射が推奨されます。",
+    "evidence": "アナフィラキシーガイドライン",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 192,
+    "category": "③薬剤知識",
+    "subCategory": "去痰薬",
+    "question": "痰を出しやすくする「加湿吸入」の注意点はどれか。",
+    "options": [
+      "何時間でもやって良い",
+      "長時間の吸入は逆に痰をふやかし過ぎ、気道を狭めるリスクがある",
+      "熱湯でやる",
+      "意味がない"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "適切な時間で行い、その後の排痰手技に繋げることが重要です。",
+    "evidence": "排痰援助の実際",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 193,
+    "category": "③薬剤知識",
+    "subCategory": "鎮咳薬",
+    "question": "「痰が絡んでいる咳」に対して、安易に強い鎮咳薬を使ってはいけない理由はどれか。",
+    "options": [
+      "薬代が高いから",
+      "咳が止まることで痰が肺の奥に溜まり、肺炎を悪化させる恐れがあるから",
+      "眠くなるから",
+      "特になし"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "咳は生体防御反応のため、特に痰が多い場合は慎重な判断が必要です。",
+    "evidence": "呼吸器薬物療法アセスメント",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 194,
+    "category": "③薬剤知識",
+    "subCategory": "インスリン",
+    "question": "ステロイド薬の内服を開始した患者において、血糖値はどう変化しやすいか。",
+    "options": [
+      "下がる",
+      "上がる (ステロイド糖尿病)",
+      "変わらない",
+      "ゼロになる"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "ステロイドには糖新生を促す作用があるため、糖尿病の悪化や新規発症に注意が必要です。",
+    "evidence": "内分泌・代謝管理",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 195,
+    "category": "③薬剤知識",
+    "subCategory": "抗菌薬",
+    "question": "抗菌薬投与開始前に「血液培養」を採取するタイミングはいつか。",
+    "options": [
+      "抗菌薬を飲み終わった後",
+      "抗菌薬を投与する前",
+      "退院時",
+      "いつでも良い"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "薬が菌の増殖を抑える前に採取しないと、正しい検査結果が得られないためです。",
+    "evidence": "感染症初期バイオマーカー",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 196,
+    "category": "③薬剤知識",
+    "subCategory": "抗ヒスタミン薬",
+    "question": "第一世代抗ヒスタミン薬を内服した患者への指導で重要なのはどれか。",
+    "options": [
+      "運動を勧める",
+      "眠気が出やすいため、車の運転などを控えるよう指導する",
+      "たくさん食べるよう促す",
+      "特になし"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "中枢抑制作用が強く、転倒や事故のリスクへの注意喚起が必要です。",
+    "evidence": "薬剤安全指導マニュアル",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 197,
+    "category": "③薬剤知識",
+    "subCategory": "吸入指導",
+    "question": "喘息などで「吸入を忘れてしまった」と言われた時の正しい助言はどれか。",
+    "options": [
+      "「二回分まとめて吸ってください」",
+      "「気づいた時に一回分吸い、次は通常通りの時間に吸ってください」",
+      "「もう吸わなくて良いです」",
+      "「警察に連絡します」"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "過量投与による副作用を防ぐため、まとめて吸うことは厳禁です。",
+    "evidence": "服薬コンプライアンス指導",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 198,
+    "category": "③薬剤知識",
+    "subCategory": "利尿薬",
+    "question": "心不全で使用される利尿薬の投与後、看護師が最も観察すべき指標はどれか。",
+    "options": [
+      "尿量と血圧・体重の変化",
+      "身長",
+      "視力",
+      "会話量"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "体内の余分な水分が排出されているか、脱水になっていないかを評価します。",
+    "evidence": "循環器看護の実践",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 199,
+    "category": "③薬剤知識",
+    "subCategory": "モルヒネ",
+    "question": "医療用麻薬の副作用である「悪心・嘔吐」は、投与開始後どのくらいで耐性がつくことが多いか。",
+    "options": [
+      "一生続く",
+      "数日から1週間程度",
+      "1ヶ月",
+      "10秒"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "開始初期に出やすく、吐き気止めを併用しながら経過を見ると収まることが多いです。",
+    "evidence": "緩和ケアマニュアル",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 200,
+    "category": "③薬剤知識",
+    "subCategory": "テオフィリン",
+    "question": "テオフィリン製剤の血中濃度を「低下」させてしまう習慣はどれか。",
+    "options": [
+      "喫煙 (タバコ)",
+      "お酒",
+      "読書",
+      "昼寝"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "タバコの成分により薬の代謝が促進され、効果が弱まってしまうことがあります。",
+    "evidence": "薬物相互作用ガイド",
+    "reference": "SafetyPlus"
+  }
 ]
