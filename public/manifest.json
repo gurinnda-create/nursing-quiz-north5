@@ -1,0 +1,17 @@
+{
+    "name": "北5病棟 新人看護師必修問題集",
+    "short_name": "北5病棟クイズ",
+    "description": "呼吸器内科新人看護師のための学習アプリ",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#0369a1",
+    "icons": [
+        {
+            "src": "/icon.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
