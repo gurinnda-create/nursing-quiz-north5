@@ -3998,5 +3998,805 @@
     "explanation": "呼吸をしているように見えても、直ちに救命処置（胸骨圧迫）を開始すべき緊急事態です。",
     "evidence": "蘇生ガイドライン",
     "reference": "SafetyPlus"
+  },
+  {
+    "id": 301,
+    "category": "②疾患観察",
+    "subCategory": "フィジカルアセスメント",
+    "question": "浮腫（むくみ）の観察で、指で5秒間押した際に跡が深く残り、回復が遅い状態を何と評価するか。",
+    "options": [
+      "軽度浮腫",
+      "圧痕性浮腫 (ピッティングエデマ)",
+      "正常",
+      "むくみなし"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "水分貯留による典型的な浮腫の評価方法です。",
+    "evidence": "身体診察技術",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 302,
+    "category": "②疾患観察",
+    "subCategory": "その他",
+    "question": "チアノーゼが爪や唇に現れる「中心性チアノーゼ」の主な原因はどれか。",
+    "options": [
+      "寒いから",
+      "動脈血の酸素飽和度が低下している（心・呼吸器疾患など）ため",
+      "手が濡れている",
+      "緊張"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "全身の酸素不足を反映する重要な徴候です。",
+    "evidence": "症候学",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 303,
+    "category": "②疾患観察",
+    "subCategory": "疾患管理",
+    "question": "意識障害の評価指標である「JCS」で、刺激しても覚醒しないが、払いのけるような動作をする状態はどれか。",
+    "options": [
+      "JCS 3",
+      "JCS 100",
+      "JCS 200",
+      "JCS 300"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "100：痛み刺激に対し、払いのけるような動作をする 200：痛み刺激に対して手足を動かす、または顔をしかめる 300：痛み刺激に対し、反応しない",
+    "evidence": "意識レベルの評価",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 304,
+    "category": "②疾患観察",
+    "subCategory": "フィジカルアセスメント",
+    "question": "瞳孔の観察で「対光反射」が消失している際、疑うべき異常はどれか。",
+    "options": [
+      "睡眠不足",
+      "脳幹機能の障害や脳圧亢進、薬剤の影響など",
+      "視力の向上",
+      "お腹が空いた"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "脳の重大なダメージを示唆するサインです。",
+    "evidence": "神経学的アセスメント",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 305,
+    "category": "②疾患観察",
+    "subCategory": "疾患管理",
+    "question": "肺出血の際に、患者の下気道に血液が貯留して窒素化（黒くなる）現象を何と呼ぶか。",
+    "options": [
+      "血痰",
+      "喀血",
+      "吐血",
+      "下血"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "気道からの出血であり、酸性（胃）かアルカリ性（気道）かの識別が重要です。",
+    "evidence": "呼吸器症候学",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 306,
+    "category": "②疾患観察",
+    "subCategory": "モニタリング",
+    "question": "心電図モニターで「心室細動 (VF)」を認めた際、看護師が直ちに行うべき最も優先される行動はどれか。",
+    "options": [
+      "検温",
+      "救急コールと除細動 (AED/DC) の準備、胸骨圧迫の開始",
+      "お茶を渡す",
+      "カルテを書く"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "直ちに処置をしないと死に至る、最も致命的な不整脈です。",
+    "evidence": "ACLSガイドライン",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 307,
+    "category": "②疾患観察",
+    "subCategory": "フィジカルアセスメント",
+    "question": "打診において、大腿部や筋肉の上で聞こえる最も鈍い音はどれか。",
+    "options": [
+      "平坦音",
+      "濁音",
+      "清音",
+      "共鳴音"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "空気を含まない固形組織の上で聞こえる音です。",
+    "evidence": "打診アセスメント",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 308,
+    "category": "②疾患観察",
+    "subCategory": "その他",
+    "question": "「不感蒸泄」とはどのような水分の喪失か。",
+    "options": [
+      "トイレで出る水",
+      "呼吸や皮膚から自覚なく失われる水分",
+      "汗をかくこと",
+      "涙"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "熱がある時や呼吸が荒い時には増加するため、水分バランス管理に重要です。",
+    "evidence": "水電解質管理",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 309,
+    "category": "②疾患観察",
+    "subCategory": "疾患管理",
+    "question": "嚥下訓練の「アイスマッサージ」を行う主な部位はどれか。",
+    "options": [
+      "頭",
+      "軟口蓋（のどちんこのあたり）や咽頭後壁",
+      "足の裏",
+      "お腹"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "冷刺激により嚥下反射を誘発・強化する訓練です。",
+    "evidence": "嚥下リハビリテーション",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 310,
+    "category": "②疾患観察",
+    "subCategory": "フィジカルアセスメント",
+    "question": "心音聴取で、正常な第1音（S1）の原因となるのはどれか。",
+    "options": [
+      "大動脈弁の閉鎖",
+      "房室弁（僧帽弁・三尖弁）の閉鎖",
+      "血液の流入音",
+      "血管の脈動"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "心室の収縮開始時に聞こえる音です。",
+    "evidence": "心音の機序",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 311,
+    "category": "②疾患観察",
+    "subCategory": "疾患管理",
+    "question": "脳梗塞の早期サインを確認する「FAST」の「S」は何を示すか。",
+    "options": [
+      "Sleep (睡眠)",
+      "Speech (言葉の話しにくさ、ろれつ)",
+      "Smell (匂い)",
+      "Step (歩行)"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "麻痺以外に、話し方の異常も脳梗塞の疑いとして重要視されます。",
+    "evidence": "脳卒中アセスメント",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 312,
+    "category": "②疾患観察",
+    "subCategory": "その他",
+    "question": "死後処置（エンゼルケア）の主な目的はどれか。",
+    "options": [
+      "遺体を隠すこと",
+      "その人らしさを整え、家族のグリーフケア（悲嘆への援助）を行うこと",
+      "葬儀代を浮かせること",
+      "記録を終わらせること"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "尊厳を守り、遺族が最後のお別れを丁寧に行えるよう援助します。",
+    "evidence": "終末期看護ガイドライン",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 313,
+    "category": "③薬剤知識",
+    "subCategory": "吸入薬",
+    "question": "喘息の吸入薬「メプチン」などの短時間作用型β2刺激薬（SABA）の使用目的はどれか。",
+    "options": [
+      "毎日の予防",
+      "発作が起きた時の緊急緩和 (レスキュー)",
+      "筋肉増強",
+      "眠気覚まし"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "即効性があるため、苦しい時に一時的に気管支を広げるために使います。",
+    "evidence": "喘息の段階的治療",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 314,
+    "category": "③薬剤知識",
+    "subCategory": "ステロイド薬",
+    "question": "ステロイド薬を長期服用している患者の「感染症」に対する注意点として正しいのはどれか。",
+    "options": [
+      "熱が出やすい",
+      "炎症が抑制されるため、重症化しても発熱などの症状が出にくい（不顕性感染）",
+      "感染しにくくなる",
+      "特に変わらない"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "免疫が抑制され、かつ症状がマスクされるため、発見が遅れやすいリスクがあります。",
+    "evidence": "ステロイド治療の安全管理",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 315,
+    "category": "③薬剤知識",
+    "subCategory": "抗凝固薬",
+    "question": "ワルファリンを内服している患者の「鼻出血」が止まらない場合に疑うべき血液データはどれか。",
+    "options": [
+      "PT-INRが延長しすぎている",
+      "赤血球数が増えている",
+      "血糖値が高い",
+      "コレステロール不足"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "薬が効きすぎている可能性があり、中和（ビタミンK投与）や減量が必要な場合があります。",
+    "evidence": "薬剤管理：副作用モニタリング",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 316,
+    "category": "③薬剤知識",
+    "subCategory": "抗菌薬",
+    "question": "経口抗菌薬を「指示通り最後まで飲み切る」ように指導する最大の理由は何か。",
+    "options": [
+      "薬を捨てると勿体ないから",
+      "中途半端に止めると、生き残った菌が耐性化（薬剤耐性菌）するリスクがあるから",
+      "お腹を壊すから",
+      "太るから"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "耐性菌を増やさないことは、患者個人のみならず社会的なインフラとしても重要です。",
+    "evidence": "AMR対策アクションプラン",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 317,
+    "category": "③薬剤知識",
+    "subCategory": "鎮静薬",
+    "question": "人工呼吸器管理下での鎮静レベルを評価する「RASS（Richmond Agitation-Sedation Scale）」の「0」はどのような状態か。",
+    "options": [
+      "深く眠っている",
+      "極度に興奮している",
+      "覚醒し、穏やかである (Alert and calm)",
+      "お皿を洗っている"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "理想的な鎮静・覚醒のバランスが取れている状態です。",
+    "evidence": "集中治療における鎮静管理",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 318,
+    "category": "③薬剤知識",
+    "subCategory": "吸入指導",
+    "question": "吸入薬のデバイス（容器）の中身がなくなったかどうかを確認する一般的な方法はどれか。",
+    "options": [
+      "重さを量る",
+      "カウンター（残量表示）を見るか、使用回数を正の字で付ける",
+      "振って音を聞く（粉末の場合は不明確）",
+      "適当に吸ってみる"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "空吸いをしていると治療にならないため、残量確認の指導は必須です。",
+    "evidence": "自己吸入管理指導",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 319,
+    "category": "③薬剤知識",
+    "subCategory": "インスリン",
+    "question": "インスリン注射において「部位をローテーション（ずらす）」する理由はどれか。",
+    "options": [
+      "同じ場所だと飽きるから",
+      "同じ場所に打ち続けると皮膚が硬くなり（硬結）、吸収が不安定になるため",
+      "服が汚れるから",
+      "特に意味はない"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "組織のダメージを防ぎ、安定した血糖管理を行うための基本知識です。",
+    "evidence": "糖尿病療養指導",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 320,
+    "category": "③薬剤知識",
+    "subCategory": "抗菌薬",
+    "question": "バンコマイシンなどの特定の抗菌薬を急激に点滴静注した際に見られる、全身の潮紅や血圧低下を伴う現象はどれか。",
+    "options": [
+      "レッドマン症候群",
+      "ブルーベリー症候群",
+      "グリーン症候群",
+      "ホワイト症候群"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "ヒスタミン遊離による反応であり、投与速度の厳守（通常60分以上かける）が必要です。",
+    "evidence": "薬剤有害事象",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 321,
+    "category": "③薬剤知識",
+    "subCategory": "抗ヒスタミン薬",
+    "question": "花粉症や蕁麻疹で使われる「第二世代抗ヒスタミン薬（アレグラ、タリオン等）」が第一世代より優れている点はどれか。",
+    "options": [
+      "眠気の副作用が軽減されている",
+      "安価である",
+      "味が良い",
+      "錠剤が小さい"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "脳内への移行が少なく、日中の活動への影響が抑えられています。",
+    "evidence": "最新のアレルギー診療",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 322,
+    "category": "③薬剤知識",
+    "subCategory": "吸入指導",
+    "question": "吸入後にうがいをする際、どのように行うのがベストか。",
+    "options": [
+      "一口飲んで終わり",
+      "「ガラガラ」と「クチュクチュ」の両方を複数回行う",
+      "喉を叩く",
+      "しなくて良い"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "口腔内および咽頭に付着した残存薬をしっかり洗い流します。",
+    "evidence": "吸入療法指導マニュアル",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 323,
+    "category": "③薬剤知識",
+    "subCategory": "利尿薬",
+    "question": "カリウム保持性利尿薬（スピロノラクトン等）を服用中、避けるべき食品（多量摂取）はどれか。",
+    "options": [
+      "お米",
+      "バナナや生野菜、果物などカリウムを多く含む食品",
+      "お肉",
+      "水"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "高カリウム血症のリックが高まるため、食事内容の把握が必要です。",
+    "evidence": "食事・薬剤相互作用",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 324,
+    "category": "③薬剤知識",
+    "subCategory": "モルヒネ",
+    "question": "医療用麻薬を内服している患者が「排便がない」と訴えた際、まず考える副作用はどれか。",
+    "options": [
+      "下痢",
+      "便秘 (オピオイド誘発性便秘症)",
+      "栄養失調",
+      "特になし"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "腸管の動きが抑制されるため、ほぼ全ての患者に下剤などの予防的投与が行われます。",
+    "evidence": "緩和ケアのアセスメント",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 325,
+    "category": "③薬剤知識",
+    "subCategory": "テオフィリン",
+    "question": "テオフィリン徐放製剤を「噛み砕いて飲んではいけない」理由は何か。",
+    "options": [
+      "苦いから",
+      "徐々に溶け出す構造が壊れ、血中濃度が急上昇して中毒を起こす危険があるから",
+      "口が汚れるから",
+      "特に意味はない"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "「徐放」の機能を守るための重要な服薬指導です。",
+    "evidence": "薬剤学の基本",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 326,
+    "category": "③薬剤知識",
+    "subCategory": "その他",
+    "question": "点滴の滴下速度が指示より「早まっている」のを発見した際、まず最初に行うべきことはどれか。",
+    "options": [
+      "カルテを書く",
+      "クレンメを閉めて（または調節して）速度を落とし、バイタル確認をする",
+      "そのまま放置する",
+      "患者を叱る"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "過剰投与による心負荷や副作用のリスクを防ぐため、即時対応と観察が必要です。",
+    "evidence": "医療安全・与薬技術",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 327,
+    "category": "③薬剤知識",
+    "subCategory": "アドレナリン",
+    "question": "アドレナリン（ボスミン）の主な薬理作用（α刺激・β刺激）による効果はどれか。",
+    "options": [
+      "血管収縮・心拍数増加・気管支拡張",
+      "血管拡張・血圧低下",
+      "眠気",
+      "筋弛緩"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "ショック時や蘇生時に用いられる、強力な交感神経作動薬です。",
+    "evidence": "救急薬剤の基礎知識",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 328,
+    "category": "③薬剤知識",
+    "subCategory": "去痰薬",
+    "question": "痰を分解してサラサラにする「粘液溶解薬（ムコダイン等）」の主な成分はどれか。",
+    "options": [
+      " L-カルボシステイン",
+      "食塩水",
+      "砂糖",
+      "ビタミンC"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "気道粘液の成分バランスを整えて、出しやすくします。",
+    "evidence": "薬剤知識",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 329,
+    "category": "③薬剤知識",
+    "subCategory": "抗菌薬",
+    "question": "ペニシリン系抗菌薬の重大な既往歴として、必ず確認すべきはどれか。",
+    "options": [
+      "運動不足",
+      "以前に発疹や呼吸困難などのアレルギー反応が出たことがあるか",
+      "視力",
+      "好物"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "アナフィラキシーのリックが高いため、過去の反応は絶対確認項目です。",
+    "evidence": "薬剤安全確認",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 330,
+    "category": "③薬剤知識",
+    "subCategory": "ステロイド薬",
+    "question": "ステロイドの副作用として「骨壊死（大腿骨頭壊死）」が起きやすいのはどの部位か。",
+    "options": [
+      "頭",
+      "股関節 (足の付け根)",
+      "指先",
+      "背中"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "長期・多量投与の際に起こりうる重大な副作用の一つであり、歩行時の痛みに注意が必要です。",
+    "evidence": "ステロイド治療の副作用管理",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 331,
+    "category": "③薬剤知識",
+    "subCategory": "抗凝固薬",
+    "question": "ワルファリンを飲んでいる患者が、出血した時に血を止めるための「逆転剤（拮抗薬）」はどれか。",
+    "options": [
+      "お水",
+      "ビタミンK (ケイツー等)",
+      "鉄分",
+      "ビタミンC"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "ワルファリンはビタミンKの働きを抑えるため、大量のビタミンKが拮抗薬となります。",
+    "evidence": "血液浄化・凝血管理",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 332,
+    "category": "③薬剤知識",
+    "subCategory": "鎮静薬",
+    "question": "「不穏」などで暴れている患者に安易に強い鎮静薬を使う前に、看護師が検討すべきことはどれか。",
+    "options": [
+      "患者の性格を叱る",
+      "苦痛（痛み、尿意、便意、不快なチューブ等）が原因ではないか確認する",
+      "拘束する",
+      "無視する"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "暴れる裏には必ず原因（身体不快）があるという視点が不可欠です。",
+    "evidence": "せん妄・不穏の管理",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 333,
+    "category": "③薬剤知識",
+    "subCategory": "吸入薬",
+    "question": "ドライパウダー吸入器（DPI：アドエア、シムビコート等）を吸う時のコツはどれか。",
+    "options": [
+      "ゆっくり吸う",
+      "力強く、深く一気に吸う",
+      "鼻から吸う",
+      "吸わない"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "粉末を自身の吸気流速で肺まで運ぶ必要があるため、気合を入れて吸い込みます。",
+    "evidence": "吸入指導ガイドライン",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 334,
+    "category": "③薬剤知識",
+    "subCategory": "去痰薬",
+    "question": "去痰薬を服用している患者に同時に勧めるべき生活習慣はどれか。",
+    "options": [
+      "激しい運動",
+      "十分な水分摂取 (禁忌がない場合)",
+      "節食",
+      "禁欲"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "水分を摂ることで痰が柔らかくなり、薬の効果がより発揮されます。",
+    "evidence": "呼吸器疾患の生活指導",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 335,
+    "category": "③薬剤知識",
+    "subCategory": "鎮静薬",
+    "question": "プロポフォール点滴中の回路交換頻度が、通常の輸液より短い（24時間以内等）理由はどれか。",
+    "options": [
+      "回路が詰まりやすいから",
+      "脂肪乳剤を含み、細菌が非常に繁殖しやすい栄養環境だから",
+      "高いから",
+      "特に意味はない"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "感染リスク（菌血症等）を最小限にするための厳格な管理ルールです。",
+    "evidence": "感染管理・点滴技術",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 336,
+    "category": "③薬剤知識",
+    "subCategory": "吸入薬",
+    "question": "吸入補助具の「スペーサー」に溜まった薬剤は、どのくらいで消える（吸う必要がある）か。",
+    "options": [
+      "10分待っても大丈夫",
+      "噴霧後すぐに（1-2回呼吸で）吸い込むのがベスト",
+      "1日放置して良い",
+      "消えない"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "粒子は徐々に壁に付着したり沈降したりするため、噴射後は速やかに吸入します。",
+    "evidence": "吸入技術の教育",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 337,
+    "category": "③薬剤知識",
+    "subCategory": "抗菌薬",
+    "question": "抗菌薬の「TDM（治療薬物モニタリング）」が特に行われる薬剤はどれか。",
+    "options": [
+      "バンコマイシン、アミノグリコシド系等",
+      "ビタミン剤",
+      "胃薬",
+      "湿布"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "血中濃度が狭い範囲でしか有効かつ安全でないため、採血で濃度を測って投与量を決めます。",
+    "evidence": "臨床薬理学",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 338,
+    "category": "③薬剤知識",
+    "subCategory": "薬物アレルギー",
+    "question": "薬疹が出た患者のケアで、かゆみを抑えるために自宅でできる工夫はどれか。",
+    "options": [
+      "お風呂で温める",
+      "冷やす、爪を短く切る、刺激の少ない服を着る",
+      "激しく掻く",
+      "石鹸でゴシゴシ洗う"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "温めるとかゆみが増すため、清潔と冷却が基本です。",
+    "evidence": "皮膚疾患の看護",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 339,
+    "category": "③薬剤知識",
+    "subCategory": "利尿薬",
+    "question": "心不全などの「浮腫」がある患者への生活指導として適切なのはどれか。",
+    "options": [
+      "塩分をたくさん摂る",
+      "減塩（塩分制限）と水分管理の徹底",
+      "たくさん歩き回る",
+      "サウナに入る"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "塩分は水分を体内に保持してしまうため、厳格な制限が治療の根幹となります。",
+    "evidence": "心不全療養指針",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 340,
+    "category": "③薬剤知識",
+    "subCategory": "鎮静薬",
+    "question": "モルヒネ使用中に起こる「呼吸抑制」のサインとして、最も注意すべき数値はどれか。",
+    "options": [
+      "呼吸数が10回/分以下になる",
+      "血圧が上がる",
+      "脈が速くなる",
+      "咳が出る"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "呼吸がゆっくり、かつ浅くなるため、回数のカウントが非常に重要です。",
+    "evidence": "疼痛管理の安全",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 341,
+    "category": "③薬剤知識",
+    "subCategory": "救急薬剤",
+    "question": "心肺停止時のアドレナリン投与の一般的な間隔（分）はどれか。",
+    "options": [
+      "1分おき",
+      "3〜5分おき",
+      "1時間おき",
+      "一度だけ"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "蘇生が成功するまで、あるいは医師が中止を判断するまで、一定間隔で繰り返します。",
+    "evidence": "蘇生技術ガイドライン",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 342,
+    "category": "③薬剤知識",
+    "subCategory": "吸入指導",
+    "question": "吸入薬のデバイス（容器）を洗う頻度や方法として正しいのはどれか。",
+    "options": [
+      "毎日水洗いして乾かす（説明書に従う）",
+      "一生洗わない",
+      "洗剤で漬け置き",
+      "熱湯消毒"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "詰まりや不衛生を防ぐため、各薬剤に推奨された手入れ方法を指導します。",
+    "evidence": "自己管理指導",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 343,
+    "category": "③薬剤知識",
+    "subCategory": "抗菌薬",
+    "question": "「偽膜性大腸炎」が疑われた際に行う、便の検査項目はどれか。",
+    "options": [
+      "CDI（クロストリディオイデス・ディフィシル）毒素検査",
+      "寄生虫",
+      "潜血反応",
+      "色チェック"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "原因となる菌の毒素を検出することで確定診断に繋げます。",
+    "evidence": "感染症検査実務",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 344,
+    "category": "③薬剤知識",
+    "subCategory": "インスリン",
+    "question": "インスリン注射後に「低血糖」の症状（冷や汗、震え、強い空腹感等）が出た時の対応はどれか。",
+    "options": [
+      "散歩する",
+      "直ちに糖分（ブドウ糖10g程度や砂糖水）を摂取する",
+      "寝る",
+      "次の食事まで待つ"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "意識を失う前に対処することが肝要です。αグルコシダーゼ阻害薬併用時はブドウ糖限定です。",
+    "evidence": "糖尿病緊急対応指針",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 345,
+    "category": "③薬剤知識",
+    "subCategory": "テオフィリン",
+    "question": "テオフィリン製剤の血中濃度を「上昇」させてしまう（併用注意）の代表的な薬剤はどれか。",
+    "options": [
+      "ニューキノロン系抗菌薬（シプロキサン等）",
+      "整腸剤",
+      "ビタミン剤",
+      "痛み止め"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "代謝が阻害され、中毒のリスクが高まる組み合わせです。",
+    "evidence": "薬剤相互作用の基本",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 346,
+    "category": "③薬剤知識",
+    "subCategory": "その他",
+    "question": "薬品の「5R（確認項目）」に含まれないものはどれか。",
+    "options": [
+      "正しい患者",
+      "正しい薬剤",
+      "正しい価格",
+      "正しい時間"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "1:患者 2:薬剤 3:用量 4:用法 5:時間が基本です。価格は含まれません。",
+    "evidence": "医療安全ポケットマニュアル",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 347,
+    "category": "③薬剤知識",
+    "subCategory": "吸入薬",
+    "question": "「レスキュー薬」と「管理薬」の二本を持っている患者が、今まさに苦しがっている時、どちらを吸わせるか。",
+    "options": [
+      "どっちでも良い",
+      "レスキュー薬（速効性のあるもの）",
+      "管理薬（じわじわ効くもの）",
+      "両方同時に混ぜて吸う"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "緊急時にはその場を凌ぐ即効性のある薬を優先します。",
+    "evidence": "喘息急変時対応",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 348,
+    "category": "③薬剤知識",
+    "subCategory": "抗菌薬",
+    "question": "MRSA感染症に対して第一選択となる抗菌薬はどれか。",
+    "options": [
+      "ハクホウ",
+      "バンコマイシン（またはリネゾリド、ダプトマイシン等）",
+      "普通の風邪薬",
+      "特になし"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "抗MRSA薬の使用は感染対策と適切な選択が求められます。",
+    "evidence": "薬剤耐性菌診療指針",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 349,
+    "category": "③薬剤知識",
+    "subCategory": "鎮静薬",
+    "question": "麻薬（オピオイド）による「眠気」がひどく、呼びかけに反応しにくい場合の看護師の行動はどれか。",
+    "options": [
+      "無理やり立たせる",
+      "バイタル確認（特に呼吸抑制）を行い、医師へ報告して減量を検討する",
+      "そのまま寝かせておく",
+      "誰にも言わない"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "副作用と効果のバランスが崩れている可能性があるため、アセスメントが必要です。",
+    "evidence": "緩和医療の安全管理",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 350,
+    "category": "③薬剤知識",
+    "subCategory": "その他",
+    "question": "処方箋に「分3 食後」とある場合の正しい内服回数とタイミングはどれか。",
+    "options": [
+      "1日1回 朝に飲む",
+      "1日3回 朝・昼・夕の食事の後に飲む",
+      "3日に1回飲む",
+      "寝る前に3錠飲む"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "基本的な処方の読み方ですが、正確な与薬の基礎となります。",
+    "evidence": "与薬の基本技術",
+    "reference": "Nursing Skills"
   }
 ]
