@@ -5518,5 +5518,581 @@
     "explanation": "血中濃度が上がりすぎると、消化器症状や神経・循環器症状が現れます。",
     "evidence": "中毒回避のモニタリング",
     "reference": "SafetyPlus"
+  },
+  {
+    "id": 436,
+    "category": "①呼吸器手技",
+    "subCategory": "吸引",
+    "question": "気管吸引操作での「無菌操作」において、カテーテルの持ち手として「不潔」にして良いのはどちらか。",
+    "options": [
+      "カテーテルの先端側",
+      "吸引器側のコネクタに接続する手",
+      "両手とも清潔に保つ",
+      "手袋をしない"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "吸引機に触れる手は不潔となりますが、気道に挿入するカテーテル先端側を持つ手は必ず無菌的である必要があります。",
+    "evidence": "無菌操作の基本",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 437,
+    "category": "①呼吸器手技",
+    "subCategory": "酸素療法",
+    "question": "酸素加湿瓶の蒸留水の交換頻度として、感染対策上の一般的な目安はどれか。",
+    "options": [
+      "1ヶ月に1回",
+      "24時間ごとに未使用分を破棄し、洗浄・交換する",
+      "水がなくなったら",
+      "1週間に1回"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "停滞した水は細菌（レジオネラ等）の繁殖リスクが高いため、毎日の交換が必要です。",
+    "evidence": "環境・器具の感染管理",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 438,
+    "category": "①呼吸器手技",
+    "subCategory": "人工呼吸器",
+    "question": "人工呼吸器のバックアップ電源（外部バッテリー）の駆動時間の確認が必要な場面はどれか。",
+    "options": [
+      "入浴中",
+      "停電時や院内移動（検査・オペ室等への搬送）の前",
+      "食事中",
+      "睡眠中"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "生命を機械に委ねているため、電源喪失は許されず、常に余裕を持ったバッテリー確認が必須です。",
+    "evidence": "人工呼吸器の安全運用",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 439,
+    "category": "①呼吸器手技",
+    "subCategory": "救急対応",
+    "question": "「不慮の抜管（自己抜管）」を発見した際、自発呼吸がない患者に対して直ちに行うべき処置はどれか。",
+    "options": [
+      "医師を呼びに行く（部屋を離れる）",
+      "救急コールを行い、アンビューバッグによる用手的換気を開始する",
+      "挿入部位を眺める",
+      "チューブを拾う"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "まずは患者の生命維持（呼吸の確保）が最優先です。再挿管までの間、バッグ換気で繋ぎます。",
+    "evidence": "急変時看護要領",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 440,
+    "category": "①呼吸器手技",
+    "subCategory": "モニタリング",
+    "question": "カプノメータで測定する EtCO2 が、急激に「低下」する原因として考えられる重篤な疾患はどれか。",
+    "options": [
+      "糖尿病",
+      "肺血栓塞栓症 (肺の血流が途絶えるため)",
+      "鼻炎",
+      "肩こり"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "血流が肺に届かなくなると、吐き出される二酸化炭素が減るため、EtCO2が低下します。",
+    "evidence": "肺血栓塞栓症の病態生理",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 441,
+    "category": "①呼吸器手技",
+    "subCategory": "口腔ケア",
+    "question": "経口挿管中の患者の固定用テープを貼り替える際、最も重要な事故防止策はどれか。",
+    "options": [
+      "一人で行う",
+      "二人以上で行い、一人が必ずチューブを把持（固定）し続ける",
+      "テープを重ねる",
+      "適当で良い"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "テープを剥がした瞬間が最も抜管のリスクが高いため、物理的にチューブを支え続ける必要があります。",
+    "evidence": "医療事故防止のポイント",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 442,
+    "category": "①呼吸器手技",
+    "subCategory": "ドレーン管理",
+    "question": "胸腔ドレーンのチューブが「V字」に弛んでいる（下に垂れ下がっている）際のリスクはどれか。",
+    "options": [
+      "綺麗に見える",
+      "弛んだ部分に排液が溜まり、胸腔への圧力が変化して排液を阻害する",
+      "歩きやすい",
+      "特になし"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "ドレナージ効率を維持するため、チューブはベッド上に余らせず、直線的に導くのが基本です。",
+    "evidence": "ドレーン管理技術の基本",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 443,
+    "category": "①呼吸器手技",
+    "subCategory": "その他",
+    "question": "呼吸介助手技の「圧迫法」を中止すべき身体所見はどれか。",
+    "options": [
+      "気持ち良いと言う",
+      "強すぎる痛み、肋骨骨折の疑い、気胸の悪化など",
+      "笑う",
+      "寝る"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "損傷を悪化させる可能性がある場合は、直ちに中止し、手技を見直します。",
+    "evidence": "呼吸理学療法の禁忌",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 444,
+    "category": "①呼吸器手技",
+    "subCategory": "吸引",
+    "question": "気管内吸引の際、SpO2がどの程度まで低下したら操作を中断し、酸素化を図るべきか。",
+    "options": [
+      "100%",
+      "90%未満（または平常時から5%以上の低下）",
+      "20%",
+      "変わらなくても中断する"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "低酸素状態を放置すると心停止のリスクがあるため、勇気を持って中断することが重要です。",
+    "evidence": "吸引の安全基準",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 445,
+    "category": "①呼吸器手技",
+    "subCategory": "酸素療法",
+    "question": "非再呼吸式リザーバー付マスクを使用する際、リザーバーバッグの膨らみはどうあるべきか。",
+    "options": [
+      "ぺったんこ（潰れた状態）",
+      "吸気時にしぼみきらない程度に、常に1/2〜2/3程度膨らんでいること",
+      "パンパンに張っている",
+      "膨らまなくて良い"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "バッグが潰れていると、患者が十分な濃度の酸素を吸い込めていないことを意味し、流量不足です。",
+    "evidence": "酸素療法の実際",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 446,
+    "category": "①呼吸器手技",
+    "subCategory": "人工呼吸器",
+    "question": "人工呼吸器を装着した患者が「突然喋り出した」時に、真っ先に疑うトラブルはどれか。",
+    "options": [
+      "奇跡の回復",
+      "カフの脱気（空気漏れ）またはチューブの過剰な抜出し",
+      "眠気が冷めた",
+      "怒っている"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "通常、カフで密閉されているため声は出ませんが、漏れが生じると声帯を空気が通って声が出ます。",
+    "evidence": "気道管理のトラブル",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 447,
+    "category": "①呼吸器手技",
+    "subCategory": "血液ガス採血",
+    "question": "採血後の検体を搬送する際、激しく振ってはいけない理由として正しいのはどれか。",
+    "options": [
+      "疲れるから",
+      "溶血（赤血球の破壊）を起こし、カリウム値などが異常に高く出るから",
+      "泡が出るから",
+      "特になし"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "特に血液ガスや生化学検査では、溶血が正確な診断を妨げる大きな要因となります。",
+    "evidence": "検体管理の基本",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 448,
+    "category": "①呼吸器手技",
+    "subCategory": "救急対応",
+    "question": "意識のない患者の脈拍を確認する部位として、成人の救急場面で最も推奨されるのはどれか。",
+    "options": [
+      "手首 (橈骨動脈)",
+      "首 (頸動脈)",
+      "足の甲",
+      "耳の下"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "ショック状態でも脈が残りやすく、かつ触知しやすい太い動脈で確認します。",
+    "evidence": "ACLSプロトコル",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 449,
+    "category": "①呼吸器手技",
+    "subCategory": "感染対策",
+    "question": "ガウンテクニックにおいて、ガウンを脱ぐ際、最も汚染されていると考えられる部分はどこか。",
+    "options": [
+      "ガウンの裏側",
+      "ガウンの表面（前身頃）および袖口",
+      "紐の部分",
+      "ポケットの中"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "患者や環境に直接触れる前面が最も危険です。脱ぐ際は汚染面を内側に巻き込むようにします。",
+    "evidence": "PPE着脱の基本",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 450,
+    "category": "①呼吸器手技",
+    "subCategory": "口腔ケア",
+    "question": "口腔ケア中に患者が激しくむせ込み、SpO2が低下し始めた際の対応で、まず優先すべきはどれか。",
+    "options": [
+      "ケアを完遂する",
+      "直ちにケアを中断し、口腔・気道の吸引を行って呼吸状態を安定させる",
+      "歌を歌う",
+      "歯を磨き続ける"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "誤嚥や無気肺を防ぐため、まずは気道の浄化と安全確保が最優先です。",
+    "evidence": "口腔ケアと安全管理",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 511,
+    "category": "②疾患観察",
+    "subCategory": "心不全",
+    "question": "心不全の悪化を早期に察知するために、毎日の観察で最も重要な「数値」はどれか。",
+    "options": [
+      "身長",
+      "体重（数日で数kg増えていないか）",
+      "体温",
+      "視力"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "浮腫（むくみ）として水分が溜まることで、自覚症状が出る前に急激に体重が増加します。",
+    "evidence": "心不全自己管理指導",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 461,
+    "category": "②疾患観察",
+    "subCategory": "フィジカルアセスメント",
+    "question": "正常な肺野を打診した際に聞こえる、適度な高さと響きのある音を何と呼ぶか。",
+    "options": [
+      "濁音",
+      "清音",
+      "鼓音",
+      "無音"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "空気を含む健康な肺を叩いた時の標準的な音です。",
+    "evidence": "フィジカルイグザミネーション",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 462,
+    "category": "②疾患観察",
+    "subCategory": "COPD",
+    "question": "COPD患者の爪や唇が紫色になる現象（チアノーゼ）は、血液中の何という成分が不足していることを示すか。",
+    "options": [
+      "糖分",
+      "酸素と結合したヘモグロビン",
+      "カルシウム",
+      "水分"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "還元ヘモグロビンが増加し、末梢まで十分な酸素が届いていないサインです。",
+    "evidence": "呼吸病態学の基礎",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 463,
+    "category": "②疾患観察",
+    "subCategory": "肺炎",
+    "question": "高齢者の肺炎で「食欲がない」「なんとなく元気がない」という訴えがあった際、看護師が疑うべきリスクはどれか。",
+    "options": [
+      "ただの疲れ",
+      "非定型的な肺炎の発症（熱が出にくい場合がある）",
+      "好き嫌い",
+      "睡眠不足"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "高齢者では典型的な発熱や咳が出ず、全身倦怠感のみで肺炎が進行することがあります。",
+    "evidence": "高齢者看護の実践",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 464,
+    "category": "②疾患観察",
+    "subCategory": "気胸",
+    "question": "緊張性気胸において、心臓が圧迫されることで起こる重大な合併症はどれか。",
+    "options": [
+      "血圧低下・ショック状態",
+      "高血圧",
+      "空腹",
+      "食欲不振"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "胸腔内に溜まった圧力が心臓を押し潰し、血液を送り出せなくなる非常に危険な状態です。",
+    "evidence": "救命救急アセスメント",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 465,
+    "category": "②疾患観察",
+    "subCategory": "その他",
+    "question": "「無気肺」を予防するために、術後の患者に積極的に促すべき行動はどれか。",
+    "options": [
+      "ずっと寝ている",
+      "早期離床（歩く）と深呼吸・有効な咳嗽",
+      "甘いものを食べる",
+      "会話を控える"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "動くことで肺がしっかり広がり、痰を出すことで肺の虚脱を防ぎます。",
+    "evidence": "周術期看護の基本",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 466,
+    "category": "②疾患観察",
+    "subCategory": "フィジカルアセスメント",
+    "question": "「バチ指」が見られる主な疾患群として適切なのはどれか。",
+    "options": [
+      "慢性的な呼吸器不全や心疾患（酸素不足が長く続いた状態）",
+      "虫歯",
+      "筋肉痛",
+      "骨折"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "長期間の低酸素状態により、指先が太く変形する特徴的な所見です。",
+    "evidence": "全身所見のアセスメント",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 467,
+    "category": "②疾患観察",
+    "subCategory": "疾患管理",
+    "question": "肺血栓塞栓症を疑う患者に「マッサージ」を行ってはいけない理由は何か。",
+    "options": [
+      "痛いから",
+      "血管内の血栓が剥がれて肺へ飛び、症状を悪化させる危険があるから",
+      "眠くなるから",
+      "特になし"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "血栓を飛ばしてしまう（塞栓させる）行為は禁忌です。",
+    "evidence": "血栓症の安全管理",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 468,
+    "category": "②疾患観察",
+    "subCategory": "感染症",
+    "question": "インフルエンザ患者の看護で、飛沫が飛ぶ操作（吸引など）を行う際に着用すべきPPEはどれか。",
+    "options": [
+      "帽子のみ",
+      "マスク、アイシールド（ゴーグル）、手袋、ガウン",
+      "特に不要",
+      "エプロンのみ"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "粘膜からの感染を防ぐため、眼の保護も含めたフル装備が推奨されます。",
+    "evidence": "経路別予防策の実際",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 469,
+    "category": "②疾患観察",
+    "subCategory": "その他",
+    "question": "呼吸困難感を訴える患者に対して、環境調整として適切なのはどれか。",
+    "options": [
+      "部屋を閉め切る",
+      "室温・湿度の調整と、患者が見通せる開放的なレイアウト（安心感）",
+      "音楽を大音量で流す",
+      "部屋を暗くする"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "息苦しさは精神的不安を伴うため、環境によるリラックス効果が大きいです。",
+    "evidence": "呼吸困難の看護ケア",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 470,
+    "category": "②疾患観察",
+    "subCategory": "睡眠時無呼吸",
+    "question": "CPAP治療（持続陽圧呼吸）を導入した患者が「マスクが苦しくて眠れない」と言った際の対応はどれか。",
+    "options": [
+      "治療を中止する",
+      "フィッティング（装着感）の確認と、不安への傾聴、加湿などの調整案を出す",
+      "根性で寝ろと言う",
+      "無視する"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "治療継続には導入期の支援が欠かせません。物理的な不快感を取り除くことが最優先です。",
+    "evidence": "SAS治療の継続支援",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 601,
+    "category": "③薬剤知識",
+    "subCategory": "吸入薬",
+    "question": "吸入薬のデバイス「エリプタ（レルベア等）」を開ける際の「カチッ」という音は何を意味するか。",
+    "options": [
+      "壊れた音",
+      "薬剤が1回分セットされた合図",
+      "終了の音",
+      "電池が切れた音"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "音を確認してから吸入することが正しい使い方の基本です。",
+    "evidence": "エリプタの使用方法",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 602,
+    "category": "③薬剤知識",
+    "subCategory": "抗菌薬",
+    "question": "抗菌薬（抗生剤）の副作用として、腎臓への影響を見るための血液データはどれか。",
+    "options": [
+      "コレステロール",
+      "クレアチニン (Cr) ・尿素窒素 (BUN)",
+      "血糖値",
+      "赤血球"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "腎毒性のある薬剤があるため、腎機能の推移を注意深く観察する必要があります。",
+    "evidence": "薬剤性腎障害の観察",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 603,
+    "category": "③薬剤知識",
+    "subCategory": "抗凝固薬",
+    "question": "特定の抗凝固薬を使用中の患者に「青あざ（皮下出血）」が多発した際のアセスメントはどれか。",
+    "options": [
+      "ぶつけただけと判断",
+      "薬の効きすぎによる出血傾向と考え、医師に報告する",
+      "美容の問題",
+      "放置"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "重大な内臓出血の前兆である可能性があるため、見逃せないサインです。",
+    "evidence": "抗凝固療法の安全管理",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 604,
+    "category": "③薬剤知識",
+    "subCategory": "ステロイド薬",
+    "question": "ステロイド治療を急に「自己中断（止める）」してはいけない最大の理由はどれか。",
+    "options": [
+      "薬が勿体ないから",
+      "体内のステロイドが不足し、離脱症状（ステロイド離脱症候群）を起こすから",
+      "不眠になるから",
+      "特に理由はない"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "長期間外から補っていると、自分で作る能力が下がっており、急に止めるとショック状態になる危険があります。",
+    "evidence": "ステロイド治療の注意事項",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 605,
+    "category": "③薬剤知識",
+    "subCategory": "鎮静薬",
+    "question": "モルヒネなどのオピオイドを使用中に「瞳孔が針の先のように小さくなる（縮瞳）」のはどれか。",
+    "options": [
+      "健康な証拠",
+      "薬の副作用（特徴的な徴候）の一つ",
+      "視力の向上",
+      "寝ているだけ"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "オピオイドの作用による特徴的な身体的反応です。",
+    "evidence": "緩和医療のアセスメント",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 606,
+    "category": "③薬剤知識",
+    "subCategory": "インスリン",
+    "question": "インスリン注射を行う際、皮膚を「つまむ」ようにして打つ主な目的はどれか。",
+    "options": [
+      "痛くするため",
+      "筋肉内ではなく、皮下組織に確実に注射するため",
+      "指を鍛えるため",
+      "適当で良い"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "筋肉に刺さると吸収が早まりすぎ、低血糖のリスクが高まるため、皮下層を狙います。",
+    "evidence": "インスリン自己注射の手技",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 607,
+    "category": "③薬剤知識",
+    "subCategory": "吸入薬",
+    "question": "フルタイド回転（ディスカス）を吸う前に「ふーっ」と外に息を吐き出す理由（注意点）はどれか。",
+    "options": [
+      "勢いをつけるため",
+      "デバイスの中に息を吹き込むと、湿気で薬が固まって吸えなくなるから",
+      "音を出すため",
+      "喉を温めるため"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "デバイスに息を入れないことは、粉末吸入器の共通の鉄則です。",
+    "evidence": "ディスカスの使用指導",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 608,
+    "category": "③薬剤知識",
+    "subCategory": "抗菌薬",
+    "question": "抗菌薬を点滴する際、配合変化（濁りなど）を防ぐために混注してはいけない液体の例はどれか。",
+    "options": [
+      "生理食塩液",
+      "一部の注射薬において、特定の輸液との混合で沈殿を生じる場合がある",
+      "お茶",
+      "オレンジジュース"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "薬剤同士、あるいは輸液との相性を薬剤情報で確認することが看護師の責務です。",
+    "evidence": "注射薬の安全管理指針",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 609,
+    "category": "③薬剤知識",
+    "subCategory": "去痰薬",
+    "question": "痰を出しやすくする「加湿（ネブライザー）」の薬剤として、最も多く用いられる基材はどれか。",
+    "options": [
+      "油",
+      "生理食塩液",
+      "アルコール",
+      "砂糖水"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "気道粘膜への刺激が少なく、加湿効果に優れています。",
+    "evidence": "吸入療法の基礎",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 610,
+    "category": "③薬剤知識",
+    "subCategory": "テオフィリン",
+    "question": "テオフィリン製剤の投与中に「コーヒー」を多飲してはいけない理由は何か。",
+    "options": [
+      "色がつくから",
+      "カフェインがテオフィリンの作用を強め、中毒症状を起こしやすくなるから",
+      "眠れなくなるから",
+      "特になし"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "同じ群（キサンチン系）の成分であり、相互作用に注意が必要です。",
+    "evidence": "薬剤・食品相互作用",
+    "reference": "SafetyPlus"
   }
 ]
