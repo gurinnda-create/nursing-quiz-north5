@@ -4798,5 +4798,725 @@
     "explanation": "基本的な処方の読み方ですが、正確な与薬の基礎となります。",
     "evidence": "与薬の基本技術",
     "reference": "Nursing Skills"
+  },
+  {
+    "id": 351,
+    "category": "①呼吸器手技",
+    "subCategory": "吸引",
+    "question": "気管吸引カテーテルを挿入する際、最も抵抗が少なくスムーズに挿入できる「潤滑剤」として適切なのはどれか。",
+    "options": [
+      "ワセリン",
+      "滅菌蒸留水または生理食塩液",
+      "ハンドクリーム",
+      "サラダ油"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "気道粘膜への刺激を抑え、安全に挿入するために、通常は滅菌された水溶性成分（または生理食塩水）でカテーテルを湿らせます。",
+    "evidence": "気道吸引の基本技術",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 352,
+    "category": "①呼吸器手技",
+    "subCategory": "酸素療法",
+    "question": "CO2ナルコーシスのリスクがある患者に対して、高濃度酸素を投与する際、特に注意すべき身体所見はどれか。",
+    "options": [
+      "多尿",
+      "意識レベルの低下（傾眠）や自発呼吸の減弱",
+      "空腹感",
+      "発疹"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "高濃度酸素により呼吸中枢の刺激が弱まり、二酸化炭素が蓄積して昏睡（ナルコーシス）に陥る危険があります。",
+    "evidence": "酸素療法の安全基準",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 353,
+    "category": "①呼吸器手技",
+    "subCategory": "人工呼吸器",
+    "question": "人工呼吸器の「低い換気量アラーム」が鳴った際、最も疑うべき回路のトラブルはどれか。",
+    "options": [
+      "回路のはずれ（リーク・外れ）",
+      "加湿器の故障",
+      "設定ミス",
+      "電源不足"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "設定した量が送られていない原因として、回路の接続外れが最も緊急かつ一般的です。",
+    "evidence": "ME機器トラブルシューティング",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 354,
+    "category": "①呼吸器手技",
+    "subCategory": "ドレーン管理",
+    "question": "胸腔ドレーンが「皮下気腫」を伴っている場合、触診で得られる特徴的な感触を何と呼ぶか。",
+    "options": [
+      "波動",
+      "握雪感 (あくせつかん)",
+      "硬結",
+      "熱感"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "皮膚の下に空気が入り込み、雪を握るような「シャリシャリ」とした独特の感触がします。",
+    "evidence": "ドレーン看視アセスメント",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 355,
+    "category": "①呼吸器手技",
+    "subCategory": "救急対応",
+    "question": "バッグバルブマスク（BVM）での換気中、胃膨満（お腹が膨らむ）を防ぐための工夫はどれか。",
+    "options": [
+      "強く押し込む",
+      "ゆっくり時間をかけて（約1秒）送り込み、過度な圧をかけない",
+      "患者を座らせる",
+      "鼻だけ覆う"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "急激な圧をかけると空気が食道に流れ込み、嘔吐や呼吸抑制を招く胃膨満の原因となります。",
+    "evidence": "JRC蘇生ガイドライン",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 356,
+    "category": "①呼吸器手技",
+    "subCategory": "モニタリング",
+    "question": "動脈血ガス分析用シリンジに予め含まれている「ヘパリン」の主な目的はどれか。",
+    "options": [
+      "痛みを抑える",
+      "血液の凝固を防ぐ",
+      "酸素を溶かす",
+      "色をつける"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "正確な分析を行うために、シリンジ内での血液凝固を防止する必要があります。",
+    "evidence": "血液ガス測定マニュアル",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 357,
+    "category": "①呼吸器手技",
+    "subCategory": "感染対策",
+    "question": "インフルエンザなど飛沫感染予防策が必要な患者の個室に、ケアの都度持ち込むべき備品管理の原則はどれか。",
+    "options": [
+      "物品はできるだけ持ち込まず、各患者専用の備品（血圧計等）を置く",
+      "何でも持ち込んで良い",
+      "物品を戻すときは洗わない",
+      "特に決まりはない"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "共用物品を介した介在感染を防ぐため、専用化または徹底した消毒が必要です。",
+    "evidence": "病院感染予防策ガイドライン",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 358,
+    "category": "①呼吸器手技",
+    "subCategory": "その他",
+    "question": "呼吸リハビリテーションにおける「ハフィング」とはどのような動作か。",
+    "options": [
+      "深く眠ること",
+      "「ハッハッ」と強く短く息を吐き、喉付近の痰を出す技法",
+      "歌を歌う",
+      "鼻をすする"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "咳（咳嗽）よりも体力を消耗せずに排痰を促す有効なテクニックです。",
+    "evidence": "呼吸理学療法ガイド",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 359,
+    "category": "①呼吸器手技",
+    "subCategory": "吸引",
+    "question": "気管カニューレの内筒を洗浄する際、付着した頑固な痰を落とすために適した温度はどれか。",
+    "options": [
+      "冷水",
+      "ぬるま湯（30〜40℃程度）",
+      "熱湯 (100℃)",
+      "氷水"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "タンパク質を凝固させないぬるま湯が適しています。熱湯は汚れが固まって逆効果になります。",
+    "evidence": "カニューレ管理の実際",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 360,
+    "category": "①呼吸器手技",
+    "subCategory": "酸素療法",
+    "question": "酸素加湿瓶の蒸留水の水位を「MAX（上限）」より多く入れてはいけない理由は何か。",
+    "options": [
+      "勿体ないから",
+      "気泡と共に水滴がチューブ内に流れ込み、誤嚥や回路内汚染の原因となるから",
+      "重くなるから",
+      "音がうるさいから"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "水の吸い込み（ウォーターハンマー現象）を防ぐための安全上の配慮です。",
+    "evidence": "酸素療法のトラブル対策",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 361,
+    "category": "①呼吸器手技",
+    "subCategory": "人工呼吸器",
+    "question": "人工呼吸器回路の「ウォータートラップ」に溜まった水を捨てる際の注意点はどれか。",
+    "options": [
+      "呼吸を止めてから捨てる",
+      "回路を切り離さず、閉鎖系を維持したまま行える構造を利用し、菌を入れない",
+      "床にぶちまける",
+      "そのまま放置する"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "回路内の水分は細菌の温床となるため、清潔に、かつ不要な回路開放を避けて処理します。",
+    "evidence": "VAP予防実践指針",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 362,
+    "category": "①呼吸器手技",
+    "subCategory": "ドレーン管理",
+    "question": "胸腔ドレーン装着患者の移動（レントゲン室へ等）の際、チューブを「クランプ（止める）」すべきかどうか。",
+    "options": [
+      "常にクランプする",
+      "原則としてクランプせず、開放状態（または水封維持）で移動する",
+      "適当で良い",
+      "二重に縛る"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "クランプすると空気が逃げ場を失い、緊張性気胸を引き起こすリスクがあるため、特別な指示がない限り開放しておきます。",
+    "evidence": "安全なドレーン管理",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 363,
+    "category": "①呼吸器手技",
+    "subCategory": "吸引",
+    "question": "気管挿入されている患者の吸引時、カテーテルをどこまで挿入すべきか。",
+    "options": [
+      "最後まで押し込む",
+      "チューブの先端から少し（1〜2cm程度）出る位置まで",
+      "鼻まで",
+      "どこでも良い"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "気管分岐部を強く刺激して損傷や迷走神経反射を起こさないよう、適切な深さに留めます。",
+    "evidence": "吸引の看護安全",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 364,
+    "category": "①呼吸器手技",
+    "subCategory": "救急対応",
+    "question": "AED（自動体外式除細動器）の音声ガイドで「体に触れないでください」と流れた時、看護師がすべきことは何か。",
+    "options": [
+      "胸骨圧迫を続ける",
+      "周囲に「離れてください！」と注意喚起し、自身も手を離す",
+      "スイッチを連打する",
+      "患者を揺さぶる"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "解析ミスや救護者の感電を防ぐため、電気ショック時および解析時は誰一人触れてはいけません。",
+    "evidence": "心肺蘇生プロトコル",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 365,
+    "category": "①呼吸器手技",
+    "subCategory": "モニタリング",
+    "question": "パルスオキシメータのSpO2値が90%以下になった際、まず最初に行う「確認」はどれか。",
+    "options": [
+      "主治医を呼ぶ",
+      "センサーの装着状態と、患者の意識・呼吸・顔色を確認する",
+      "酸素全開",
+      "記録のみ"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "機械の誤作動（外れ、冷え）か、患者の急変かを即座に判断する必要があります。",
+    "evidence": "急変対応の優先順位",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 366,
+    "category": "①呼吸器手技",
+    "subCategory": "人工呼吸器",
+    "question": "人工呼吸器の加湿温度を「37℃」に設定することで防げるトラブルはどれか。",
+    "options": [
+      "結露の発生や、痰の固着による気道閉塞",
+      "患者の空腹感",
+      "部屋の乾燥",
+      "不眠"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "肺に送る空気の湿度と温度を最適に保つことで、繊毛運動を助け、痰を出しやすくします。",
+    "evidence": "呼吸器ケアの基本",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 367,
+    "category": "①呼吸器手技",
+    "subCategory": "口腔ケア",
+    "question": "人工呼吸器装着患者の口腔ケア中、バイトブロック（噛み込み防止具）を使用する目的はどれか。",
+    "options": [
+      "舌を噛まないようにするため",
+      "気管チューブの噛み潰し（閉塞）を防ぎ、安全なケアスペースを確保するため",
+      "歯を白くするため",
+      "喋りやすくするため"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "意識障害や不穏がある患者ではチューブを噛んでしまい、窒息する恐れがあるため使用します。",
+    "evidence": "気道管理技術",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 368,
+    "category": "①呼吸器手技",
+    "subCategory": "酸素療法",
+    "question": "ベンチュリーマスクで特定のFiO2（酸素濃度）を設定する際、変更すべき部品はどれか。",
+    "options": [
+      "マスクのゴムストリング",
+      "設定したい濃度に応じた「ダイリューター（色別のチップ）」",
+      "酸素のチューブ",
+      "特になし"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "空気の混合比を変えるためのチップを正確に選択・装着する必要があります。",
+    "evidence": "酸素吸入デバイスの知識",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 369,
+    "category": "①呼吸器手技",
+    "subCategory": "ドレーン管理",
+    "question": "胸腔ドレーンの水封室に「大きな気泡（ブクブク）」が出た際、患者が行っている動作でない場合、何を意味するか。",
+    "options": [
+      "正常な吸引圧",
+      "空気漏れ（リーク）の発生",
+      "水の蒸発",
+      "特に問題なし"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "肺から空気が漏れ出している、または回路に穴が開いている可能性があります。",
+    "evidence": "ドレーン管理術",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 370,
+    "category": "①呼吸器手技",
+    "subCategory": "体位変換",
+    "question": "気管吸引後に「肺を広げる」ために有効なポジショニングはどれか。",
+    "options": [
+      "仰臥位 (仰向け)",
+      "側臥位を左右交互にとり、換気の偏りを防ぐ",
+      "ずっと同じ向き",
+      "うつ伏せのみ"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "無気肺の予防と、肺全体の酸素取り込みを均一にするために体位変換は不可欠です。",
+    "evidence": "体位変換の理論と実践",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 371,
+    "category": "①呼吸器手技",
+    "subCategory": "血液ガス採血",
+    "question": "血液ガス分析において「PaCO2（二酸化炭素分圧）」が上昇している状態（正常値は40mmHg前後）を何と呼ぶか。",
+    "options": [
+      "低酸素血症",
+      "高二酸化炭素血症 (呼吸性アシドーシスなどの原因)",
+      "糖尿病",
+      "高血圧"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "肺での換気が不足していることを示す重要な指標です。",
+    "evidence": "血液ガスアセスメント",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 372,
+    "category": "①呼吸器手技",
+    "subCategory": "感染対策",
+    "question": "手指衛生（アルコール擦式法）の際、乾燥するまで擦り込む時間はどのくらいが目安か。",
+    "options": [
+      "1秒",
+      "15〜20秒程度",
+      "1分以上",
+      "洗わない"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "十分な消毒効果を得るためには、手が乾燥するまで（約20秒）しっかりと擦り込む必要があります。",
+    "evidence": "CDC手指衛生ガイドライン",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 373,
+    "category": "①呼吸器手技",
+    "subCategory": "その他",
+    "question": "「パルスオキシメータ」が脈拍を感知できなくなる原因でないものはどれか。",
+    "options": [
+      "血圧の極端な低下（ショック）",
+      "周囲があまりにも明るすぎる（直射日光）",
+      "患者がリフレッシュしている",
+      "末梢の冷え（血管収縮）"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "リラックス（リフレッシュ）は測定を安定させますが、他の3つは測定不能や誤差の原因になります。",
+    "evidence": "生体情報モニタの実際",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 374,
+    "category": "①呼吸器手技",
+    "subCategory": "救急対応",
+    "question": "嘔吐している患者の「誤嚥」を防ぐために取るべき体位はどれか。",
+    "options": [
+      "仰臥位 (仰向け)",
+      "顔を横に向ける、または側臥位（回復体位）",
+      "ヘッドアップ",
+      "座らせる"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "吐物が気道を塞がないよう、出口を確保するために横を向かせます。",
+    "evidence": "救命救急の基本",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 375,
+    "category": "①呼吸器手技",
+    "subCategory": "感染対策",
+    "question": "汚染された血液が床に飛散した際、消毒に使用すべき薬剤はどれか。",
+    "options": [
+      "水",
+      "次亜塩素酸ナトリウム（0.1%以上）",
+      "お湯",
+      "石鹸"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "血液介在性病原体（HBV, HCV, HIV等）を不活化するために、塩素系消毒薬が必須です。",
+    "evidence": "標準予防策の実践",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 451,
+    "category": "②疾患観察",
+    "subCategory": "肺炎",
+    "question": "肺炎患者の喀痰が「鉄さび色」をしている場合に疑われる代表的な原因菌はどれか。",
+    "options": [
+      "インフルエンザ菌",
+      "肺炎球菌",
+      "黄色ブドウ球菌",
+      "マイコプラズマ"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "肺炎球菌肺炎に見られる特徴的な血性痰の色です。",
+    "evidence": "呼吸器疾患の見方",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 452,
+    "category": "②疾患観察",
+    "subCategory": "COPD",
+    "question": "COPD患者が「口すぼめ呼吸」を自然に行っている理由はどれか。",
+    "options": [
+      "口笛の練習",
+      "気管支の内圧を高く保ち、末梢気道の虚脱（閉じてしまうこと）を防ぐため",
+      "喉を潤すため",
+      "特に意味はない"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "吐き出す際の圧を高めることで、より多くの空気を効率よく排出できる、代償的な呼吸法です。",
+    "evidence": "呼吸病態学",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 453,
+    "category": "②疾患観察",
+    "subCategory": "気胸",
+    "question": "気胸の主訴（本人が訴えること）として、最も多い組み合わせはどれか。",
+    "options": [
+      "突然の胸痛・呼吸困難",
+      "徐々に始まる咳",
+      "発熱・寒気",
+      "腰痛"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "多くの場合、肺が破れた瞬間の鋭い痛みと、その後の息苦しさが突然現れます。",
+    "evidence": "呼吸器救急の症候",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 454,
+    "category": "②疾患観察",
+    "subCategory": "心不全",
+    "question": "心不全患者で「起坐位」をとらせると呼吸が楽になる理由はどれか。",
+    "options": [
+      "視界が広がるから",
+      "静脈還流量が減り、肺うっ血が軽減されるため",
+      "心臓が大きくなるから",
+      "眠気が冷めるから"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "座ることで下半身に血液が溜まり、肺へ戻る血液量が減るため、肺の負担が軽くなります。",
+    "evidence": "循環動態のアセスメント",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 455,
+    "category": "②疾患観察",
+    "subCategory": "フィジカルアセスメント",
+    "question": "肺の聴診で「グーグー」あるいは「ゴロゴロ」と聞こえる低い雑音（連続性ラッ音）を何と呼ぶか。",
+    "options": [
+      "捻髪音 (ねんぱつおん)",
+      "いびき音 (低調性連続性ラッ音)",
+      "笛声音",
+      "無音"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "太い気道に分泌物（痰）が溜まっている時に聞かれる音です。",
+    "evidence": "聴診スキルアップ",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 456,
+    "category": "②疾患観察",
+    "subCategory": "疾患管理",
+    "question": "「深部静脈血栓症（DVT）」を疑う身体所見として、足に見られる特徴はどれか。",
+    "options": [
+      "青白くなる",
+      "片側の足の腫脹（腫れ）・痛み・発赤",
+      "両足が冷たくなる",
+      "特に変わらない"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "片方の足だけがパンパンに腫れている場合は、血管が詰まっている重要なサインです。",
+    "evidence": "血栓症の早期発見",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 457,
+    "category": "②疾患観察",
+    "subCategory": "感染症",
+    "question": "結核の初期症状として、風邪と間違われやすいが持続する期間（目安）はどれか。",
+    "options": [
+      "1日",
+      "2週間以上の咳や微熱",
+      "1ヶ月の腹痛",
+      "10秒"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "2週間以上続く咳がある場合は、結核を念頭に置いた検査が推奨されます。",
+    "evidence": "結核予防法・早期発見",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 458,
+    "category": "②疾患観察",
+    "subCategory": "がん看護",
+    "question": "肺がん患者の「悪液質（カヘキシア）」とはどのような状態か。",
+    "options": [
+      "元気いっぱい",
+      "病的に激しい体重減少、筋肉の消失、食欲不振がある状態",
+      "睡眠不足",
+      "若返り"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "がん細胞により代謝が異常になり、食事を摂ってもエネルギーが消費されてしまう深刻な消耗状態です。",
+    "evidence": "がん終末期のケア",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 459,
+    "category": "②疾患観察",
+    "subCategory": "フィジカルアセスメント",
+    "question": "意識評価指標の「GCS（グラスゴー・コーマ・スケール）」で満点は何点か。",
+    "options": [
+      "10点",
+      "15点",
+      "100点",
+      "0点"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "開眼(E4), 言語(V5), 運動(M6) の合計で、最高が15点、最低が3点です。",
+    "evidence": "世界標準の意識評価",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 460,
+    "category": "②疾患観察",
+    "subCategory": "その他",
+    "question": "患者が「ゼーゼー」「ヒューヒュー」という音（喘鳴）をさせている際、気道のどこが狭くなっていると考えられるか。",
+    "options": [
+      "鼻",
+      "末梢の細気管支などの細い気道",
+      "指先",
+      "胃"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "空気の通り道が炎症や痙攣で狭くなっている時に、空気が擦れる音です。",
+    "evidence": "呼吸器アセスメントの基本",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 551,
+    "category": "③薬剤知識",
+    "subCategory": "吸入薬",
+    "question": "吸入ステロイド薬を使用後、口腔内に白いカビ（カンジダ）が生えるのを防ぐケアはどれか。",
+    "options": [
+      "歯磨き",
+      "徹底した「うがい」",
+      "絶食",
+      "笑う"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "ステロイドが口の中に残ると、局所の免疫が落ちて菌が繁殖しやすくなるため、うがいで洗い流します。",
+    "evidence": "吸入療法の副作用対策",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 552,
+    "category": "③薬剤知識",
+    "subCategory": "抗菌薬",
+    "question": "抗菌薬の副作用として起こりうる「偽膜性大腸炎」の主症状はどれか。",
+    "options": [
+      "便秘",
+      "激しい下痢・腹痛・粘血便",
+      "胸焼け",
+      "足のむずむず"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "腸内細菌のバランスが崩れ、特定の菌の毒素により腸の粘膜が白くただれる病態です。",
+    "evidence": "感染症治療の副作用",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 553,
+    "category": "③薬剤知識",
+    "subCategory": "抗凝固薬",
+    "question": "ワーファリンを服用している患者が食べてはいけない「納豆」に含まれる、薬の効果を打ち消す成分はどれか。",
+    "options": [
+      "ビタミンC",
+      "ビタミンK",
+      "タンパク質",
+      "脂質"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "ワーファリンはビタミンKの働きを抑えて血をサラサラにするため、ビタミンKを多く含む納豆は禁忌です。",
+    "evidence": "食事・薬剤相互作用",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 554,
+    "category": "③薬剤知識",
+    "subCategory": "ステロイド薬",
+    "question": "ステロイド薬の内服時間が「朝」に指定されることが多い主な理由はどれか。",
+    "options": [
+      "昼間は忙しいから",
+      "体内のステロイドホルモンのリズム（日内変動）に合わせ、全身への影響を抑えるため",
+      "空腹の方が良いから",
+      "寝る前だと眠れないから"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "本来人間が持っているホルモン分泌のピークに合わせることで、副作用のリスクを軽減します。",
+    "evidence": "薬物動態と投与時間",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 555,
+    "category": "③薬剤知識",
+    "subCategory": "鎮静薬",
+    "question": "ベンゾジアゼピン系薬剤（アチバン等）を高齢者に使用する際、最も注意すべき点（リスク）はどれか。",
+    "options": [
+      "視力向上",
+      "ふらつきによる転倒・骨折",
+      "食欲増進",
+      "多毛"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "筋弛緩作用や注意力の低下により、夜間のトイレ移動などでの転倒事故が非常に多いです。",
+    "evidence": "高齢者薬物療法の安全",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 556,
+    "category": "③薬剤知識",
+    "subCategory": "インスリン",
+    "question": "超速効型インスリン（ノボラピッド等）を注射するタイミングとして適切なのはどれか。",
+    "options": [
+      "寝る前",
+      "食事の直前（5分〜10分前）",
+      "食事の2時間前",
+      "入浴後"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "非常に早く効き始めるため、食事による血糖上昇のタイミングと合わせる必要があります。",
+    "evidence": "糖尿病注射指導",
+    "reference": "Nursing Skills"
+  },
+  {
+    "id": 557,
+    "category": "③薬剤知識",
+    "subCategory": "吸入薬",
+    "question": "スピリーバなどの吸入薬（粉末）で使用後のカプセルの「飲み込み」を防止するための指導はどれか。",
+    "options": [
+      "特に言わなくて良い",
+      "「カプセルは飲むものではなく、専用の器械にセットして吸うもの」と明確に伝える",
+      "噛み砕いて良いと言う",
+      "水で飲み込めと言う"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "誤って内服してしまう事例が後を絶たないため、視覚的な説明も交えて指導します。",
+    "evidence": "医療安全対策事例集",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 558,
+    "category": "③薬剤知識",
+    "subCategory": "抗菌薬",
+    "question": "抗菌薬の「点滴漏れ」が起きた際、その部位にどのような変化が見られるか。",
+    "options": [
+      "腫れ・痛み・発赤・硬結",
+      "特に変化なし",
+      "白くなる",
+      "伸びる"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "血管外へ薬液が漏れると炎症を起こし、重症化すると組織壊死を招くこともあります。",
+    "evidence": "点滴管理マニュアル",
+    "reference": "SafetyPlus"
+  },
+  {
+    "id": 559,
+    "category": "③薬剤知識",
+    "subCategory": "去痰薬",
+    "question": "ムコダイン（L-カルボシステイン）が痰を出しやすくする仕組みはどれか。",
+    "options": [
+      "咳を止める",
+      "痰の粘り気を減らし、サラサラな状態にして線毛運動を助ける",
+      "痰を固める",
+      "特になし"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "粘液の質を正常化させることで、自然な排出を支援します。",
+    "evidence": "薬理学の基礎",
+    "reference": "看護roo!"
+  },
+  {
+    "id": 560,
+    "category": "③薬剤知識",
+    "subCategory": "テオフィリン",
+    "question": "テオフィリン中毒の初期症状として見られやすいものはどれか。",
+    "options": [
+      "強い眠気",
+      "悪心（吐き気）・嘔吐・動悸・手のふるえ",
+      "聴力低下",
+      "多尿"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "血中濃度が上がりすぎると、消化器症状や神経・循環器症状が現れます。",
+    "evidence": "中毒回避のモニタリング",
+    "reference": "SafetyPlus"
   }
 ]
