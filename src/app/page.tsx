@@ -165,9 +165,10 @@ export default function Home() {
         </div>
 
         {/* Footer info using simple text */}
-        <div className="mt-20 text-center text-sm text-muted-foreground">
-          <p className="mb-2">現在30問収録（順次追加予定）</p>
+        <div className="mt-20 text-center text-sm text-muted-foreground space-y-2">
+          <p>収録問題数: {(questionsData as any[]).length}問</p>
           <p>Last Update: {new Date().toLocaleDateString()}</p>
+          <p className="text-[10px] opacity-50">※新しい機能が表示されない場合は、ブラウザを更新（リロード）してください。</p>
         </div>
       </div>
     </main>
