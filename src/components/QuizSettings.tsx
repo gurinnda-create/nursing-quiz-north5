@@ -211,18 +211,28 @@ const QuizSettings: React.FC<QuizSettingsProps> = ({ onStart, totalQuestionsAvai
 
                     {/* Additional Options */}
                     <div className="mt-6 pt-6 border-t border-border">
-                        <label className="flex items-center gap-3 cursor-pointer group">
-                            <div className={`w-10 h-6 flex items-center rounded-full p-1 transition-colors ${unansweredOnly ? 'bg-primary' : 'bg-muted'}`}>
-                                <div className={`bg-white w-4 h-4 rounded-full shadow-sm transform transition-transform ${unansweredOnly ? 'translate-x-4' : ''}`} />
+                        <div
+                            onClick={() => setUnansweredOnly(!unansweredOnly)}
+                            className={`flex items-center justify-between p-4 rounded-2xl border-2 transition-all cursor-pointer ${unansweredOnly
+                                    ? 'border-primary bg-primary/5 shadow-sm'
+                                    : 'border-border bg-background hover:border-primary/30'
+                                }`}
+                        >
+                            <div className="flex items-center gap-3">
+                                <div className={`w-10 h-6 flex items-center rounded-full p-1 transition-colors ${unansweredOnly ? 'bg-primary' : 'bg-muted'}`}>
+                                    <div className={`bg-white w-4 h-4 rounded-full shadow-sm transform transition-transform ${unansweredOnly ? 'translate-x-4' : ''}`} />
+                                </div>
+                                <div>
+                                    <span className="font-bold text-sm block">未回答の問題のみを出題</span>
+                                    <span className="text-[10px] text-muted-foreground">新しい問題に挑戦したい場合に最適です</span>
+                                </div>
                             </div>
-                            <input
-                                type="checkbox"
-                                className="hidden"
-                                checked={unansweredOnly}
-                                onChange={(e) => setUnansweredOnly(e.target.checked)}
-                            />
-                            <span className="font-bold text-sm group-hover:text-primary transition-colors">未回答の問題のみを出題</span>
-                        </label>
+                            {unansweredOnly && (
+                                <div className="bg-primary text-primary-foreground text-[10px] px-2 py-1 rounded-md font-bold animate-pulse">
+                                    ON
+                                </div>
+                            )}
+                        </div>
                     </div>
 
                     <p className="text-[10px] text-muted-foreground mt-3">※何もチェックしない場合は、条件に一致する全ての問題から出題されます。</p>
