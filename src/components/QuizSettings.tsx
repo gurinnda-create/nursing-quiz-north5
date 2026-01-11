@@ -214,23 +214,24 @@ const QuizSettings: React.FC<QuizSettingsProps> = ({ onStart, totalQuestionsAvai
                         <div
                             onClick={() => setUnansweredOnly(!unansweredOnly)}
                             className={`flex items-center justify-between p-4 rounded-2xl border-2 transition-all cursor-pointer ${unansweredOnly
-                                    ? 'border-primary bg-primary/5 shadow-sm'
+                                    ? 'border-primary shadow-md'
                                     : 'border-border bg-background hover:border-primary/30'
                                 }`}
+                            style={unansweredOnly ? { backgroundColor: 'var(--primary)', color: 'var(--primary-foreground)' } : {}}
                         >
                             <div className="flex items-center gap-3">
-                                <div className={`w-10 h-6 flex items-center rounded-full p-1 transition-colors ${unansweredOnly ? 'bg-primary' : 'bg-muted'}`}>
+                                <div className={`w-10 h-6 flex items-center rounded-full p-1 transition-colors ${unansweredOnly ? 'bg-white/30' : 'bg-muted'}`}>
                                     <div className={`bg-white w-4 h-4 rounded-full shadow-sm transform transition-transform ${unansweredOnly ? 'translate-x-4' : ''}`} />
                                 </div>
                                 <div>
                                     <span className="font-bold text-sm block">未回答の問題のみを出題</span>
-                                    <span className="text-[10px] text-muted-foreground">新しい問題に挑戦したい場合に最適です</span>
+                                    <span className={`text-[10px] ${unansweredOnly ? 'text-white/80' : 'text-muted-foreground'}`}>
+                                        新しい問題に挑戦したい場合に最適です
+                                    </span>
                                 </div>
                             </div>
                             {unansweredOnly && (
-                                <div className="bg-primary text-primary-foreground text-[10px] px-2 py-1 rounded-md font-bold animate-pulse">
-                                    ON
-                                </div>
+                                <CheckCircle className="text-white" size={20} />
                             )}
                         </div>
                     </div>
