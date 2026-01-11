@@ -86,9 +86,18 @@ const QuizGame: React.FC<QuizGameProps> = ({ questions, onComplete, onExit }) =>
                 <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-xs font-bold mb-4">
                     {currentQuestion.category}
                 </span>
-                <h2 className="text-xl md:text-2xl font-bold leading-relaxed text-foreground">
+                <h2 className="text-xl md:text-2xl font-bold leading-relaxed text-foreground mb-4">
                     {currentQuestion.question}
                 </h2>
+                {currentQuestion.image && (
+                    <div className="mt-4 mb-2 overflow-hidden rounded-2xl border border-border bg-accent/30 max-h-60 flex justify-center">
+                        <img
+                            src={currentQuestion.image}
+                            alt="Question Illustration"
+                            className="max-w-full h-auto object-contain hover:scale-105 transition-transform duration-500"
+                        />
+                    </div>
+                )}
             </div>
 
             {/* Options */}

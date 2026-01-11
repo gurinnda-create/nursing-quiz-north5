@@ -40,8 +40,17 @@ export default function Home() {
         if (config.subCategories && config.subCategories.length > 0) {
           filteredQuestions = filteredQuestions.filter(q => config.subCategories.includes(q.subCategory));
         }
+
+        // Then filter by references if any are selected
+        if (config.references && config.references.length > 0) {
+          filteredQuestions = filteredQuestions.filter(q => config.references.includes(q.reference));
+        }
       } else {
         filteredQuestions = [...questionsData] as Question[];
+        // Even if category is 'all', apply reference filter if selected
+        if (config.references && config.references.length > 0) {
+          filteredQuestions = filteredQuestions.filter(q => config.references.includes(q.reference));
+        }
       }
     }
 
@@ -117,6 +126,9 @@ export default function Home() {
           </div>
           <h1 className="text-3xl md:text-5xl font-bold mb-4 tracking-tight leading-tight">
             北5病棟<br className="md:hidden" /> 新人看護師必修問題集
+            <span className="block text-sm font-normal text-muted-foreground mt-2">
+              全{(questionsData as any[]).length}問 収録
+            </span>
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             呼吸器内科で実践される手技・疾患観察・薬剤知識を効率的に学習
@@ -166,9 +178,10 @@ export default function Home() {
 
         {/* Footer info using simple text */}
         <div className="mt-20 text-center text-sm text-muted-foreground space-y-2">
-          <p>収録問題数: {(questionsData as any[]).length}問</p>
-          <p>Last Update: {new Date().toLocaleDateString()}</p>
-          <p className="text-[10px] opacity-50">※新しい機能が表示されない場合は、ブラウザを更新（リロード）してください。</p>
+          <p>収録問題数: {(questionsData as any[]).length}問 (v1.0.1 - 2026/01/11)</p>
+          <p>検証用フィルタ: 実装済み</p>
+          <p className="text-[10px] opacity-50 font-mono">Build ID: {Date.now()}</p>
+          <p className="text-[10px] opacity-50 mt-4">※新しい機能が表示されない、反映されない場合は、<br />ブラウザを強制更新（Ctrl + F5 / Cmd + Shift + R）してください。</p>
         </div>
       </div>
     </main>

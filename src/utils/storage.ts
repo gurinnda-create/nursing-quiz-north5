@@ -10,6 +10,7 @@ export type Question = {
     explanation: string;
     evidence: string; // 根拠を追加
     reference: string;
+    image?: string; // 画像URL（オプション）
 };
 
 export type QuizResult = {

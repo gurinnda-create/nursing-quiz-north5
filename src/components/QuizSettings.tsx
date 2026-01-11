@@ -19,6 +19,7 @@ export type QuizConfig = {
     mode: QuizMode;
     category: string;
     subCategories: string[]; // 複数選択に対応
+    references: string[]; // 参考文献での絞り込み
 };
 
 interface QuizSettingsProps {
@@ -31,6 +32,7 @@ const QuizSettings: React.FC<QuizSettingsProps> = ({ onStart, totalQuestionsAvai
     const [mode, setMode] = useState<QuizMode>('all');
     const [selectedCategory, setSelectedCategory] = useState<string>("すべて");
     const [selectedSubCategories, setSelectedSubCategories] = useState<string[]>([]);
+    const [selectedReferences, setSelectedReferences] = useState<string[]>([]);
     const [showSubMenu, setShowSubMenu] = useState(false);
 
     // カテゴリに応じたサブカテゴリの抽出
@@ -42,6 +44,12 @@ const QuizSettings: React.FC<QuizSettingsProps> = ({ onStart, totalQuestionsAvai
         return Array.from(new Set(subs)).filter(Boolean) as string[];
     }, [selectedCategory]);
 
+    // 利用可能な参考文献の抽出
+    const availableReferences = React.useMemo(() => {
+        const refs = (questionsData as any[]).map(q => q.reference);
+        return Array.from(new Set(refs)).filter(Boolean) as string[];
+    }, []);
+
     const incorrectIds = getIncorrectQuestionsIds();
     const hasIncorrectQuestions = incorrectIds.length > 0;
 
@@ -50,13 +58,20 @@ const QuizSettings: React.FC<QuizSettingsProps> = ({ onStart, totalQuestionsAvai
             questionCount,
             mode,
             category: selectedCategory,
-            subCategories: selectedSubCategories
+            subCategories: selectedSubCategories,
+            references: selectedReferences
         });
     };
 
     const toggleSubCategory = (sub: string) => {
         setSelectedSubCategories(prev =>
             prev.includes(sub) ? prev.filter(s => s !== sub) : [...prev, sub]
+        );
+    };
+
+    const toggleReference = (ref: string) => {
+        setSelectedReferences(prev =>
+            prev.includes(ref) ? prev.filter(r => r !== ref) : [...prev, ref]
         );
     };
 
@@ -159,9 +174,38 @@ const QuizSettings: React.FC<QuizSettingsProps> = ({ onStart, totalQuestionsAvai
                                     </label>
                                 ))}
                             </div>
-                            <p className="text-[10px] text-muted-foreground mt-3">※何もチェックしない場合は、選択した領域の全ての問題から出題されます。</p>
                         </div>
                     )}
+
+                    {/* Reference selection */}
+                    {availableReferences.length > 0 && (
+                        <div className="mt-6 pt-6 border-t border-border animate-slide-up">
+                            <h4 className="text-sm font-bold text-muted-foreground mb-3 flex items-center gap-2">
+                                <BookOpen size={16} />
+                                <span>参考文献で絞り込む（検証用）</span>
+                            </h4>
+                            <div className="flex flex-wrap gap-2">
+                                {availableReferences.map(ref => (
+                                    <label
+                                        key={ref}
+                                        className={`flex items-center gap-2 px-4 py-2 rounded-full border text-xs font-medium cursor-pointer transition-all ${selectedReferences.includes(ref)
+                                            ? 'border-primary bg-primary/10 text-primary ring-1 ring-primary'
+                                            : 'border-border bg-background text-muted-foreground hover:border-primary/50'
+                                            }`}
+                                    >
+                                        <input
+                                            type="checkbox"
+                                            className="hidden"
+                                            checked={selectedReferences.includes(ref)}
+                                            onChange={() => toggleReference(ref)}
+                                        />
+                                        {ref}
+                                    </label>
+                                ))}
+                            </div>
+                        </div>
+                    )}
+                    <p className="text-[10px] text-muted-foreground mt-3">※何もチェックしない場合は、条件に一致する全ての問題から出題されます。</p>
                 </div>
             )}
 
