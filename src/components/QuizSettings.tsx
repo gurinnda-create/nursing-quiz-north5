@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
-import { getIncorrectQuestionsIds } from '../utils/storage';
+import { getIncorrectQuestionsIds, getStats } from '../utils/storage';
 import { BookOpen, AlertCircle, PlayCircle, History, CheckCircle, ListFilter } from 'lucide-react';
 
 import questionsData from '../data/questions.json';
@@ -20,6 +20,7 @@ export type QuizConfig = {
     category: string;
     subCategories: string[]; // 複数選択に対応
     references: string[]; // 参考文献での絞り込み
+    unansweredOnly: boolean; // 未回答問題のみ
 };
 
 interface QuizSettingsProps {
@@ -33,6 +34,7 @@ const QuizSettings: React.FC<QuizSettingsProps> = ({ onStart, totalQuestionsAvai
     const [selectedCategory, setSelectedCategory] = useState<string>("すべて");
     const [selectedSubCategories, setSelectedSubCategories] = useState<string[]>([]);
     const [selectedReferences, setSelectedReferences] = useState<string[]>([]);
+    const [unansweredOnly, setUnansweredOnly] = useState(false);
     const [showSubMenu, setShowSubMenu] = useState(false);
 
     // カテゴリに応じたサブカテゴリの抽出
@@ -59,7 +61,8 @@ const QuizSettings: React.FC<QuizSettingsProps> = ({ onStart, totalQuestionsAvai
             mode,
             category: selectedCategory,
             subCategories: selectedSubCategories,
-            references: selectedReferences
+            references: selectedReferences,
+            unansweredOnly
         });
     };
 
@@ -205,6 +208,23 @@ const QuizSettings: React.FC<QuizSettingsProps> = ({ onStart, totalQuestionsAvai
                             </div>
                         </div>
                     )}
+
+                    {/* Additional Options */}
+                    <div className="mt-6 pt-6 border-t border-border">
+                        <label className="flex items-center gap-3 cursor-pointer group">
+                            <div className={`w-10 h-6 flex items-center rounded-full p-1 transition-colors ${unansweredOnly ? 'bg-primary' : 'bg-muted'}`}>
+                                <div className={`bg-white w-4 h-4 rounded-full shadow-sm transform transition-transform ${unansweredOnly ? 'translate-x-4' : ''}`} />
+                            </div>
+                            <input
+                                type="checkbox"
+                                className="hidden"
+                                checked={unansweredOnly}
+                                onChange={(e) => setUnansweredOnly(e.target.checked)}
+                            />
+                            <span className="font-bold text-sm group-hover:text-primary transition-colors">未回答の問題のみを出題</span>
+                        </label>
+                    </div>
+
                     <p className="text-[10px] text-muted-foreground mt-3">※何もチェックしない場合は、条件に一致する全ての問題から出題されます。</p>
                 </div>
             )}

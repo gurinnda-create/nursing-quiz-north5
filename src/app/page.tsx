@@ -52,6 +52,11 @@ export default function Home() {
           filteredQuestions = filteredQuestions.filter(q => config.references.includes(q.reference));
         }
       }
+
+      // Finally, apply unanswered filter if selected
+      if (config.unansweredOnly && stats) {
+        filteredQuestions = filteredQuestions.filter(q => !stats.questionStats[q.id]);
+      }
     }
 
     // Shuffle
