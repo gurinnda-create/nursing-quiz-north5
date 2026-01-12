@@ -31,6 +31,14 @@ export default function Home() {
     if (config.mode === 'incorrect') {
       const incorrectIds = getIncorrectQuestionsIds();
       filteredQuestions = (questionsData as Question[]).filter(q => incorrectIds.includes(q.id));
+    } else if (config.mode === 'monthly') {
+      // Monthly Focus Mode: Chemotherapy
+      filteredQuestions = (questionsData as Question[]).filter(q =>
+        q.subCategory === '化学療法' ||
+        q.subCategory === 'がん看護' ||
+        q.question.includes('抗がん剤') ||
+        q.question.includes('化学療法')
+      );
     } else {
       // Normal mode - First filter by category
       if (config.category && config.category !== 'すべて') {

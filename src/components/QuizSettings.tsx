@@ -2,11 +2,11 @@
 
 import React, { useState } from 'react';
 import { getIncorrectQuestionsIds, getStats } from '../utils/storage';
-import { BookOpen, AlertCircle, PlayCircle, History, CheckCircle, ListFilter } from 'lucide-react';
+import { BookOpen, AlertCircle, PlayCircle, History, CheckCircle, ListFilter, Calendar } from 'lucide-react';
 
 import questionsData from '../data/questions.json';
 
-type QuizMode = 'all' | 'incorrect';
+type QuizMode = 'all' | 'incorrect' | 'monthly';
 const CATEGORIES = [
     "すべて",
     "①呼吸器手技",
@@ -125,6 +125,27 @@ const QuizSettings: React.FC<QuizSettingsProps> = ({ onStart, totalQuestionsAvai
                     </div>
                     <p className="text-xs text-muted-foreground">間違えた問題（{incorrectIds.length}問）に再挑戦</p>
                 </div>
+
+                <div
+                    onClick={() => setMode('monthly')}
+                    className={`cursor-pointer group relative p-5 rounded-2xl border-2 transition-all md:col-span-2 ${mode === 'monthly'
+                        ? 'border-purple-500 bg-purple-50 shadow-md'
+                        : 'border-border bg-card hover:border-purple-300'
+                        }`}
+                >
+                    <div className="flex items-center space-x-3 mb-2">
+                        <div
+                            className={`p-2 rounded-lg ${mode === 'monthly' ? 'bg-purple-500 text-white' : 'bg-accent text-muted-foreground'}`}
+                        >
+                            <Calendar size={20} />
+                        </div>
+                        <div>
+                            <h3 className="font-bold">月間重点モード</h3>
+                            <p className="text-[10px] text-purple-600 font-bold">1月：呼吸器ケモについて</p>
+                        </div>
+                    </div>
+                    <p className="text-xs text-muted-foreground">今月の強化テーマを全方面から学習します</p>
+                </div>
             </div>
 
             {/* Category Selection */}
@@ -214,8 +235,8 @@ const QuizSettings: React.FC<QuizSettingsProps> = ({ onStart, totalQuestionsAvai
                         <div
                             onClick={() => setUnansweredOnly(!unansweredOnly)}
                             className={`flex items-center justify-between p-4 rounded-2xl border-2 transition-all cursor-pointer ${unansweredOnly
-                                    ? 'border-primary shadow-md'
-                                    : 'border-border bg-background hover:border-primary/30'
+                                ? 'border-primary shadow-md'
+                                : 'border-border bg-background hover:border-primary/30'
                                 }`}
                             style={unansweredOnly ? { backgroundColor: 'var(--primary)', color: 'var(--primary-foreground)' } : {}}
                         >
