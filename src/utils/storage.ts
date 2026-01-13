@@ -23,6 +23,8 @@ export type UserStats = {
     totalAttempts: number;
     totalCorrect: number;
     questionStats: Record<number, { attempts: number; correct: number }>;
+    deviceId?: string;
+    lastAccess?: string;
 };
 
 const STORAGE_KEY = 'nursing_quiz_stats'; // 感染対策アプリと区別
@@ -57,16 +59,32 @@ export const getStats = (): UserStats => {
     }
 
     const stored = localStorage.getItem(STORAGE_KEY);
+    let stats: UserStats;
+
     if (!stored) {
-        return { totalAttempts: 0, totalCorrect: 0, questionStats: {} };
+        stats = { totalAttempts: 0, totalCorrect: 0, questionStats: {} };
+    } else {
+        try {
+            stats = JSON.parse(stored);
+        } catch (e) {
+            console.error("Failed to parse stats", e);
+            stats = { totalAttempts: 0, totalCorrect: 0, questionStats: {} };
+        }
     }
 
-    try {
-        return JSON.parse(stored);
-    } catch (e) {
-        console.error("Failed to parse stats", e);
-        return { totalAttempts: 0, totalCorrect: 0, questionStats: {} };
+    // デバイスIDの生成（未設定の場合）
+    if (!stats.deviceId) {
+        stats.deviceId = `Device-${Math.random().toString(36).substring(2, 9).toUpperCase()}`;
     }
+
+    // 最終アクセス日を更新
+    const now = new Date();
+    stats.lastAccess = now.toLocaleString('ja-JP');
+
+    // 更新を保存
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(stats));
+
+    return stats;
 };
 
 export const getIncorrectQuestionsIds = (): number[] => {
