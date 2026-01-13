@@ -194,11 +194,11 @@ export default function Home() {
         <div className="mt-20 text-center text-sm text-muted-foreground space-y-2">
           <p>収録問題数: {(questionsData as any[]).length}問 (v1.0.2 - 2026/01/13)</p>
           <p>検証用フィルタ: 実装済み</p>
-          <p className="text-[10px] opacity-50 font-mono">Build ID: {Date.now()}</p>
+          <p className="text-[10px] opacity-50 font-mono flex items-center justify-center gap-1">
+            Build ID: {Date.now()}
+            <Link href="/admin" className="inline-block w-[6px] h-[6px] bg-blue-500 rounded-full opacity-20 hover:opacity-100 transition-opacity ml-1" />
+          </p>
           <p className="text-[10px] opacity-20">※新しい機能が表示されない、反映されない場合は、<br />ブラウザを強制更新（Ctrl + F5 / Cmd + Shift + R）してください。</p>
-          <div className="pt-4">
-            <Link href="/admin" className="opacity-10 text-[8px] cursor-default hover:opacity-10 transition-none underline-none">.</Link>
-          </div>
         </div>
       </div>
     </main>
