@@ -40,6 +40,9 @@ export default function Home() {
         q.question.includes('抗がん剤') ||
         q.question.includes('化学療法')
       );
+    } else if (config.mode === 'image_only') {
+      // Image only mode
+      filteredQuestions = (questionsData as Question[]).filter(q => q.image);
     } else {
       // Normal mode - First filter by category
       if (config.category && config.category !== 'すべて') {
@@ -66,6 +69,21 @@ export default function Home() {
       if (config.unansweredOnly && stats) {
         filteredQuestions = filteredQuestions.filter(q => !stats.questionStats[q.id]);
       }
+    }
+
+    // Apply Target Level filtering (for all modes except image_only)
+    if (config.targetLevel !== 'all') {
+      filteredQuestions = filteredQuestions.filter(q => {
+        // If question has no specific target level, treat as 'all' (available for everyone)
+        if (!q.targetLevels || q.targetLevels.length === 0) return true;
+        return q.targetLevels.includes(config.targetLevel) || q.targetLevels.includes('all');
+      });
+    }
+
+    // Check if there are questions after filtering
+    if (filteredQuestions.length === 0) {
+      alert("条件に一致する問題がありませんでした。設定を変更してください。");
+      return;
     }
 
     // Shuffle

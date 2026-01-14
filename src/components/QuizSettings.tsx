@@ -1,12 +1,12 @@
 "use client";
 
 import React, { useState } from 'react';
-import { getIncorrectQuestionsIds, getStats } from '../utils/storage';
-import { BookOpen, AlertCircle, PlayCircle, History, CheckCircle, ListFilter, Calendar } from 'lucide-react';
+import { getIncorrectQuestionsIds, getStats, TargetLevel } from '../utils/storage';
+import { BookOpen, AlertCircle, PlayCircle, History, CheckCircle, ListFilter, Calendar, Users, Image as ImageIcon } from 'lucide-react';
 
 import questionsData from '../data/questions.json';
 
-type QuizMode = 'all' | 'incorrect' | 'monthly';
+type QuizMode = 'all' | 'incorrect' | 'monthly' | 'image_only';
 const CATEGORIES = [
     "すべて",
     "①呼吸器手技",
@@ -21,6 +21,7 @@ export type QuizConfig = {
     subCategories: string[]; // 複数選択に対応
     references: string[]; // 参考文献での絞り込み
     unansweredOnly: boolean; // 未回答問題のみ
+    targetLevel: TargetLevel; // 対象レベル
 };
 
 interface QuizSettingsProps {
@@ -36,6 +37,7 @@ const QuizSettings: React.FC<QuizSettingsProps> = ({ onStart, totalQuestionsAvai
     const [selectedReferences, setSelectedReferences] = useState<string[]>([]);
     const [unansweredOnly, setUnansweredOnly] = useState(false);
     const [showSubMenu, setShowSubMenu] = useState(false);
+    const [targetLevel, setTargetLevel] = useState<TargetLevel>('all');
 
     // カテゴリに応じたサブカテゴリの抽出
     const availableSubCategories = React.useMemo(() => {
@@ -62,7 +64,8 @@ const QuizSettings: React.FC<QuizSettingsProps> = ({ onStart, totalQuestionsAvai
             category: selectedCategory,
             subCategories: selectedSubCategories,
             references: selectedReferences,
-            unansweredOnly
+            unansweredOnly,
+            targetLevel
         });
     };
 
@@ -87,6 +90,39 @@ const QuizSettings: React.FC<QuizSettingsProps> = ({ onStart, totalQuestionsAvai
 
     return (
         <div className="w-full max-w-2xl mx-auto space-y-6 animate-fade-in pb-20 px-4">
+            {/* Target Level Selection */}
+            <div className="glass-panel p-5 rounded-2xl space-y-3">
+                <h3 className="text-base font-bold flex items-center gap-2">
+                    <Users className="text-primary" size={20} />
+                    <span>対象者を選択</span>
+                </h3>
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
+                    {[
+                        { id: 'beginner', label: '新人', desc: '基礎・技術' },
+                        { id: 'mid', label: '2〜4年目', desc: '応用' },
+                        { id: 'transfer', label: '異動者', desc: '病棟' },
+                        { id: 'all', label: 'すべて', desc: '全範囲' }
+                    ].map((level) => (
+                        <button
+                            key={level.id}
+                            onClick={() => setTargetLevel(level.id as TargetLevel)}
+                            className={`p-3 rounded-xl border-2 transition-all text-left relative ${targetLevel === level.id
+                                    ? 'border-primary bg-primary/10 ring-1 ring-primary'
+                                    : 'border-border bg-card hover:bg-accent'
+                                }`}
+                        >
+                            <div className="font-bold text-sm">{level.label}</div>
+                            <div className="text-[10px] text-muted-foreground">{level.desc}</div>
+                            {targetLevel === level.id && (
+                                <div className="absolute top-2 right-2 text-primary">
+                                    <CheckCircle size={12} />
+                                </div>
+                            )}
+                        </button>
+                    ))}
+                </div>
+            </div>
+
             {/* Mode Selection */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div
@@ -128,7 +164,7 @@ const QuizSettings: React.FC<QuizSettingsProps> = ({ onStart, totalQuestionsAvai
 
                 <div
                     onClick={() => setMode('monthly')}
-                    className={`cursor-pointer group relative p-5 rounded-2xl border-2 transition-all md:col-span-2 ${mode === 'monthly'
+                    className={`cursor-pointer group relative p-5 rounded-2xl border-2 transition-all ${mode === 'monthly'
                         ? 'border-purple-500 bg-purple-50 shadow-md'
                         : 'border-border bg-card hover:border-purple-300'
                         }`}
@@ -144,7 +180,28 @@ const QuizSettings: React.FC<QuizSettingsProps> = ({ onStart, totalQuestionsAvai
                             <p className="text-[10px] text-purple-600 font-bold">1月：呼吸器ケモについて</p>
                         </div>
                     </div>
-                    <p className="text-xs text-muted-foreground">今月の強化テーマを全方面から学習します</p>
+                    <p className="text-xs text-muted-foreground">今月の強化テーマを全方面から学習</p>
+                </div>
+
+                <div
+                    onClick={() => setMode('image_only')}
+                    className={`cursor-pointer group relative p-5 rounded-2xl border-2 transition-all ${mode === 'image_only'
+                        ? 'border-cyan-500 bg-cyan-50 shadow-md'
+                        : 'border-border bg-card hover:border-cyan-300'
+                        }`}
+                >
+                    <div className="flex items-center space-x-3 mb-2">
+                        <div
+                            className={`p-2 rounded-lg ${mode === 'image_only' ? 'bg-cyan-500 text-white' : 'bg-accent text-muted-foreground'}`}
+                        >
+                            <ImageIcon size={20} />
+                        </div>
+                        <div>
+                            <h3 className="font-bold">画像問題</h3>
+                            <p className="text-[10px] text-cyan-600 font-bold">検証用モード</p>
+                        </div>
+                    </div>
+                    <p className="text-xs text-muted-foreground">画像付きの問題のみ出題</p>
                 </div>
             </div>
 

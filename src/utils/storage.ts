@@ -2,6 +2,8 @@
 
 import { supabase } from './supabase';
 
+export type TargetLevel = 'beginner' | 'mid' | 'transfer' | 'all';
+
 export type Question = {
     id: number;
     category: string;
@@ -13,6 +15,7 @@ export type Question = {
     evidence: string; // 根拠を追加
     reference: string;
     image?: string; // 画像URL（オプション）
+    targetLevels?: TargetLevel[]; // 対象レベル（オプション）
 };
 
 export type QuizResult = {
