@@ -1,5 +1,7 @@
 "use client";
 
+import { supabase } from './supabase';
+
 export type Question = {
     id: number;
     category: string;
@@ -51,6 +53,27 @@ export const saveQuizResult = (results: QuizResult[]) => {
     });
 
     localStorage.setItem(STORAGE_KEY, JSON.stringify(currentStats));
+    syncStatsToSupabase(currentStats);
+};
+
+export const syncStatsToSupabase = async (stats: UserStats) => {
+    if (!stats.deviceId || !process.env.NEXT_PUBLIC_SUPABASE_URL) return;
+
+    try {
+        const { error } = await supabase
+            .from('user_stats')
+            .upsert({
+                device_id: stats.deviceId,
+                total_attempts: stats.totalAttempts,
+                total_correct: stats.totalCorrect,
+                last_access: new Date().toISOString(),
+                question_stats: stats.questionStats
+            }, { onConflict: 'device_id' });
+
+        if (error) console.error("Supabase sync error:", error);
+    } catch (e) {
+        console.error("Failed to sync with Supabase:", e);
+    }
 };
 
 export const getStats = (): UserStats => {
@@ -83,6 +106,7 @@ export const getStats = (): UserStats => {
 
     // 更新を保存
     localStorage.setItem(STORAGE_KEY, JSON.stringify(stats));
+    syncStatsToSupabase(stats);
 
     return stats;
 };
