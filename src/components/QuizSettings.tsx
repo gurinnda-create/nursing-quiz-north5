@@ -225,7 +225,7 @@ const QuizSettings: React.FC<QuizSettingsProps> = ({ onStart, totalQuestionsAvai
                                     }`}
                                 style={selectedCategory === cat ? { backgroundColor: 'var(--primary)', color: 'var(--primary-foreground)' } : {}}
                             >
-                                {cat.replace("①", "").replace("②", "").replace("③", "")}
+                                {cat.replace(/^[①-⑨]/, "")}
                             </button>
                         ))}
                     </div>

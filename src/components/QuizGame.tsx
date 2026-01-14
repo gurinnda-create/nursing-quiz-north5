@@ -84,7 +84,7 @@ const QuizGame: React.FC<QuizGameProps> = ({ questions, onComplete, onExit }) =>
             {/* Question Card */}
             <div className="glass-panel p-6 md:p-8 rounded-3xl shadow-sm mb-6 border-l-4 border-l-primary/50 bg-card">
                 <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-xs font-bold mb-4">
-                    {currentQuestion.category}
+                    {currentQuestion.category.replace(/^[①-⑨]/, "")}
                 </span>
                 <h2 className="text-xl md:text-2xl font-bold leading-relaxed text-foreground mb-4">
                     {currentQuestion.question}
