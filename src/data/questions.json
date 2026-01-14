@@ -14403,5 +14403,765 @@
     "explanation": "防衛反応の一種であることを理解し、情報提供よりも情緒的サポートを優先します。",
     "evidence": "危機状況における看護介入",
     "reference": "スーパービジュアル　見える　呼吸器疾患"
+  },
+  {
+    "id": 10001,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "末梢静脈留置針の穿刺角度として、最も適切なものはどれか。",
+    "options": [
+      "5〜10度",
+      "10〜30度",
+      "45〜60度",
+      "平行（0度）"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "通常、静脈に対して10〜30度の角度で刺入し、逆血確認後に角度を寝かせて進めます。",
+    "evidence": "基礎看護技術",
+    "reference": "Nursing Skills",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10002,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "点滴静脈内注射を実施する際、静脈穿刺部位として避けるべき箇所はどれか。",
+    "options": [
+      "正中皮静脈",
+      "手背静脈",
+      "麻痺側の上肢",
+      "橈側皮静脈"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "麻痺側は循環不全や感覚障害があり、薬液漏出時の発見遅延や感染リスクが高いため避けるべきです。",
+    "evidence": "基礎看護技術",
+    "reference": "Nursing Skills",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10003,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "成人への採血（真空管採血）を行う際の駆血帯を巻く位置として適切なのはどれか。",
+    "options": [
+      "穿刺部位の直上",
+      "穿刺予定部位の5〜10cm中枢側",
+      "穿刺予定部位の5〜10cm末梢側",
+      "上腕の中央ならどこでもよい"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "穿刺予定部位の約5〜10cm中枢側を駆血します。近すぎると静脈が怒張しにくく、遠すぎると効果が薄れます。",
+    "evidence": "標準採血法ガイドライン",
+    "reference": "SafetyPlus",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10004,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "輸液ポンプ使用中に閉塞アラームが鳴った。最初に行う対応として適切なものはどれか。",
+    "options": [
+      "直ちにアラームを消して再開する",
+      "クレンメが閉じているか、ルートの屈曲がないか確認する",
+      "点滴速度を上げる",
+      "新しいルートに交換する"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "閉塞アラームの原因で多いのは、クレンメの開放忘れやルートの屈曲、または刺入部の閉塞です。まずこれらを確認します。",
+    "evidence": "医療機器安全管理指針",
+    "reference": "SafetyPlus",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10005,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "男性への導尿（一時的導尿）において、カテーテル挿入時に陰茎を保持する角度として適切なのはどれか。",
+    "options": [
+      "体幹に対して垂直（約90度）",
+      "体幹に対して45度",
+      "体幹と平行",
+      "下向きに保持"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "男性尿道の恥骨前弯曲を消失させ、カテーテルを挿入しやすくするために、陰茎を体幹に対して垂直（約90度）に引き上げます。",
+    "evidence": "基礎看護技術",
+    "reference": "Nursing Skills",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10006,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "成人用輸液セット（一般用）の滴下数は1mLあたり何滴か。",
+    "options": [
+      "15滴",
+      "20滴",
+      "40滴",
+      "60滴"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "成人用輸液セットは1mL=20滴が一般的です。小児用は1mL=60滴です。",
+    "evidence": "輸液管理の基礎",
+    "reference": "Nursing Skills",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10007,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "静脈留置針挿入後、最初に確認すべきことはどれか。",
+    "options": [
+      "患者の満足度",
+      "逆血の確認と固定",
+      "テープの色",
+      "次の患者の準備"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "逆血を確認することで正しく静脈内に留置されていることを確認し、その後しっかり固定します。",
+    "evidence": "注射の安全手技",
+    "reference": "SafetyPlus",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10008,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "シリンジポンプのアラーム「閉塞」が鳴った場合、まず確認すべきことはどれか。",
+    "options": [
+      "電源を切る",
+      "薬剤を変更する",
+      "三方活栓の向きやルートのねじれを確認する",
+      "すぐに医師を呼ぶ"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "閉塞アラームの多くは三方活栓の向きやルートのねじれが原因のため、まず確認します。",
+    "evidence": "医療機器操作マニュアル",
+    "reference": "SafetyPlus",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10009,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "採血後の止血時間として適切なのはどれか（抗凝固薬等を服用していない場合）。",
+    "options": [
+      "10秒程度",
+      "1〜2分程度",
+      "5〜10分程度",
+      "30分以上"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "静脈穿刺後は5分程度の圧迫が推奨されます。抗凝固薬服用中はさらに長く必要です。",
+    "evidence": "採血手技ガイドライン",
+    "reference": "SafetyPlus",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10010,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "点滴漏れ（血管外漏出）が疑われた場合、最初に行うべき対応はどれか。",
+    "options": [
+      "そのまま続ける",
+      "直ちに点滴を止め、薬剤を確認する",
+      "速度を上げる",
+      "別の血管を探す"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "血管外漏出は組織障害を引き起こす可能性があるため、まず点滴を止め、漏れた薬剤を確認します。",
+    "evidence": "輸液トラブル対応",
+    "reference": "SafetyPlus",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10011,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "輸液ボトルの交換時、エア針を刺入する際に気を付けることはどれか。",
+    "options": [
+      "清潔に扱う",
+      "何度も使い回す",
+      "アルコール消毒は不要",
+      "水で洗う"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "エア針は清潔に扱い、感染予防のため無菌操作を心がけます。",
+    "evidence": "感染対策マニュアル",
+    "reference": "SafetyPlus",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10012,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "採血時に駆血帯を巻いてから穿刺までの理想的な時間はどれか。",
+    "options": [
+      "5分以内",
+      "1〜2分以内",
+      "30秒以内",
+      "制限なし"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "長時間の駆血は血液データに影響を与えるため、1〜2分以内が推奨されます。",
+    "evidence": "採血の基礎",
+    "reference": "Nursing Skills",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10013,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "持続点滴中に点滴スタンドを移動させる際、最も注意すべきことはどれか。",
+    "options": [
+      "ルートが引っ張られないようにする",
+      "スタンドの高さを変える",
+      "患者に歩かせる",
+      "特に注意は不要"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "ルートが引っ張られると針が抜けたり、接続が外れたりする危険があります。",
+    "evidence": "医療安全",
+    "reference": "SafetyPlus",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10014,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "注射針のリキャップ（針にキャップを戻す行為）について正しいのはどれか。",
+    "options": [
+      "必ず行う",
+      "基本的に禁止（針刺し事故防止）",
+      "両手で行えば安全",
+      "針を長く使うために推奨"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "リキャップは針刺し事故の主な原因であり、原則禁止です。使用後は直接廃棄容器に捨てます。",
+    "evidence": "感染対策・医療安全",
+    "reference": "SafetyPlus",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10015,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "膀胱留置カテーテル挿入後、尿バッグを設置する位置として正しいのはどれか。",
+    "options": [
+      "膀胱より高い位置",
+      "膀胱と同じ高さ",
+      "膀胱より低い位置で床につかない位置",
+      "床の上"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "尿の逆流を防ぐため常に膀胱より低い位置に保ち、汚染を防ぐため床には直接置きません。",
+    "evidence": "尿道カテーテル管理",
+    "reference": "Nursing Skills",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10016,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "静脈留置針を抜去する際の手技として正しいのはどれか。",
+    "options": [
+      "素早く引き抜いて終了",
+      "刺入部をガーゼで押さえながらゆっくり抜去し、その後圧迫止血",
+      "抜いた後に消毒する",
+      "すぐにテープを貼る"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "抜去時は血液の漏出を防ぐため、刺入部を押さえながら抜去し、十分な圧迫止血を行います。",
+    "evidence": "静脈注射手技",
+    "reference": "Nursing Skills",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10017,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "採血で複数の検査が必要な場合、凝固系検体（青いスピッツ）を採る順番はどれか。",
+    "options": [
+      "最初に採る",
+      "2〜3番目に採る",
+      "最後に採る",
+      "順番は関係ない"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "凝固系検体は組織液の混入を防ぐため、最初ではなく2〜3番目に採取することが推奨されます。",
+    "evidence": "採血手順",
+    "reference": "SafetyPlus",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10018,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "輸液製剤を混注する際に使用するシリンジに空気が入っていた場合、どうすべきか。",
+    "options": [
+      "そのまま注入する",
+      "空気を抜いてから混注する",
+      "空気が入っていても問題ない",
+      "別のシリンジを使う"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "空気を注入すると空気塞栓のリスクがあるため、必ず空気を抜いてから混注します。",
+    "evidence": "輸液調製の基本",
+    "reference": "SafetyPlus",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10019,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "血管確保が困難な場合の工夫として、適切でないものはどれか。",
+    "options": [
+      "温罨法で血管を拡張させる",
+      "腕を下げて血管を怒張させる",
+      "何度も同じ部位を穿刺し続ける",
+      "手を握ったり開いたりしてもらう"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "同じ部位への繰り返し穿刺は組織損傷や血腫の原因となるため避けるべきです。",
+    "evidence": "血管確保の工夫",
+    "reference": "Nursing Skills",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10020,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "経鼻胃管挿入時に患者に協力してもらう動作として適切なのはどれか。",
+    "options": [
+      "息を止める",
+      "唾を飲み込む（嚥下動作）",
+      "大声を出す",
+      "首を反らす"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "唾を飲み込む動作は嚥下反射を誘発し、カテーテルが食道に入りやすくなります。",
+    "evidence": "経管栄養技術",
+    "reference": "Nursing Skills",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10021,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "筋肉内注射の刺入角度として適切なのはどれか。",
+    "options": [
+      "10〜20度",
+      "45度",
+      "90度（垂直）",
+      "水平"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "筋肉内注射は筋層に薬液を届けるため、皮膚に対して90度（垂直）に刺入します。",
+    "evidence": "注射技術の基礎",
+    "reference": "Nursing Skills",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10022,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "皮下注射の刺入角度として適切なのはどれか。",
+    "options": [
+      "10〜30度",
+      "45度",
+      "90度",
+      "180度"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "皮下注射は皮下組織に薬液を届けるため、10〜30度の浅い角度で刺入します。",
+    "evidence": "注射技術の基礎",
+    "reference": "Nursing Skills",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10023,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "成人への筋肉内注射で選択される部位として最も一般的なのはどれか。",
+    "options": [
+      "三角筋",
+      "大腿四頭筋",
+      "大殿筋",
+      "上腕二頭筋"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "成人では三角筋が最も一般的です。ワクチン接種でよく用いられます。",
+    "evidence": "筋肉内注射",
+    "reference": "Nursing Skills",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10024,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "点滴の滴下計算：500mLを4時間で投与する場合、1分間の滴下数は約何滴か（成人用セット：1mL=20滴）。",
+    "options": [
+      "約21滴",
+      "約42滴",
+      "約63滴",
+      "約100滴"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "500mL÷4時間=125mL/時間。125÷60×20=約42滴/分。",
+    "evidence": "輸液管理計算",
+    "reference": "Nursing Skills",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10025,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "静脈留置針挿入時に患者に「痛みが強くなったり、しびれを感じたら教えてください」と説明する理由はどれか。",
+    "options": [
+      "患者の気を紛らわすため",
+      "神経損傷の早期発見のため",
+      "時間稼ぎのため",
+      "特に意味はない"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "強い痛みやしびれは神経損傷のサインである可能性があり、早期発見のために重要です。",
+    "evidence": "静脈穿刺の安全",
+    "reference": "SafetyPlus",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10026,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "経鼻胃管の位置確認方法として最も確実なのはどれか。",
+    "options": [
+      "胃泡音の聴取",
+      "胃内容物の吸引とpH確認",
+      "患者に聞く",
+      "外から見る"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "胃内容物を吸引しpH値を確認することで、胃内にあることを確認できます。最も確実なのはX線確認です。",
+    "evidence": "経管栄養安全管理",
+    "reference": "SafetyPlus",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10027,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "インスリン皮下注射の部位として適切でないのはどれか。",
+    "options": [
+      "腹部",
+      "上腕",
+      "大腿",
+      "手の甲"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "手の甲は皮下組織が薄く、皮下注射には適していません。腹部・上腕・大腿が一般的です。",
+    "evidence": "インスリン注射指導",
+    "reference": "Nursing Skills",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10028,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "輸液セットのプライミング（エア抜き）で気泡が残った場合の対応として正しいのはどれか。",
+    "options": [
+      "気にしない",
+      "ルートを指ではじいて気泡を上に移動させ、排出する",
+      "速度を上げて出す",
+      "そのまま投与する"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "気泡は空気塞栓の原因になるため、指ではじくなどして排出します。",
+    "evidence": "輸液調製技術",
+    "reference": "SafetyPlus",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10029,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "中心静脈カテーテル挿入中の患者で注意すべき合併症はどれか。",
+    "options": [
+      "虫刺され",
+      "カテーテル関連血流感染（CRBSI）",
+      "日焼け",
+      "筋肉痛"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "中心静脈カテーテルは感染リスクが高く、CRBSI予防のためのケアが重要です。",
+    "evidence": "CVカテーテル管理",
+    "reference": "SafetyPlus",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10030,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "注射前の患者確認（6R）に含まれないものはどれか。",
+    "options": [
+      "正しい患者",
+      "正しい薬剤",
+      "正しい天気",
+      "正しい時間"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "6Rは患者・薬剤・量・投与経路・時間・目的です。天気は含まれません。",
+    "evidence": "医療安全・与薬の原則",
+    "reference": "SafetyPlus",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10031,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "清潔間欠導尿（CIC）の利点として正しいのはどれか。",
+    "options": [
+      "常にカテーテルが入っている",
+      "尿路感染リスクが低い",
+      "手間がかからない",
+      "夜間の排尿管理が不要"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "留置カテーテルに比べ、間欠導尿は尿路感染リスクが低いとされています。",
+    "evidence": "排尿管理",
+    "reference": "Nursing Skills",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10032,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "グリセリン浣腸を実施する際の体位として最も適切なのはどれか。",
+    "options": [
+      "仰臥位",
+      "左側臥位",
+      "右側臥位",
+      "座位"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "解剖学的にS状結腸が左にあるため、左側臥位が推奨されます。",
+    "evidence": "浣腸技術",
+    "reference": "Nursing Skills",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10033,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "グリセリン浣腸液を温める場合の適温として正しいのはどれか。",
+    "options": [
+      "室温のまま",
+      "約40度（体温程度）",
+      "60度以上",
+      "冷たいほうがよい"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "冷たすぎると腸管を刺激し、熱すぎると火傷を起こすため、体温程度（約40度）が適切です。",
+    "evidence": "浣腸技術",
+    "reference": "Nursing Skills",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10034,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "血糖測定（SMBG）で穿刺する部位として最も一般的なのはどれか。",
+    "options": [
+      "手のひら",
+      "指先（指の側面）",
+      "手の甲",
+      "足の裏"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "指先の側面は血流が良く、少量の血液で測定できるため最も一般的です。",
+    "evidence": "血糖測定",
+    "reference": "Nursing Skills",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10035,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "薬剤のダブルチェックが特に必要とされる場面はどれか。",
+    "options": [
+      "水を飲ませる時",
+      "ハイリスク薬（インスリン、抗がん剤等）の投与時",
+      "体温を測る時",
+      "シーツ交換時"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "インスリンや抗がん剤などハイリスク薬は、投与間違いによる重大な影響があるためダブルチェックが必須です。",
+    "evidence": "医療安全",
+    "reference": "SafetyPlus",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10036,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "点滴ルートに側管から薬剤を注入する際、前後でフラッシュする理由はどれか。",
+    "options": [
+      "時間つぶし",
+      "薬剤の配合変化を防ぎ、確実に投与するため",
+      "見た目をきれいにするため",
+      "ルートを長持ちさせるため"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "フラッシュにより前の薬剤を押し出し、配合変化を防ぎ、薬剤をルート内に残さず投与できます。",
+    "evidence": "輸液投与の原則",
+    "reference": "SafetyPlus",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10037,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "末梢静脈カテーテルの定期的な差し替えが推奨される期間はどれか。",
+    "options": [
+      "毎日",
+      "72〜96時間ごと",
+      "1週間ごと",
+      "交換不要"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "CDCガイドラインでは72〜96時間ごと、または臨床的に必要な場合の交換が推奨されています。",
+    "evidence": "感染対策ガイドライン",
+    "reference": "SafetyPlus",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10038,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "静脈穿刺時に消毒後、消毒部位を触らないようにする理由はどれか。",
+    "options": [
+      "かゆくなるから",
+      "消毒効果が失われ感染リスクが高まるから",
+      "針が曲がるから",
+      "特に理由はない"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "消毒部位を触ると手指の細菌が付着し、感染リスクが高まります。",
+    "evidence": "感染対策",
+    "reference": "SafetyPlus",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10039,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "輸血開始後に最も注意して観察すべき時間帯はどれか。",
+    "options": [
+      "終了直前",
+      "開始後15分間",
+      "開始後3時間",
+      "翌日"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "輸血副作用は開始後15分以内に起こることが多いため、この時間帯は特に注意深く観察します。",
+    "evidence": "輸血管理",
+    "reference": "SafetyPlus",
+    "targetLevels": [
+      "beginner"
+    ]
+  },
+  {
+    "id": 10040,
+    "category": "①呼吸器手技",
+    "subCategory": "基礎看護技術",
+    "question": "インスリン注射を行う際、同じ部位に繰り返し注射を避ける理由はどれか。",
+    "options": [
+      "痛みを分散させるため",
+      "皮下脂肪肥厚（リポハイパートロフィー）を防ぐため",
+      "見た目のため",
+      "時間がかかるから"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "同じ部位への繰り返し注射は脂肪肥厚を起こし、インスリンの吸収が不安定になります。",
+    "evidence": "インスリン注射指導",
+    "reference": "Nursing Skills",
+    "targetLevels": [
+      "beginner"
+    ]
   }
 ]
