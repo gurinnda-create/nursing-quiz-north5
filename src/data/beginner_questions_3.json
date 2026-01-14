@@ -1,0 +1,382 @@
+[
+    {
+        "id": 10081,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "患者の痛みを評価する際に使用されるNRSの意味はどれか。",
+        "options": [
+            "看護記録システム",
+            "数値評価スケール（0-10で痛みを評価）",
+            "栄養評価",
+            "リスク評価"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "NRS（Numerical Rating Scale）は0〜10の数値で痛みの強さを評価するスケールです。",
+        "evidence": "疼痛評価",
+        "reference": "Nursing Skills",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10082,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "患者が発熱した場合、最初に確認すべきバイタルサインはどれか。",
+        "options": [
+            "体温のみ",
+            "体温・脈拍・血圧・呼吸の全て",
+            "血圧のみ",
+            "脈拍のみ"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "発熱時は全身状態を把握するため、全てのバイタルサインを確認します。",
+        "evidence": "バイタルサイン",
+        "reference": "Nursing Skills",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10083,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "術後患者の離床を促す理由として最も適切なのはどれか。",
+        "options": [
+            "ベッドを空けるため",
+            "血栓予防・腸蠕動促進・肺合併症予防のため",
+            "看護師の負担軽減のため",
+            "特に理由はない"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "早期離床は合併症予防に効果があり、回復を促進します。",
+        "evidence": "術後ケア",
+        "reference": "SafetyPlus",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10084,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "患者の水分出納（I/Oバランス）を記録する目的はどれか。",
+        "options": [
+            "記録の練習",
+            "体液バランスの異常を早期発見するため",
+            "患者の食事量を知るため",
+            "義務だから"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "水分出納の記録は脱水や浮腫などの体液バランス異常を早期発見するために重要です。",
+        "evidence": "水分管理",
+        "reference": "Nursing Skills",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10085,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "便秘の観察項目として適切でないものはどれか。",
+        "options": [
+            "最終排便日",
+            "便の性状（硬さ・色）",
+            "腹部膨満感",
+            "心電図"
+        ],
+        "correctAnswerIndex": 3,
+        "explanation": "便秘の観察には排便状況や腹部症状を確認します。心電図は直接関係しません。",
+        "evidence": "排泄ケア",
+        "reference": "Nursing Skills",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10086,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "中心静脈栄養（TPN）のルート管理で特に注意すべきことはどれか。",
+        "options": [
+            "感染予防",
+            "騒音対策",
+            "室温管理",
+            "照明"
+        ],
+        "correctAnswerIndex": 0,
+        "explanation": "TPNは高濃度の栄養液を使用し、カテーテル関連感染症のリスクが高いため感染予防が最重要です。",
+        "evidence": "栄養管理",
+        "reference": "SafetyPlus",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10087,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "低血糖の症状として適切でないものはどれか。",
+        "options": [
+            "冷汗",
+            "手指の震え",
+            "意識障害",
+            "高血圧"
+        ],
+        "correctAnswerIndex": 3,
+        "explanation": "低血糖では冷汗、震え、動悸、意識障害などが見られますが、高血圧は通常見られません。",
+        "evidence": "糖尿病看護",
+        "reference": "Nursing Skills",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10088,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "患者の尿量が急に減少した場合、疑うべき状態はどれか。",
+        "options": [
+            "正常",
+            "脱水や腎機能低下",
+            "水分摂取過多",
+            "運動不足"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "尿量減少は脱水、腎機能低下、心不全など重要なサインである可能性があります。",
+        "evidence": "水分バランス",
+        "reference": "SafetyPlus",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10089,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "車椅子のブレーキをかけるタイミングとして正しいのはどれか。",
+        "options": [
+            "走行中",
+            "停車時および乗り降り時",
+            "下り坂",
+            "特に必要ない"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "車椅子は停車時や移乗時に動かないよう、必ずブレーキをかけます。",
+        "evidence": "移乗介助",
+        "reference": "SafetyPlus",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10090,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "ストレッチャーで患者を搬送する際、基本的に頭側を向ける方向はどれか。",
+        "options": [
+            "進行方向（前）にする",
+            "進行方向の後ろにする",
+            "横向きにする",
+            "どちらでもよい"
+        ],
+        "correctAnswerIndex": 0,
+        "explanation": "基本的に頭側を進行方向に向けます。ただし下り坂では足側が前になります。",
+        "evidence": "搬送技術",
+        "reference": "Nursing Skills",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10091,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "患者にチアノーゼが見られる部位として典型的なのはどれか。",
+        "options": [
+            "髪の毛",
+            "爪床・口唇",
+            "歯",
+            "まぶた"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "チアノーゼは爪床や口唇、耳たぶなど末梢の皮膚・粘膜が青紫色になる状態です。",
+        "evidence": "フィジカルアセスメント",
+        "reference": "Nursing Skills",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10092,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "飲水制限がある患者への対応として適切なのはどれか。",
+        "options": [
+            "制限を無視して水分をあげる",
+            "氷を舐めて少量ずつ水分を取る工夫をする",
+            "全く水分を与えない",
+            "大量に飲ませる"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "制限内で口渇を和らげる工夫として、氷を舐めるなどの方法があります。",
+        "evidence": "水分管理",
+        "reference": "Nursing Skills",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10093,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "酸素飽和度（SpO2）の正常値として適切なのはどれか。",
+        "options": [
+            "60〜70%",
+            "80〜85%",
+            "96〜100%",
+            "100%以上"
+        ],
+        "correctAnswerIndex": 2,
+        "explanation": "健康な成人の正常値は96〜100%です。90%以下は低酸素血症を示唆します。",
+        "evidence": "バイタルサイン",
+        "reference": "Nursing Skills",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10094,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "成人の正常な脈拍数（安静時）として適切なのはどれか。",
+        "options": [
+            "40〜50回/分",
+            "60〜100回/分",
+            "120〜140回/分",
+            "150回/分以上"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "成人の安静時脈拍は60〜100回/分が正常範囲です。",
+        "evidence": "バイタルサイン",
+        "reference": "Nursing Skills",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10095,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "注射針の太さを表す「G（ゲージ）」について正しいのはどれか。",
+        "options": [
+            "数字が大きいほど太い",
+            "数字が大きいほど細い",
+            "太さとは関係ない",
+            "長さを表す"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "ゲージは数字が大きいほど針は細くなります（例：18G＞22G＞27G）。",
+        "evidence": "注射技術",
+        "reference": "Nursing Skills",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10096,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "患者の不安を軽減するコミュニケーションとして適切なのはどれか。",
+        "options": [
+            "一方的に説明する",
+            "傾聴し、共感的な態度で接する",
+            "話を遮る",
+            "無視する"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "患者の話を傾聴し、共感的な態度で接することが不安軽減に効果的です。",
+        "evidence": "コミュニケーション",
+        "reference": "Nursing Skills",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10097,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "吐血の色として典型的なのはどれか。",
+        "options": [
+            "鮮紅色",
+            "コーヒー残渣様（暗褐色）",
+            "黄色",
+            "透明"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "胃からの吐血は胃酸の影響でコーヒー残渣様の暗褐色になることが多いです。新鮮な場合は鮮紅色のこともあります。",
+        "evidence": "消化器看護",
+        "reference": "Nursing Skills",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10098,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "下血でタール便が見られる場合、出血部位として疑われるのはどれか。",
+        "options": [
+            "肛門",
+            "上部消化管（胃・十二指腸）",
+            "膀胱",
+            "肺"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "タール便は消化管上部からの出血が消化されて黒くタール状になったものです。",
+        "evidence": "消化器看護",
+        "reference": "Nursing Skills",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10099,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "皮膚の乾燥を防ぐケアとして適切なのはどれか。",
+        "options": [
+            "熱いお風呂に長時間入る",
+            "保湿剤を塗布する",
+            "石鹸で何度もごしごし洗う",
+            "乾燥した環境に置く"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "皮膚の乾燥予防には保湿剤の塗布が効果的です。過度な洗浄は避けます。",
+        "evidence": "スキンケア",
+        "reference": "Nursing Skills",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10100,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "看護師として患者に接する際、最も大切にすべき態度はどれか。",
+        "options": [
+            "効率優先",
+            "患者の尊厳と安全を第一に考える",
+            "自分の都合を優先する",
+            "規則だけを守る"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "看護の基本は患者の尊厳を尊重し、安全を確保することです。",
+        "evidence": "看護倫理",
+        "reference": "Nursing Skills",
+        "targetLevels": [
+            "beginner"
+        ]
+    }
+]

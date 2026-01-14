@@ -1,0 +1,762 @@
+[
+    {
+        "id": 10041,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "体温測定（腋窩）の正しい方法として適切なのはどれか。",
+        "options": [
+            "5秒測定",
+            "体温計を斜めに入れ、腋窩をしっかり閉じる",
+            "服の上から測る",
+            "測定中に動き回る"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "腋窩温測定では体温計を腋窩中央に斜めに挿入し、腕をしっかり閉じて測定します。",
+        "evidence": "バイタルサイン測定",
+        "reference": "Nursing Skills",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10042,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "血圧測定時にマンシェットの幅として適切なのはどれか。",
+        "options": [
+            "上腕周囲の約40%",
+            "上腕周囲の約80%",
+            "どんな幅でもよい",
+            "細いほど正確"
+        ],
+        "correctAnswerIndex": 0,
+        "explanation": "マンシェットの幅は上腕周囲の約40%が推奨されています。",
+        "evidence": "血圧測定の基礎",
+        "reference": "Nursing Skills",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10043,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "脈拍測定で最も一般的に用いられる部位はどれか。",
+        "options": [
+            "頸動脈",
+            "橈骨動脈",
+            "上腕動脈",
+            "大腿動脈"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "日常的な脈拍測定では橈骨動脈が最も一般的に使用されます。",
+        "evidence": "バイタルサイン測定",
+        "reference": "Nursing Skills",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10044,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "呼吸回数を測定する際、患者に測定していることを知らせない理由はどれか。",
+        "options": [
+            "面倒だから",
+            "患者が呼吸を意識すると正確に測れないから",
+            "秘密だから",
+            "必要ない"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "呼吸は意識すると変化しやすいため、脈拍測定の延長で測ることが多いです。",
+        "evidence": "呼吸の観察",
+        "reference": "Nursing Skills",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10045,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "手指衛生のタイミングとして適切でないものはどれか。",
+        "options": [
+            "患者に触れる前",
+            "清潔操作の前",
+            "休憩室に入った後",
+            "患者に触れた後"
+        ],
+        "correctAnswerIndex": 2,
+        "explanation": "WHOの5つのタイミングには休憩室は含まれません。患者接触前後、清潔操作前、体液曝露後、環境接触後が基本です。",
+        "evidence": "感染対策",
+        "reference": "SafetyPlus",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10046,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "手術後の患者の深部静脈血栓症（DVT）予防として適切でないものはどれか。",
+        "options": [
+            "弾性ストッキングの着用",
+            "早期離床",
+            "長時間の安静臥床",
+            "間欠的空気圧迫法"
+        ],
+        "correctAnswerIndex": 2,
+        "explanation": "長時間の安静臥床はDVTのリスクを高めるため、可能な限り早期離床が推奨されます。",
+        "evidence": "術後ケア",
+        "reference": "SafetyPlus",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10047,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "ベッドメイキングで下シーツにしわがあってはいけない主な理由はどれか。",
+        "options": [
+            "見た目が悪い",
+            "褥瘡の原因になる",
+            "汚れやすい",
+            "寝心地が悪い"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "シーツのしわは皮膚への圧迫やずれを起こし、褥瘡発生のリスクになります。",
+        "evidence": "褥瘡予防",
+        "reference": "Nursing Skills",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10048,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "患者を車椅子へ移乗する際、車椅子を置く角度として適切なのはどれか。",
+        "options": [
+            "ベッドと平行",
+            "ベッドに対して20〜30度",
+            "ベッドに対して90度",
+            "どこでもよい"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "20〜30度の角度で置くと、患者の移乗距離が短くなり安全に移乗できます。",
+        "evidence": "移乗介助",
+        "reference": "Nursing Skills",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10049,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "褥瘡予防のための体位変換の頻度として推奨されるのはどれか。",
+        "options": [
+            "1日1回",
+            "6時間ごと",
+            "2時間ごと",
+            "1週間に1回"
+        ],
+        "correctAnswerIndex": 2,
+        "explanation": "一般的に2時間以内の体位変換が褥瘡予防に推奨されています。",
+        "evidence": "褥瘡ケアガイドライン",
+        "reference": "SafetyPlus",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10050,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "口腔ケアの効果として最も重要なのはどれか。",
+        "options": [
+            "見た目の改善",
+            "誤嚥性肺炎の予防",
+            "食欲増進",
+            "リラックス効果"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "口腔内の細菌を減らすことで、誤嚥性肺炎の予防に大きく寄与します。",
+        "evidence": "口腔ケア",
+        "reference": "Nursing Skills",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10051,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "仰臥位で褥瘡ができやすい部位として最も頻度が高いのはどれか。",
+        "options": [
+            "肩甲骨部",
+            "仙骨部",
+            "膝",
+            "足首"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "仰臥位では仙骨部が最も圧がかかりやすく、褥瘡好発部位です。",
+        "evidence": "褥瘡予防",
+        "reference": "Nursing Skills",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10052,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "患者の転倒リスクアセスメントで評価される項目として適切でないものはどれか。",
+        "options": [
+            "年齢",
+            "服用薬剤",
+            "血液型",
+            "歩行状態"
+        ],
+        "correctAnswerIndex": 2,
+        "explanation": "血液型は転倒リスクとは関係ありません。年齢、薬剤、歩行状態は重要な評価項目です。",
+        "evidence": "転倒予防",
+        "reference": "SafetyPlus",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10053,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "経口薬の与薬で確認すべき6Rに含まれないものはどれか。",
+        "options": [
+            "正しい患者",
+            "正しい用量",
+            "正しい天候",
+            "正しい投与経路"
+        ],
+        "correctAnswerIndex": 2,
+        "explanation": "6Rは患者・薬・量・経路・時間・理由（目的）です。天候は含まれません。",
+        "evidence": "与薬の原則",
+        "reference": "SafetyPlus",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10054,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "食事介助時に注意すべきことはどれか。",
+        "options": [
+            "早く食べさせる",
+            "患者のペースに合わせる",
+            "大量に口に入れる",
+            "横になったまま食べさせる"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "誤嚥を防ぐため、患者のペースに合わせてゆっくり介助することが重要です。",
+        "evidence": "摂食嚥下ケア",
+        "reference": "Nursing Skills",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10055,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "酸素ボンベを使用する際に最も注意すべきことはどれか。",
+        "options": [
+            "水をかける",
+            "火気厳禁",
+            "室温に保つ",
+            "衝撃を与える"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "酸素は燃焼を助けるため、火気厳禁です。喫煙や火のそばでの使用は厳禁です。",
+        "evidence": "酸素療法の安全",
+        "reference": "SafetyPlus",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10056,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "清拭で温タオルの適温として正しいのはどれか。",
+        "options": [
+            "30度程度",
+            "50〜55度程度",
+            "70度以上",
+            "冷たい方がよい"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "50〜55度程度が適温です。熱すぎると火傷、冷たすぎると不快感を与えます。",
+        "evidence": "清潔ケア",
+        "reference": "Nursing Skills",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10057,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "患者のプライバシーを守るためにすべきことはどれか。",
+        "options": [
+            "カーテンを開けたままにする",
+            "処置中はカーテンやスクリーンで遮蔽する",
+            "大声で話す",
+            "ドアを開けたままにする"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "患者のプライバシーを守るため、処置中はカーテンやスクリーンで遮蔽します。",
+        "evidence": "患者の権利",
+        "reference": "SafetyPlus",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10058,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "抗がん剤の曝露対策として適切でないものはどれか。",
+        "options": [
+            "手袋を着用する",
+            "素手で取り扱う",
+            "ガウンを着用する",
+            "閉鎖式器具を使用する"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "抗がん剤は健康への影響が大きいため、素手での取り扱いは禁止されています。",
+        "evidence": "抗がん剤安全管理",
+        "reference": "SafetyPlus",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10059,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "標準予防策（スタンダードプリコーション）で「すべての患者の血液・体液は感染性があるものとして扱う」という考え方の利点はどれか。",
+        "options": [
+            "手間が省ける",
+            "未知の感染者からの感染を防げる",
+            "コストがかからない",
+            "患者が喜ぶ"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "感染症の有無に関わらず全員に同じ対策を行うことで、未知の感染者からの感染を防げます。",
+        "evidence": "感染対策",
+        "reference": "SafetyPlus",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10060,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "ドレーン排液の観察項目として適切でないものはどれか。",
+        "options": [
+            "量",
+            "性状（色・混濁）",
+            "臭い",
+            "患者の血液型"
+        ],
+        "correctAnswerIndex": 3,
+        "explanation": "ドレーン排液の観察では量・性状・臭いなどを確認します。血液型は関係ありません。",
+        "evidence": "ドレーン管理",
+        "reference": "Nursing Skills",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10061,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "患者の状態変化を発見した場合、最初に行うべきことはどれか。",
+        "options": [
+            "とりあえず様子を見る",
+            "家族に連絡する",
+            "患者の意識・呼吸・脈拍を確認し、必要なら応援を呼ぶ",
+            "記録を書く"
+        ],
+        "correctAnswerIndex": 2,
+        "explanation": "急変時はまず患者の状態を確認し、必要であれば応援要請を行います。",
+        "evidence": "急変対応",
+        "reference": "SafetyPlus",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10062,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "患者誤認を防ぐために入院患者に装着されているものはどれか。",
+        "options": [
+            "名札バッジ",
+            "リストバンド",
+            "名刺",
+            "スマートフォン"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "リストバンドには患者の名前や生年月日などが記載され、誤認防止に用いられます。",
+        "evidence": "医療安全",
+        "reference": "SafetyPlus",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10063,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "記録を書く際に避けるべきこととして正しいのはどれか。",
+        "options": [
+            "客観的事実を書く",
+            "主観的な意見を事実のように書く",
+            "時間を記載する",
+            "署名する"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "看護記録は客観的事実を記載し、主観と事実を区別することが重要です。",
+        "evidence": "看護記録",
+        "reference": "Nursing Skills",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10064,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "申し送り（ハンドオフ）で重要なことはどれか。",
+        "options": [
+            "できるだけ短く済ませる",
+            "必要な情報を漏れなく正確に伝える",
+            "世間話を交える",
+            "書面だけで済ませる"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "申し送りでは患者の安全を守るため、重要な情報を正確に伝えることが最も大切です。",
+        "evidence": "チーム医療",
+        "reference": "SafetyPlus",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10065,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "インシデントレポートを書く目的として最も適切なのはどれか。",
+        "options": [
+            "責任者を追及する",
+            "再発防止と組織の学習",
+            "患者に謝罪する",
+            "法的記録を残す"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "インシデントレポートは責任追及ではなく、再発防止と組織の学習が目的です。",
+        "evidence": "医療安全",
+        "reference": "SafetyPlus",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10066,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "ベッド柵を上げる目的として最も適切なのはどれか。",
+        "options": [
+            "患者を拘束する",
+            "転落防止",
+            "見た目の問題",
+            "ルールだから"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "ベッド柵は睡眠中や混乱時の転落防止が主な目的です。拘束ではありません。",
+        "evidence": "転倒転落防止",
+        "reference": "SafetyPlus",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10067,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "ナースコールが鳴った時の対応として最も適切なのはどれか。",
+        "options": [
+            "忙しいので後で対応する",
+            "できるだけ速やかに対応する",
+            "他の人に任せる",
+            "無視する"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "患者はナースコールで助けを求めているため、速やかな対応が基本です。",
+        "evidence": "患者対応",
+        "reference": "Nursing Skills",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10068,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "感染性廃棄物の廃棄容器の色として正しいのはどれか。",
+        "options": [
+            "赤色または橙色のバイオハザードマーク付き",
+            "透明",
+            "緑色",
+            "何でもよい"
+        ],
+        "correctAnswerIndex": 0,
+        "explanation": "感染性廃棄物はバイオハザードマーク付きの専用容器（通常赤や橙）に廃棄します。",
+        "evidence": "廃棄物処理",
+        "reference": "SafetyPlus",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10069,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "点滴投与中に患者が「なんだか気持ち悪い」と訴えた場合、最初に行うべきことはどれか。",
+        "options": [
+            "様子を見る",
+            "点滴を止め、患者の状態を観察する",
+            "速度を上げる",
+            "医師が来るまで待つ"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "副作用やアレルギー反応の可能性があるため、まず点滴を止めて状態を確認します。",
+        "evidence": "輸液管理",
+        "reference": "SafetyPlus",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10070,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "検体を採取した後、ラベルに記載すべき情報として必須でないものはどれか。",
+        "options": [
+            "患者名",
+            "採取日時",
+            "患者の趣味",
+            "採取者"
+        ],
+        "correctAnswerIndex": 2,
+        "explanation": "検体ラベルには患者名・ID・採取日時・採取部位・採取者などが必須です。趣味は不要です。",
+        "evidence": "検体管理",
+        "reference": "SafetyPlus",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10071,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "滅菌パックを開ける際の正しい方法はどれか。",
+        "options": [
+            "ハサミで切る",
+            "歯で噛んで開ける",
+            "パックの端を左右に開く",
+            "力任せに引っ張る"
+        ],
+        "correctAnswerIndex": 2,
+        "explanation": "滅菌パックは清潔に開封するため、指定された開封部分から左右に開きます。",
+        "evidence": "無菌操作",
+        "reference": "Nursing Skills",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10072,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "滅菌手袋を装着する際、手袋のどの部分を持って装着するか。",
+        "options": [
+            "どこでもよい",
+            "手袋の外側",
+            "手袋の折り返し部分（内側）",
+            "指先部分"
+        ],
+        "correctAnswerIndex": 2,
+        "explanation": "最初の手袋は折り返し部分（内側）を持ち、2つ目は装着した手袋で外側を持ちます。",
+        "evidence": "無菌操作",
+        "reference": "Nursing Skills",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10073,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "患者のアレルギー情報を確認するタイミングとして最も適切なのはどれか。",
+        "options": [
+            "退院時",
+            "薬剤投与前",
+            "面会時",
+            "夜間帯"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "アレルギー反応を防ぐため、薬剤投与前に必ず確認する必要があります。",
+        "evidence": "医療安全",
+        "reference": "SafetyPlus",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10074,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "患者への説明で「インフォームドコンセント」の意味として正しいのはどれか。",
+        "options": [
+            "医師が一方的に決める",
+            "説明を受けた上での同意",
+            "患者の希望だけを聞く",
+            "家族だけに説明する"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "インフォームドコンセントは十分な説明を受けた上で、患者が納得して同意することです。",
+        "evidence": "患者の権利",
+        "reference": "SafetyPlus",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10075,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "心肺蘇生（CPR）の胸骨圧迫の深さとして適切なのはどれか（成人）。",
+        "options": [
+            "2〜3cm",
+            "5〜6cm",
+            "8〜10cm",
+            "圧迫しなくてよい"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "成人の胸骨圧迫は約5〜6cm（少なくとも5cm）の深さで行います。",
+        "evidence": "BLS",
+        "reference": "SafetyPlus",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10076,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "心肺蘇生（CPR）の胸骨圧迫のテンポとして適切なのはどれか。",
+        "options": [
+            "毎分60〜80回",
+            "毎分100〜120回",
+            "毎分150〜200回",
+            "特に決まりはない"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "胸骨圧迫は毎分100〜120回のテンポで行います。",
+        "evidence": "BLS",
+        "reference": "SafetyPlus",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10077,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "AEDを使用する際、電気ショックの前に必ず行うべきことはどれか。",
+        "options": [
+            "患者に話しかける",
+            "周囲の人が患者から離れていることを確認する",
+            "水をかける",
+            "何もしない"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "電気ショック時に感電事故を防ぐため、全員が患者から離れたことを確認してから実施します。",
+        "evidence": "BLS",
+        "reference": "SafetyPlus",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10078,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "院内でコードブルー（緊急コール）がかかった場合、新人看護師がまず行うべきことはどれか。",
+        "options": [
+            "無視する",
+            "指示があればすぐに動けるよう準備し、対応チームに合流する",
+            "患者の部屋を離れる",
+            "休憩を取る"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "新人でもチームの一員として行動し、指示に従って役割を果たすことが求められます。",
+        "evidence": "急変対応",
+        "reference": "SafetyPlus",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10079,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "与薬準備で「ダブルチェック」を行う理由はどれか。",
+        "options": [
+            "時間を稼ぐため",
+            "投与ミスを防ぐため",
+            "責任を分散するため",
+            "義務だから"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "二人で確認することで、一人では見落としがちなミスを発見し、投与エラーを防ぎます。",
+        "evidence": "医療安全",
+        "reference": "SafetyPlus",
+        "targetLevels": [
+            "beginner"
+        ]
+    },
+    {
+        "id": 10080,
+        "category": "①呼吸器手技",
+        "subCategory": "基礎看護技術",
+        "question": "せん妄と認知症の違いとして正しいのはどれか。",
+        "options": [
+            "同じものである",
+            "せん妄は急性発症で変動する",
+            "認知症は急に始まる",
+            "せん妄は治らない"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "せん妄は急性発症で症状が変動しますが、認知症は慢性的に進行します。",
+        "evidence": "高齢者看護",
+        "reference": "Nursing Skills",
+        "targetLevels": [
+            "beginner"
+        ]
+    }
+]
