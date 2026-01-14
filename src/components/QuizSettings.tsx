@@ -11,7 +11,8 @@ const CATEGORIES = [
     "すべて",
     "①呼吸器手技",
     "②疾患観察",
-    "③薬剤知識"
+    "③薬剤知識",
+    "④基礎技術"
 ] as const;
 
 export type QuizConfig = {
@@ -107,8 +108,8 @@ const QuizSettings: React.FC<QuizSettingsProps> = ({ onStart, totalQuestionsAvai
                             key={level.id}
                             onClick={() => setTargetLevel(level.id as TargetLevel)}
                             className={`p-3 rounded-xl border-2 transition-all text-left relative ${targetLevel === level.id
-                                    ? 'border-primary bg-primary/10 ring-1 ring-primary'
-                                    : 'border-border bg-card hover:bg-accent'
+                                ? 'border-primary bg-primary/10 ring-1 ring-primary'
+                                : 'border-border bg-card hover:bg-accent'
                                 }`}
                         >
                             <div className="font-bold text-sm">{level.label}</div>
