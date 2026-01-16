@@ -6,7 +6,7 @@ import { getStats, getIncorrectQuestionsIds, Question, UserStats } from '../util
 import QuizSettings, { QuizConfig } from '../components/QuizSettings';
 import QuizGame from '../components/QuizGame';
 import ResultView from '../components/ResultView';
-import { Trophy, Activity, AlertTriangle, Book, Play, Stethoscope } from 'lucide-react';
+import { Trophy, Activity, AlertTriangle, Book, Play, Stethoscope, MessageSquare } from 'lucide-react';
 import Link from 'next/link';
 
 type ViewState = 'home' | 'settings' | 'game' | 'result';
@@ -207,6 +207,22 @@ export default function Home() {
             <span className="absolute -inset-1 rounded-full bg-primary/30 opacity-0 group-hover:opacity-100 animate-ping" />
           </button>
         </div>
+
+        {/* Survey Link (Auto-appears after Jan 20) */}
+        {new Date() >= new Date('2026-01-20T00:00:00') && (
+          <div className="mt-12 mb-4 animate-fade-in flex flex-col items-center">
+            <a
+              href="https://forms.google.com/" // <--- ここに作成したGoogleフォームのURLを貼り付けてください
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-indigo-500 to-purple-600 text-white shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all"
+            >
+              <MessageSquare size={20} />
+              <span className="font-bold">試験運用アンケートに回答する</span>
+            </a>
+            <p className="mt-2 text-xs text-muted-foreground">今後の改善のため、ご協力をお願いします</p>
+          </div>
+        )}
 
         {/* Footer info using simple text */}
         <div className="mt-20 text-center text-sm text-muted-foreground space-y-2">
