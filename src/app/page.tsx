@@ -212,7 +212,7 @@ export default function Home() {
         {new Date() >= new Date('2026-01-20T00:00:00') && (
           <div className="mt-12 mb-4 animate-fade-in flex flex-col items-center">
             <a
-              href="https://docs.google.com/forms/d/1ZQ9IPUAjePDeqhQuYp4kL1x661JMk3ZgRL4LloRDHhM/viewform"
+              href="https://forms.gle/KhKMXPqaDY7EcLyq7"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-indigo-500 to-purple-600 text-white shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all"
