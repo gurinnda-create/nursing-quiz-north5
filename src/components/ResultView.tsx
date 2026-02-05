@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { QuizResult, Question } from '../utils/storage';
-import { Trophy, ArrowLeft, RotateCcw, CheckCircle, XCircle, BookOpen } from 'lucide-react';
+import { Trophy, ArrowLeft, RotateCcw, CheckCircle, XCircle, BookOpen, MessageSquare } from 'lucide-react';
 
 interface ResultViewProps {
     results: QuizResult[];
@@ -50,6 +50,16 @@ const ResultView: React.FC<ResultViewProps> = ({ results, questions, onRetry, on
                     <ArrowLeft size={20} />
                     <span>ホームへ戻る</span>
                 </button>
+
+                <a
+                    href="https://forms.gle/KhKMXPqaDY7EcLyq7"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-full btn-secondary bg-indigo-50 text-indigo-700 hover:bg-indigo-100 border border-indigo-200 flex items-center justify-center gap-2 mt-4"
+                >
+                    <MessageSquare size={20} />
+                    <span>アンケートに回答する</span>
+                </a>
             </div>
 
             <div className="space-y-6">

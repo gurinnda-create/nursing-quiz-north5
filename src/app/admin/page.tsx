@@ -46,7 +46,7 @@ export default function AdminPage() {
             if (data) {
                 const formattedData: AdminStat[] = data.map((item: any) => ({
                     deviceId: item.device_id,
-                    accessCount: item.total_attempts > 0 ? 1 : 0,
+                    accessCount: item.access_count || (item.total_attempts > 0 ? 1 : 0),
                     correctRate: item.total_attempts > 0
                         ? Math.round((item.total_correct / item.total_attempts) * 1000) / 10
                         : 0,
@@ -62,7 +62,7 @@ export default function AdminPage() {
             if (localStats) {
                 setStats([{
                     deviceId: localStats.deviceId || "Local Device",
-                    accessCount: 1,
+                    accessCount: localStats.accessCount || 1,
                     correctRate: localStats.totalAttempts > 0 ? Math.round((localStats.totalCorrect / localStats.totalAttempts) * 100) / 10 : 0,
                     totalAnswered: localStats.totalAttempts,
                     lastAccess: localStats.lastAccess,

@@ -209,7 +209,6 @@ export default function Home() {
         </div>
 
         {/* Survey Link (Auto-appears after Jan 20) */}
-        {new Date() >= new Date('2026-01-20T00:00:00') && (
           <div className="mt-12 mb-4 animate-fade-in flex flex-col items-center">
             <a
               href="https://forms.gle/KhKMXPqaDY7EcLyq7"
@@ -222,7 +221,6 @@ export default function Home() {
             </a>
             <p className="mt-2 text-xs text-muted-foreground">今後の改善のため、ご協力をお願いします</p>
           </div>
-        )}
 
         {/* Footer info using simple text */}
         <div className="mt-20 text-center text-sm text-muted-foreground space-y-2">

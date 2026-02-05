@@ -30,9 +30,11 @@ export type UserStats = {
     questionStats: Record<number, { attempts: number; correct: number }>;
     deviceId?: string;
     lastAccess?: string;
+    accessCount: number; // 累計アクセス数
 };
 
 const STORAGE_KEY = 'nursing_quiz_stats'; // 感染対策アプリと区別
+const SESSION_KEY = 'nursing_quiz_session'; // セッション管理用キー
 
 export const saveQuizResult = (results: QuizResult[]) => {
     if (typeof window === 'undefined') return;
@@ -70,7 +72,8 @@ export const syncStatsToSupabase = async (stats: UserStats) => {
                 total_attempts: stats.totalAttempts,
                 total_correct: stats.totalCorrect,
                 last_access: new Date().toISOString(),
-                question_stats: stats.questionStats
+                question_stats: stats.questionStats,
+                access_count: stats.accessCount // カラム追加が必要
             }, { onConflict: 'device_id' });
 
         if (error) console.error("Supabase sync error:", error);
@@ -81,20 +84,24 @@ export const syncStatsToSupabase = async (stats: UserStats) => {
 
 export const getStats = (): UserStats => {
     if (typeof window === 'undefined') {
-        return { totalAttempts: 0, totalCorrect: 0, questionStats: {} };
+        return { totalAttempts: 0, totalCorrect: 0, questionStats: {}, accessCount: 0 };
     }
 
     const stored = localStorage.getItem(STORAGE_KEY);
     let stats: UserStats;
 
     if (!stored) {
-        stats = { totalAttempts: 0, totalCorrect: 0, questionStats: {} };
+        stats = { totalAttempts: 0, totalCorrect: 0, questionStats: {}, accessCount: 0 };
     } else {
         try {
             stats = JSON.parse(stored);
+            // 既存データへの後方互換性
+            if (typeof stats.accessCount === 'undefined') {
+                stats.accessCount = 1;
+            }
         } catch (e) {
             console.error("Failed to parse stats", e);
-            stats = { totalAttempts: 0, totalCorrect: 0, questionStats: {} };
+            stats = { totalAttempts: 0, totalCorrect: 0, questionStats: {}, accessCount: 0 };
         }
     }
 
@@ -106,6 +113,14 @@ export const getStats = (): UserStats => {
     // 最終アクセス日を更新
     const now = new Date();
     stats.lastAccess = now.toLocaleString('ja-JP');
+
+    // セッションベースのアクセス数カウント
+    // sessionStorageにフラグがない場合のみカウントアップ
+    const sessionFlag = sessionStorage.getItem(SESSION_KEY);
+    if (!sessionFlag) {
+        stats.accessCount = (stats.accessCount || 0) + 1;
+        sessionStorage.setItem(SESSION_KEY, 'visited');
+    }
 
     // 更新を保存
     localStorage.setItem(STORAGE_KEY, JSON.stringify(stats));
