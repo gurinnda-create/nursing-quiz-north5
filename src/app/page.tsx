@@ -33,13 +33,29 @@ export default function Home() {
       const incorrectIds = getIncorrectQuestionsIds();
       filteredQuestions = (questionsData as Question[]).filter(q => incorrectIds.includes(q.id));
     } else if (config.mode === 'monthly') {
-      // Monthly Focus Mode: Chemotherapy
-      filteredQuestions = (questionsData as Question[]).filter(q =>
-        q.subCategory === '化学療法' ||
-        q.subCategory === 'がん看護' ||
-        q.question.includes('抗がん剤') ||
-        q.question.includes('化学療法')
-      );
+      const currentMonth = new Date().getMonth() + 1;
+
+      if (currentMonth === 2) {
+        // Monthly Focus: Oxygen Devices (Feb)
+        filteredQuestions = (questionsData as Question[]).filter(q =>
+          q.category === '酸素デバイス' ||
+          q.subCategory === '酸素デバイス' ||
+          q.subCategory === '酸素カニューレ' ||
+          q.subCategory === '酸素マスク' ||
+          q.subCategory === 'リザーバーマスク' ||
+          q.subCategory === 'バックバルブマスク' ||
+          q.subCategory === 'ネーゼルハイフロー' ||
+          q.subCategory === '酸素デバイス総合'
+        );
+      } else {
+        // Default / Previous Focus (Jan)
+        filteredQuestions = (questionsData as Question[]).filter(q =>
+          q.subCategory === '化学療法' ||
+          q.subCategory === 'がん看護' ||
+          q.question.includes('抗がん剤') ||
+          q.question.includes('化学療法')
+        );
+      }
     } else if (config.mode === 'image_only') {
       // Image only mode
       filteredQuestions = (questionsData as Question[]).filter(q => q.image);
@@ -209,18 +225,18 @@ export default function Home() {
         </div>
 
         {/* Survey Link (Auto-appears after Jan 20) */}
-          <div className="mt-12 mb-4 animate-fade-in flex flex-col items-center">
-            <a
-              href="https://forms.gle/KhKMXPqaDY7EcLyq7"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-indigo-500 to-purple-600 text-white shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all"
-            >
-              <MessageSquare size={20} />
-              <span className="font-bold">試験運用アンケートに回答する</span>
-            </a>
-            <p className="mt-2 text-xs text-muted-foreground">今後の改善のため、ご協力をお願いします</p>
-          </div>
+        <div className="mt-12 mb-4 animate-fade-in flex flex-col items-center">
+          <a
+            href="https://forms.gle/KhKMXPqaDY7EcLyq7"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-indigo-500 to-purple-600 text-white shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all"
+          >
+            <MessageSquare size={20} />
+            <span className="font-bold">試験運用アンケートに回答する</span>
+          </a>
+          <p className="mt-2 text-xs text-muted-foreground">今後の改善のため、ご協力をお願いします</p>
+        </div>
 
         {/* Footer info using simple text */}
         <div className="mt-20 text-center text-sm text-muted-foreground space-y-2">

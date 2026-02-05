@@ -40,6 +40,9 @@ const QuizSettings: React.FC<QuizSettingsProps> = ({ onStart, totalQuestionsAvai
     const [showSubMenu, setShowSubMenu] = useState(false);
     const [targetLevel, setTargetLevel] = useState<TargetLevel>('all');
 
+    const currentMonth = new Date().getMonth() + 1;
+    const monthlyTheme = currentMonth === 2 ? "2月：酸素デバイスについて" : "1月：呼吸器ケモについて";
+
     // カテゴリに応じたサブカテゴリの抽出
     const availableSubCategories = React.useMemo(() => {
         if (selectedCategory === "すべて") return [];
@@ -178,7 +181,7 @@ const QuizSettings: React.FC<QuizSettingsProps> = ({ onStart, totalQuestionsAvai
                         </div>
                         <div>
                             <h3 className="font-bold">月間重点モード</h3>
-                            <p className="text-[10px] text-purple-600 font-bold">1月：呼吸器ケモについて</p>
+                            <p className="text-[10px] text-purple-600 font-bold">{monthlyTheme}</p>
                         </div>
                     </div>
                     <p className="text-xs text-muted-foreground">今月の強化テーマを全方面から学習</p>
