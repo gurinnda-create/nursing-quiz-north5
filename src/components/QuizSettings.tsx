@@ -41,7 +41,7 @@ const QuizSettings: React.FC<QuizSettingsProps> = ({ onStart, totalQuestionsAvai
     const [targetLevel, setTargetLevel] = useState<TargetLevel>('all');
 
     const currentMonth = new Date().getMonth() + 1;
-    const monthlyTheme = currentMonth === 2 ? "2月：酸素デバイスについて" : "1月：呼吸器ケモについて";
+    const monthlyTheme = currentMonth === 5 ? "5月：現任弱点克服" : currentMonth === 2 ? "2月：酸素デバイスについて" : "1月：呼吸器ケモについて";
 
     // カテゴリに応じたサブカテゴリの抽出
     const availableSubCategories = React.useMemo(() => {

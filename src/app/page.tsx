@@ -35,7 +35,12 @@ export default function Home() {
     } else if (config.mode === 'monthly') {
       const currentMonth = new Date().getMonth() + 1;
 
-      if (currentMonth === 2) {
+      if (currentMonth === 5) {
+        // Monthly Focus: Current Staff Weaknesses (May)
+        filteredQuestions = (questionsData as Question[]).filter(q =>
+          q.subCategory === '弱点克服'
+        );
+      } else if (currentMonth === 2) {
         // Monthly Focus: Oxygen Devices (Feb)
         filteredQuestions = (questionsData as Question[]).filter(q =>
           q.category === '酸素デバイス' ||
